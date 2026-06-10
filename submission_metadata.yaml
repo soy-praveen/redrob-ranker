@@ -1,0 +1,82 @@
+# Redrob Hackathon — Submission Metadata
+# (mirrors portal metadata; Stage 3 review verifies against this file)
+
+team_name: "FILL_ME"  # TODO
+
+primary_contact:
+  name: "FILL_ME"                    # TODO
+  email: "itsluckykirito@gmail.com"
+  phone: "+91-XXXXXXXXXX"            # TODO
+
+team_members:
+  - name: "FILL_ME"                  # TODO
+    email: "itsluckykirito@gmail.com"
+    role: "ML Engineering"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/FILL_ME/redrob-ranker"   # TODO after push
+sandbox_link: "https://FILL_ME.streamlit.app"             # TODO after deploy
+
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+# End-to-end ~15 seconds for 100k candidates on a laptop CPU. No network.
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Windows 11 laptop"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.13.2"
+  os: "Windows 11 Home 10.0.26200"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false   # rank.py runs directly from candidates.jsonl
+  pre_computation_time_minutes: 0
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "Claude"
+
+ai_usage_summary: |
+  Claude Code was used as an engineering assistant throughout: exploratory
+  data analysis (parallel analysis scripts over the candidate pool),
+  architecture discussion, code drafting and review, and adversarial QA of
+  the final ranking. All design decisions (scoring rubric, trap filters,
+  weights) are documented in eda/ and were verified by re-derivation from
+  the raw data. No candidate data was sent to any external service: the
+  ranking pipeline itself is pure pandas/regex, makes no API calls, and uses
+  no ML model at inference time.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  Recruiter-style evidence ranking: final = Content x Fit x Availability + Prior.
+  Content reads ONLY career-history text against a graded evidence rubric
+  (production retrieval/ranking/recsys highest; rubric blind-re-graded by a
+  3-judge panel), with skill claims counted only when corroborated by
+  durations, endorsements and assessment scores - so keyword-stuffed
+  profiles score zero and plain-language ranking engineers score top. Fit
+  encodes the JD's explicit rules (5-9 yr band, Pune/Noida-first location
+  ladder, consulting-only and job-hopper demotions). Availability grades
+  recruiter response rate, activity recency and notice period, demoting
+  perfect-on-paper ghosts per the JD. Hard pre-filters exclude profiles with
+  internal impossibilities (expert skills with zero months, durations
+  contradicting dates, experience exceeding career span, future-dated
+  certifications) - the dataset's honeypots - plus skill-list clones and
+  non-technical keyword stuffers. Deterministic, CPU-only, ~15s for 100k.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
