@@ -7,3 +7,4 @@ eda/honeypot_jsonl_cache*.parquet
 submission_draft.csv
 sandbox/_uploaded.jsonl
 eda/round2/*.pkl
+**/*.pkl
