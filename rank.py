@@ -41,11 +41,11 @@ def main():
     print(f"      excluded {n_excl} (honeypots/stuffers/clones/non-tech), {time.time() - t0:.1f}s")
 
     print("[3/4] generating reasoning ...")
-    grades = {k: v for k, v in params["para_grades"].items()}
-    ranked["_grades_by_prefix"] = [grades] * len(ranked)
-    ranked["_evidence_tags"] = [params["evidence_tags"]] * len(ranked)
+    grades = params["para_grades"]
+    tags = params["evidence_tags"]
     ranked["reasoning"] = [
-        generate_reasoning(row, row["rank"]) for _, row in ranked.iterrows()
+        generate_reasoning(row, row["rank"], grades, tags)
+        for _, row in ranked.iterrows()
     ]
 
     print("[4/4] assembly checks ...")
@@ -64,7 +64,7 @@ def main():
           f"grade3={(ranked['best_grade'] == 3).sum()}")
 
     out = ranked[["candidate_id", "rank", "score", "reasoning"]]
-    out.to_csv(args.out, index=False, encoding="utf-8")
+    out.to_csv(args.out, index=False, encoding="utf-8", lineterminator="\n")
     print(f"done: {args.out} ({time.time() - t0:.1f}s total)")
 
 

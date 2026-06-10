@@ -39,7 +39,8 @@ for cid, rank in sorted(want.items(), key=lambda kv: kv[1]):
         sd, ed = pd(j["start_date"]), pd(j["end_date"]) or TODAY
         diff = j["duration_months"] - mb(sd, ed) if sd else float("nan")
         print(f"  {j['start_date']} .. {j['end_date'] or 'now'}  dur={j['duration_months']}mo (delta {diff:+.1f})  {j['title']} @ {j['company']} [{j['industry']}]")
-        print(f"    DESC: {j['description']}")
+        desc = j['description'] or ""
+        print(f"    DESC: {desc if '--full' in sys.argv else desc[:140]}")
     for e in rec["education"]:
         print(f"EDU: {e['start_year']}-{e['end_year']} {e['degree']} {e['field_of_study']} @ {e['institution']} ({e['tier']}, grade {e.get('grade')})")
     sk = sorted(rec["skills"], key=lambda s: -(s["duration_months"] or 0))

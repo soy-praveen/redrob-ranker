@@ -87,7 +87,7 @@
    "2": 0.95,
    "1": 0.9,
    "0.5": 0.75,
-   "0": 0.5
+   "0": 0.42
   },
   "consulting_only": 0.75,
   "job_hopper": 0.88
@@ -186,17 +186,42 @@
   "Worked on time-series forecasting models for supply-chain de": "shipped a LightGBM demand-forecasting model for supply chain",
   "Worked on customer-facing predictive modeling for an e-comme": "built churn/conversion/LTV models (XGBoost) now used by the retention team",
   "Built NLP pipelines for sentiment analysis and document clas": "built NLP classification pipelines, moving from bag-of-words to DistilBERT transformers",
-  "Owned the ranking layer for an e-commerce search product, ev": "evolved an e-commerce search ranking layer from hand-tuned scoring to learning-to-rank, owning labeling, features and eval",
-  "Trained and shipped multiple ranking models for our product'": "shipped discovery-feed ranking models (XGBoost/LightGBM) and owned offline-online metric correlation against A/B outcomes",
-  "Developed a semantic search feature for an internal knowledg": "built semantic search (sentence-transformers + FAISS) over ~500K documents, +35% relevance vs the prior BM25 baseline",
+  "Owned the ranking layer for an e-commerce search product, ev": [
+   "evolved an e-commerce search ranking layer from hand-tuned scoring to learning-to-rank, owning labeling, features and eval",
+   "took an e-commerce search ranker from a hand-tuned scoring function to learning-to-rank over 9 months, including the relevance-labeling and eval workflow",
+   "owned an e-commerce search ranking layer end-to-end, replacing hand-tuned scoring with a learning-to-rank model and building the relevance pipeline around it"
+  ],
+  "Trained and shipped multiple ranking models for our product'": [
+   "shipped discovery-feed ranking models (XGBoost/LightGBM) and owned offline-online metric correlation against A/B outcomes",
+   "trained and shipped multiple discovery-feed rankers, owning the analysis of which offline metrics actually predicted A/B test results",
+   "built gradient-boosted ranking models for a discovery feed across content, behavioral and engagement feature families, with offline-to-online eval correlation"
+  ],
+  "Developed a semantic search feature for an internal knowledg": [
+   "built semantic search (sentence-transformers + FAISS) over ~500K documents, +35% relevance vs the prior BM25 baseline",
+   "shipped a sentence-transformer + FAISS semantic search over a 500K-document corpus, reporting +35% relevance over the BM25 setup it replaced",
+   "delivered embedding-based semantic search (with query expansion for vocabulary mismatch) over ~500K documents, beating the prior Elasticsearch BM25 system by 35%"
+  ],
   "Implemented a RAG-based customer support chatbot integrated ": "built a production RAG support chatbot (embeddings, Pinecone) with an automatic + human evaluation framework",
-  "Built a content recommendation system serving 10M+ users tha": "built a 10M+ user recommendation system combining collaborative filtering with embedding-based cold-start handling",
+  "Built a content recommendation system serving 10M+ users tha": [
+   "built a 10M+ user recommendation system combining collaborative filtering with embedding-based cold-start handling",
+   "shipped a content recommendation system serving 10M+ users, mixing collaborative filtering with sentence-transformer embeddings for cold starts",
+   "built a 10M+ user recsys (item-item embeddings for cold start, gradient-boosted ranking on engagement signals) plus its A/B testing infrastructure"
+  ],
   "Built and operated production ML pipelines using MLflow for ": "operated production ML pipelines (MLflow, Kubeflow, feature store) with drift monitoring; churn model in active use",
   "Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and": "fine-tuned LLaMA-2/Mistral with LoRA/QLoRA for candidate-JD matching, with a ranking-metric eval harness and sub-200ms serving",
   "Built a RAG-based ranking pipeline serving 50M+ queries per ": "built a hybrid BM25+dense ranking pipeline (BGE, FAISS, LLM re-ranker) serving 50M+ queries/month for recruiter-facing search, evaluated with NDCG/MRR against A/B results",
-  "Built and shipped a production recommendation system at a ma": "shipped a marketplace recommendation system (matrix factorization + embeddings + behavioral re-ranking) through live A/B testing",
-  "Owned the end-to-end ranking pipeline at a recommendations-h": "owned an end-to-end ranking pipeline: fine-tuned BGE embeddings, Pinecone retrieval, XGBoost learning-to-rank re-scoring",
-  "Owned the design and rollout of a large-scale semantic searc": "rolled out hybrid sparse+dense semantic search over 35M+ items: -60% p95 latency, +18% NDCG@10",
+  "Built and shipped a production recommendation system at a ma": [
+   "shipped a marketplace recommendation system (matrix factorization + embeddings + behavioral re-ranking) through live A/B testing",
+   "took a marketplace recommendation system from offline experimentation to live A/B test in 5 months, including an exploration strategy for cold-start users"
+  ],
+  "Owned the end-to-end ranking pipeline at a recommendations-h": [
+   "owned an end-to-end ranking pipeline: fine-tuned BGE embeddings, Pinecone retrieval, XGBoost learning-to-rank re-scoring",
+   "ran an end-to-end ranking stack — candidate sourcing, fine-tuned BGE embedding generation, Pinecone retrieval and learning-to-rank re-scoring — with offline metrics built to predict live engagement"
+  ],
+  "Owned the design and rollout of a large-scale semantic searc": [
+   "rolled out hybrid sparse+dense semantic search over 35M+ items: -60% p95 latency, +18% NDCG@10",
+   "migrated a 35M-item search system from BM25-only to hybrid sparse+dense retrieval with a domain-fine-tuned BGE, improving NDCG@10 by 18%"
+  ],
   "Led the migration from keyword-based to embedding-based sear": "led a keyword-to-embedding search migration over a 30M+ candidate corpus: +24% recruiter engagement, -38% time-to-shortlist",
   "Built systems that understand what users are looking for and": "overhauled a matching layer from hand-tuned heuristics to explicit modeling and evaluation at large scale",
   "Shipped the personalization infrastructure: the system that ": "shipped personalization infrastructure with offline experimentation, online A/B testing and drift-monitored retraining",

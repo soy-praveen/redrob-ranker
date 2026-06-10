@@ -287,12 +287,14 @@ def extract_one(c):
 
     # ---- text evidence (memoized over distinct paragraphs) --------------
     para_prefixes = []
+    para_jobs = []  # (company, is_current) the paragraph belongs to
     text_counts = {"strong": 0, "medium": 0, "hedge": 0, "wrapper": 0, "production": 0}
     for j in jobs:
         desc = (j.get("description") or "").strip()
         if not desc:
             continue
         para_prefixes.append(desc[:60])
+        para_jobs.append(((j.get("company") or "").strip(), bool(j.get("is_current"))))
         hits = scan_text(desc)
         for k in text_counts:
             text_counts[k] += hits[k]
@@ -338,6 +340,7 @@ def extract_one(c):
         "hp_future_cert": hp_future_cert,
         # text evidence
         "para_prefixes": para_prefixes,
+        "para_jobs": para_jobs,
         "n_strong": text_counts["strong"],
         "n_medium": text_counts["medium"],
         "n_hedge": text_counts["hedge"],

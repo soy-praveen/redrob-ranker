@@ -1,3 +1,5 @@
-pandas>=2.0
-numpy>=1.24
-pyarrow>=14.0
+pandas==2.3.3
+numpy==2.3.4
+
+# optional, analysis scripts only (scripts/flatten.py):
+# pyarrow>=14.0

@@ -50,11 +50,9 @@ if st.button("Rank candidates", type="primary"):
         params = load_params(str(ROOT / "config" / "params.json"))
         n = min(top_n, len(df))
         scored, ranked = rank_pool(df, params, top_n=n)
-        grades = dict(params["para_grades"])
-        ranked["_grades_by_prefix"] = [grades] * len(ranked)
-        ranked["_evidence_tags"] = [params["evidence_tags"]] * len(ranked)
         ranked["reasoning"] = [
-            generate_reasoning(row, row["rank"]) for _, row in ranked.iterrows()
+            generate_reasoning(row, row["rank"], params["para_grades"], params["evidence_tags"])
+            for _, row in ranked.iterrows()
         ]
 
     st.success(
