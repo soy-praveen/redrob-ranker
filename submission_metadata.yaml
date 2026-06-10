@@ -1,17 +1,17 @@
 # Redrob Hackathon — Submission Metadata
 # (mirrors portal metadata; Stage 3 review verifies against this file)
 
-team_name: "FILL_ME"  # TODO
+team_name: "Lurkers"
 
 primary_contact:
-  name: "FILL_ME"                    # TODO
+  name: "Sahukari Praveen"
   email: "itsluckykirito@gmail.com"
-  phone: "+91-XXXXXXXXXX"            # TODO
+  phone: "+91-9701314224"
 
 team_members:
-  - name: "FILL_ME"                  # TODO
+  - name: "Sahukari Praveen"
     email: "itsluckykirito@gmail.com"
-    role: "ML Engineering"
+    role: "Team Lead / ML Engineering"
 
 # ============================================================================
 # Code and reproducibility

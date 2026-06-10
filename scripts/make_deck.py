@@ -59,8 +59,8 @@ def main(out="docs/deck.pdf"):
     ax.text(0.075, 0.645, "a Great Recruiter Would", fontsize=34, fontweight="bold", color=INK)
     ax.text(0.075, 0.55, "The Data & AI Challenge — Intelligent Candidate Discovery & Ranking",
             fontsize=16, color=MUTED)
-    ax.text(0.075, 0.40, "Team Name :  FILL_ME", fontsize=15, color=INK)
-    ax.text(0.075, 0.35, "Team Leader :  FILL_ME", fontsize=15, color=INK)
+    ax.text(0.075, 0.40, "Team Name :  Lurkers", fontsize=15, color=INK)
+    ax.text(0.075, 0.35, "Team Leader :  Sahukari Praveen", fontsize=15, color=INK)
     ax.text(0.075, 0.30, "Problem Statement :  Rank 100,000 candidate profiles against the "
             "Senior AI Engineer JD;\ndeliver a trusted, explainable top-100 shortlist.",
             fontsize=15, color=INK, va="top")
