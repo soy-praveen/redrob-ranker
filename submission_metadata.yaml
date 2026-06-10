@@ -17,7 +17,7 @@ team_members:
 # Code and reproducibility
 # ============================================================================
 github_repo: "https://github.com/soy-praveen/redrob-ranker"
-sandbox_link: "https://FILL_ME.streamlit.app"             # TODO after deploy
+sandbox_link: "https://redrob-ranker.streamlit.app"
 
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
 # End-to-end ~15 seconds for 100k candidates on a laptop CPU. No network.
