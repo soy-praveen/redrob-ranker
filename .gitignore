@@ -8,3 +8,4 @@ submission_draft.csv
 sandbox/_uploaded.jsonl
 eda/round2/*.pkl
 **/*.pkl
+team_lurkers.csv
