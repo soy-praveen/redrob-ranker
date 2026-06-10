@@ -1,0 +1,207 @@
+{
+ "para_grades": {
+  "Enterprise sales of cloud software solutions into the mid-ma": 0,
+  "Customer support team lead at a SaaS product. Managed a team": 0,
+  "Marketing leadership role at a B2B SaaS company. Owned the d": 0,
+  "Business analyst at a consulting firm, working primarily wit": 0,
+  "Brand design and creative direction at a consumer-products c": 0,
+  "Mechanical engineering design role at a hardware-product com": 0,
+  "Senior accounting role at a mid-sized company — month-end cl": 0,
+  "Content writing and SEO strategy for a tech-focused publicat": 0,
+  "Operations management role at a logistics company. Owned dai": 0,
+  "Cloud infrastructure and DevOps work at an enterprise SaaS c": 0,
+  "Android mobile development using Java and (more recently) Ko": 0,
+  "Frontend engineering at a media company. React, TypeScript, ": 0,
+  "Java backend development at a large enterprise — Spring Boot": 0,
+  "Full-stack web application development at a SaaS company. Bu": 0,
+  "Test automation and QA engineering for a fintech product. Bu": 0,
+  "Designed and maintained the analytical data warehouse on Sno": 1,
+  "Built and maintained data pipelines on Apache Airflow proces": 1,
+  "Backend + data hybrid role at a growth-stage startup. Built ": 2,
+  "Implemented streaming data pipelines on Kafka and Spark Stre": 2,
+  "Mixed data science and analytics-engineering role at a marke": 2,
+  "Backend development with Python (FastAPI), PostgreSQL, and R": 1,
+  "Contributed to ML feature engineering and model deployment f": 3,
+  "Built recommendation-style features at a mid-stage startup —": 4,
+  "Built computer vision models for our product's image moderat": 2,
+  "Worked on time-series forecasting models for supply-chain de": 3,
+  "Worked on customer-facing predictive modeling for an e-comme": 3,
+  "Built NLP pipelines for sentiment analysis and document clas": 3,
+  "Owned the ranking layer for an e-commerce search product, ev": 5,
+  "Trained and shipped multiple ranking models for our product'": 5,
+  "Developed a semantic search feature for an internal knowledg": 5,
+  "Implemented a RAG-based customer support chatbot integrated ": 3,
+  "Built a content recommendation system serving 10M+ users tha": 5,
+  "Built and operated production ML pipelines using MLflow for ": 3,
+  "Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and": 5,
+  "Built a RAG-based ranking pipeline serving 50M+ queries per ": 5,
+  "Built and shipped a production recommendation system at a ma": 5,
+  "Owned the end-to-end ranking pipeline at a recommendations-h": 5,
+  "Owned the design and rollout of a large-scale semantic searc": 5,
+  "Led the migration from keyword-based to embedding-based sear": 5,
+  "Built systems that understand what users are looking for and": 5,
+  "Shipped the personalization infrastructure: the system that ": 5,
+  "Designed the ranking layer for the company's flagship produc": 5,
+  "Owned the search and discovery experience end-to-end at a co": 5,
+  "Led the engineering team building infrastructure to surface ": 5
+ },
+ "hr_tech_prefixes": [
+  "Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and",
+  "Built a RAG-based ranking pipeline serving 50M+ queries per ",
+  "Led the migration from keyword-based to embedding-based sear"
+ ],
+ "min_best_grade": 3,
+ "content": {
+  "grade_base": {
+   "5": 60,
+   "4": 42,
+   "3": 26,
+   "2": 12,
+   "1": 4,
+   "0": 0
+  },
+  "extra_strong_para": 6.0,
+  "extra_strong_cap": 12.0,
+  "hr_tech_bonus": 12.0,
+  "family_bonus": {
+   "PLAIN": 10.0,
+   "ELITE": 8.0,
+   "SOLID": 4.0
+  },
+  "skill_trust_min_dur": 18,
+  "skill_trust_min_endorse": 4,
+  "skill_trust_bonus": 6.0,
+  "paraphrase_bonus": 8.0,
+  "production_per_hit": 1.0,
+  "hedge_per_hit": 2.0,
+  "wrapper_only_penalty": 5.0
+ },
+ "fit": {
+  "yoe_6_8": 1.0,
+  "yoe_5_9": 0.96,
+  "yoe_4_10": 0.88,
+  "yoe_3_12": 0.75,
+  "yoe_outside": 0.6,
+  "location": {
+   "3": 1.0,
+   "2": 0.97,
+   "1": 0.93,
+   "0.5": 0.78,
+   "0": 0.55
+  },
+  "consulting_only": 0.75,
+  "job_hopper": 0.93
+ },
+ "availability": {
+  "response_steps": [
+   [
+    0.7,
+    1.05
+   ],
+   [
+    0.5,
+    1.0
+   ],
+   [
+    0.3,
+    0.92
+   ],
+   [
+    0.2,
+    0.85
+   ],
+   [
+    0.1,
+    0.72
+   ]
+  ],
+  "response_floor": 0.62,
+  "recency_steps": [
+   [
+    30,
+    1.05
+   ],
+   [
+    60,
+    1.0
+   ],
+   [
+    90,
+    0.95
+   ],
+   [
+    120,
+    0.88
+   ],
+   [
+    150,
+    0.8
+   ]
+  ],
+  "recency_floor": 0.7,
+  "notice_steps": [
+   [
+    30,
+    1.04
+   ],
+   [
+    60,
+    1.0
+   ],
+   [
+    90,
+    0.95
+   ]
+  ],
+  "notice_floor": 0.88,
+  "open_to_work_bonus": 0.03,
+  "ghost_cap": 0.55,
+  "clamp_min": 0.45,
+  "clamp_max": 1.2
+ },
+ "prior": {
+  "engagement_weight": 1.2,
+  "jd_stack_present": 2.0,
+  "jd_stack_strong": 1.0,
+  "github_bonus": 1.5,
+  "notice_leak_values": [
+   0,
+   15,
+   45
+  ],
+  "notice_leak_bonus": 1.0,
+  "salary_band_min": 18,
+  "salary_band_bonus": 0.5
+ },
+ "evidence_tags": {
+  "Designed and maintained the analytical data warehouse on Sno": "built and tuned a Snowflake/dbt analytical warehouse serving ~50 BI dashboards",
+  "Built and maintained data pipelines on Apache Airflow proces": "built Airflow/Spark pipelines processing ~500GB/day with data-quality monitoring",
+  "Backend + data hybrid role at a growth-stage startup. Built ": "built a startup data platform end-to-end and shipped small predictive features",
+  "Implemented streaming data pipelines on Kafka and Spark Stre": "built streaming feature pipelines (Kafka/Spark) aligned with data-science model needs",
+  "Mixed data science and analytics-engineering role at a marke": "mixed analytics engineering with lightweight ML (sklearn/XGBoost) and built an A/B experimentation framework",
+  "Backend development with Python (FastAPI), PostgreSQL, and R": "owns a Python analytics service and integrated a model-serving system into the API layer",
+  "Contributed to ML feature engineering and model deployment f": "production-side ML engineering for fraud detection (prediction API, feature-store integration, observability)",
+  "Built recommendation-style features at a mid-stage startup —": "built production recommendation features combining collaborative filtering with gradient-boosted re-ranking",
+  "Built computer vision models for our product's image moderat": "built production CV models (fine-tuned ResNet, PyTorch) for image moderation; self-described limited NLP exposure",
+  "Worked on time-series forecasting models for supply-chain de": "shipped a LightGBM demand-forecasting model for supply chain",
+  "Worked on customer-facing predictive modeling for an e-comme": "built churn/conversion/LTV models (XGBoost) now used by the retention team",
+  "Built NLP pipelines for sentiment analysis and document clas": "built NLP classification pipelines, moving from bag-of-words to DistilBERT transformers",
+  "Owned the ranking layer for an e-commerce search product, ev": "evolved an e-commerce search ranking layer from hand-tuned scoring to learning-to-rank, owning labeling, features and eval",
+  "Trained and shipped multiple ranking models for our product'": "shipped discovery-feed ranking models (XGBoost/LightGBM) and owned offline-online metric correlation against A/B outcomes",
+  "Developed a semantic search feature for an internal knowledg": "built semantic search (sentence-transformers + FAISS) over ~500K documents, +35% relevance vs the prior BM25 baseline",
+  "Implemented a RAG-based customer support chatbot integrated ": "built a production RAG support chatbot (embeddings, Pinecone) with an automatic + human evaluation framework",
+  "Built a content recommendation system serving 10M+ users tha": "built a 10M+ user recommendation system combining collaborative filtering with embedding-based cold-start handling",
+  "Built and operated production ML pipelines using MLflow for ": "operated production ML pipelines (MLflow, Kubeflow, feature store) with drift monitoring; churn model in active use",
+  "Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and": "fine-tuned LLaMA-2/Mistral with LoRA/QLoRA for candidate-JD matching, with a ranking-metric eval harness and sub-200ms serving",
+  "Built a RAG-based ranking pipeline serving 50M+ queries per ": "built a hybrid BM25+dense ranking pipeline (BGE, FAISS, LLM re-ranker) serving 50M+ queries/month for recruiter-facing search, evaluated with NDCG/MRR against A/B results",
+  "Built and shipped a production recommendation system at a ma": "shipped a marketplace recommendation system (matrix factorization + embeddings + behavioral re-ranking) through live A/B testing",
+  "Owned the end-to-end ranking pipeline at a recommendations-h": "owned an end-to-end ranking pipeline: fine-tuned BGE embeddings, Pinecone retrieval, XGBoost learning-to-rank re-scoring",
+  "Owned the design and rollout of a large-scale semantic searc": "rolled out hybrid sparse+dense semantic search over 35M+ items: -60% p95 latency, +18% NDCG@10",
+  "Led the migration from keyword-based to embedding-based sear": "led a keyword-to-embedding search migration over a 30M+ candidate corpus: +24% recruiter engagement, -38% time-to-shortlist",
+  "Built systems that understand what users are looking for and": "overhauled a matching layer from hand-tuned heuristics to explicit modeling and evaluation at large scale",
+  "Shipped the personalization infrastructure: the system that ": "shipped personalization infrastructure with offline experimentation, online A/B testing and drift-monitored retraining",
+  "Designed the ranking layer for the company's flagship produc": "designed the ranking layer for a flagship product across millions of items and users, owning data pipeline, eval framework and operations",
+  "Owned the search and discovery experience end-to-end at a co": "owned search & discovery end-to-end, from content representation through ranking algorithms and relevance evaluation methodology",
+  "Led the engineering team building infrastructure to surface ": "led a team building relevance infrastructure over billions of documents (index refresh, query understanding, ranking calibration)"
+ }
+}

@@ -1,0 +1,354 @@
+[
+ {
+  "pid": "P00",
+  "text_prefix_60": "Enterprise sales of cloud software solutions into the mid-ma",
+  "count": 25515,
+  "grade": 0,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P01",
+  "text_prefix_60": "Customer support team lead at a SaaS product. Managed a team",
+  "count": 25290,
+  "grade": 0,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P02",
+  "text_prefix_60": "Marketing leadership role at a B2B SaaS company. Owned the d",
+  "count": 25237,
+  "grade": 0,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P03",
+  "text_prefix_60": "Business analyst at a consulting firm, working primarily wit",
+  "count": 25207,
+  "grade": 0,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P04",
+  "text_prefix_60": "Brand design and creative direction at a consumer-products c",
+  "count": 25164,
+  "grade": 0,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P05",
+  "text_prefix_60": "Mechanical engineering design role at a hardware-product com",
+  "count": 25104,
+  "grade": 0,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P06",
+  "text_prefix_60": "Senior accounting role at a mid-sized company — month-end cl",
+  "count": 25078,
+  "grade": 0,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P07",
+  "text_prefix_60": "Content writing and SEO strategy for a tech-focused publicat",
+  "count": 25071,
+  "grade": 0,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P08",
+  "text_prefix_60": "Operations management role at a logistics company. Owned dai",
+  "count": 25029,
+  "grade": 0,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P09",
+  "text_prefix_60": "Cloud infrastructure and DevOps work at an enterprise SaaS c",
+  "count": 10125,
+  "grade": 1,
+  "contested": false,
+  "note": "0->1: distributed infra/ops is a JD nice-to-have adjacency (unanimous 1)."
+ },
+ {
+  "pid": "P10",
+  "text_prefix_60": "Android mobile development using Java and (more recently) Ko",
+  "count": 10055,
+  "grade": 1,
+  "contested": false,
+  "note": "0->1: generic-engineer band kept at 1 for internal consistency (2/3 judges); immaterial to tier3+ cutoff."
+ },
+ {
+  "pid": "P11",
+  "text_prefix_60": "Frontend engineering at a media company. React, TypeScript, ",
+  "count": 10025,
+  "grade": 1,
+  "contested": false,
+  "note": "0->1: same engineer-no-ML band consistency call (2/3 judges)."
+ },
+ {
+  "pid": "P12",
+  "text_prefix_60": "Java backend development at a large enterprise — Spring Boot",
+  "count": 10015,
+  "grade": 1,
+  "contested": false,
+  "note": "0->1: Kafka/distributed backend = JD nice-to-have adjacency (unanimous 1)."
+ },
+ {
+  "pid": "P13",
+  "text_prefix_60": "Full-stack web application development at a SaaS company. Bu",
+  "count": 9911,
+  "grade": 1,
+  "contested": false,
+  "note": "0->1: engineer-no-ML band consistency (2/3 judges)."
+ },
+ {
+  "pid": "P14",
+  "text_prefix_60": "Test automation and QA engineering for a fintech product. Bu",
+  "count": 9785,
+  "grade": 1,
+  "contested": false,
+  "note": "0->1: engineer-no-ML band consistency (2/3 judges)."
+ },
+ {
+  "pid": "P15",
+  "text_prefix_60": "Designed and maintained the analytical data warehouse on Sno",
+  "count": 1854,
+  "grade": 2,
+  "contested": false,
+  "note": "1->2: strong data-infra one step below data-infra-with-ML; weakest 2 (2/3 judges)."
+ },
+ {
+  "pid": "P16",
+  "text_prefix_60": "Built and maintained data pipelines on Apache Airflow proces",
+  "count": 1836,
+  "grade": 2,
+  "contested": false,
+  "note": "1->2: pipelines feeding internal ML models = data-infra-with-ML-integration anchor (unanimous 2)."
+ },
+ {
+  "pid": "P17",
+  "text_prefix_60": "Backend + data hybrid role at a growth-stage startup. Built ",
+  "count": 1823,
+  "grade": 2,
+  "contested": false,
+  "note": "1->2: data infra + small shipped predictive features (unanimous 2)."
+ },
+ {
+  "pid": "P18",
+  "text_prefix_60": "Implemented streaming data pipelines on Kafka and Spark Stre",
+  "count": 1814,
+  "grade": 2,
+  "contested": false,
+  "note": "1->2: streaming feature pipelines aligned with DS models, 'adjacent ML exposure' (unanimous 2)."
+ },
+ {
+  "pid": "P19",
+  "text_prefix_60": "Mixed data science and analytics-engineering role at a marke",
+  "count": 1807,
+  "grade": 2,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P20",
+  "text_prefix_60": "Backend development with Python (FastAPI), PostgreSQL, and R",
+  "count": 1790,
+  "grade": 2,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P21",
+  "text_prefix_60": "Contributed to ML feature engineering and model deployment f",
+  "count": 389,
+  "grade": 3,
+  "contested": true,
+  "note": "Production-side ML engineering (serving API, feature store, observability) for fraud detection; modeling secondary, zero IR -> 3 confirmed, unanimous."
+ },
+ {
+  "pid": "P22",
+  "text_prefix_60": "Built recommendation-style features at a mid-stage startup —",
+  "count": 369,
+  "grade": 3,
+  "contested": true,
+  "note": "Production recsys modeling (CF + GBM re-rank) is JD-core domain, but 'lighter weight' hedge, no eval evidence, deployment owned by platform team -> 3 (demoted from round-1's 4)."
+ },
+ {
+  "pid": "P23",
+  "text_prefix_60": "Built computer vision models for our product's image moderat",
+  "count": 366,
+  "grade": 2,
+  "contested": true,
+  "note": "CV-only fine-tuning with self-declared 'limited' NLP experience is the JD's explicit disqualifier pattern; real PyTorch production work keeps it at 2, unanimous."
+ },
+ {
+  "pid": "P24",
+  "text_prefix_60": "Worked on time-series forecasting models for supply-chain de",
+  "count": 363,
+  "grade": 3,
+  "contested": false,
+  "note": "2->3: shipped LightGBM forecasting model = narrower-but-real production ML, matches grade-3 anchor (unanimous 3)."
+ },
+ {
+  "pid": "P25",
+  "text_prefix_60": "Worked on customer-facing predictive modeling for an e-comme",
+  "count": 359,
+  "grade": 3,
+  "contested": true,
+  "note": "Churn/LTV XGBoost actually used by retention team but 'more modeling than productionization', no IR -> 3 confirmed, unanimous."
+ },
+ {
+  "pid": "P26",
+  "text_prefix_60": "Built NLP pipelines for sentiment analysis and document clas",
+  "count": 328,
+  "grade": 3,
+  "contested": true,
+  "note": "Transformer-based NLP classification (DistilBERT, HF) gives genuine NLP exposure but internal dashboard, no retrieval/ranking -> 3 confirmed, unanimous."
+ },
+ {
+  "pid": "P27",
+  "text_prefix_60": "Owned the ranking layer for an e-commerce search product, ev",
+  "count": 78,
+  "grade": 4,
+  "contested": false,
+  "note": "5->4: dead-center LTR search ranking + relevance labeling + eval, but no embeddings/vector-search must-have evidence (2/3 judges)."
+ },
+ {
+  "pid": "P28",
+  "text_prefix_60": "Trained and shipped multiple ranking models for our product'",
+  "count": 65,
+  "grade": 4,
+  "contested": false,
+  "note": "5->4: ranking models + offline-online correlation (must-have #4) but no embeddings/retrieval stack (2/3 judges)."
+ },
+ {
+  "pid": "P29",
+  "text_prefix_60": "Developed a semantic search feature for an internal knowledg",
+  "count": 64,
+  "grade": 4,
+  "contested": false,
+  "note": "5->4: sentence-transformers + FAISS + human-judged eval hits must-haves 1-2, but internal 500K KB, no production retrieval ops or ranking metrics (2/3 judges)."
+ },
+ {
+  "pid": "P30",
+  "text_prefix_60": "Implemented a RAG-based customer support chatbot integrated ",
+  "count": 60,
+  "grade": 3,
+  "contested": true,
+  "note": "RAG support chatbot = JD named anti-pattern; real engineering (Pinecone pipeline, cost fine-tune, 31% impact) but eval is BLEU/ROUGE generation metrics not retrieval/ranking quality -> 3 (round-1's own flag said 2-3; demoted from 4)."
+ },
+ {
+  "pid": "P31",
+  "text_prefix_60": "Built a content recommendation system serving 10M+ users tha",
+  "count": 58,
+  "grade": 4,
+  "contested": false,
+  "note": "5->4: 10M-user recsys with embeddings + A/B infra, lacks vector-DB ops and ranking-metric eval rigor (2/3 judges)."
+ },
+ {
+  "pid": "P32",
+  "text_prefix_60": "Built and operated production ML pipelines using MLflow for ",
+  "count": 57,
+  "grade": 3,
+  "contested": true,
+  "note": "Strong MLOps ownership (drift detection, monitoring, Kubeflow) is operationally JD-adjacent but only application is churn, zero IR/ranking -> 3 (median over one judge's 4)."
+ },
+ {
+  "pid": "P33",
+  "text_prefix_60": "Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and",
+  "count": 12,
+  "grade": 5,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P34",
+  "text_prefix_60": "Built a RAG-based ranking pipeline serving 50M+ queries per ",
+  "count": 12,
+  "grade": 5,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P35",
+  "text_prefix_60": "Built and shipped a production recommendation system at a ma",
+  "count": 9,
+  "grade": 5,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P36",
+  "text_prefix_60": "Owned the end-to-end ranking pipeline at a recommendations-h",
+  "count": 9,
+  "grade": 5,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P37",
+  "text_prefix_60": "Owned the design and rollout of a large-scale semantic searc",
+  "count": 8,
+  "grade": 5,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P38",
+  "text_prefix_60": "Led the migration from keyword-based to embedding-based sear",
+  "count": 8,
+  "grade": 5,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P39",
+  "text_prefix_60": "Built systems that understand what users are looking for and",
+  "count": 6,
+  "grade": 5,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P40",
+  "text_prefix_60": "Shipped the personalization infrastructure: the system that ",
+  "count": 5,
+  "grade": 5,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P41",
+  "text_prefix_60": "Designed the ranking layer for the company's flagship produc",
+  "count": 5,
+  "grade": 5,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P42",
+  "text_prefix_60": "Owned the search and discovery experience end-to-end at a co",
+  "count": 4,
+  "grade": 5,
+  "contested": false,
+  "note": ""
+ },
+ {
+  "pid": "P43",
+  "text_prefix_60": "Led the engineering team building infrastructure to surface ",
+  "count": 2,
+  "grade": 5,
+  "contested": false,
+  "note": ""
+ }
+]

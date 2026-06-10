@@ -1,0 +1,433 @@
+====================================================================================================
+### CAND_0002025 | Ira Dalal | Senior AI Engineer | Building AI-native search & ranking systems
+loc: Trivandrum, Kerala, India | yoe_field: 5.9 | Senior AI Engineer @ Apple (10001+, Consumer Electronics)
+SUMMARY: Senior AI engineer with 5.9 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I designed the company's first hybrid retrieval system combining BM25 with dense vector recall, across a corpus of 30M+ candidate profiles. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I care more about shipping a working system in 6 weeks than a theoretically perfect one in 6 months. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior AI Engineer @ Apple (10001+, Consumer Electronics) 2022-12-14 -> None dur=42mo calc=42mo | para=P35(g5)
+       desc: Built and shipped a production recommendation system at a marketplace product, going from offline experimentation to live A/B test in 5 months. The system combined collab
+  JOB: Lead AI Engineer @ Aganitha (51-200, AI/ML) 2020-08-19 -> 2022-12-07 dur=28mo calc=28mo | para=P33(g5)
+       desc: Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-qu
+  EDU: M.Sc Data Science @ IIIT Bangalore (tier tier_1) 2012-2016
+  EDU: M.S. Data Science @ IIIT Bangalore (tier tier_1) 2013-2017
+  SKILLS(20): Diffusion Models[intermediate,31mo]; FAISS[expert,86mo]; TensorFlow[expert,85mo]; scikit-learn[expert,55mo]; OpenSearch[advanced,50mo]; Haystack[expert,64mo]; Weaviate[advanced,37mo]; Sentence Transformers[expert,81mo]; QLoRA[expert,81mo]; NLP[expert,38mo]; Pinecone[advanced,38mo]; Recommendation Systems[expert,56mo]; Deep Learning[expert,38mo]; Python[expert,54mo]; LangChain[expert,84mo]; Weights & Biases[advanced,57mo]; OpenCV[advanced,23mo]; Prompt Engineering[advanced,43mo]; Fine-tuning LLMs[advanced,59mo]; YOLO[advanced,27mo]
+  CERTS: [('NLP Specialization', 2021)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=70mo yoe*12=71 -> False | D sum_yoe=5.9 vs 5.9 -> False | E futureCerts=[]
+  CAREER: n_jobs=2 short_stints(<18mo,ended)=0 companies=['Apple', 'Aganitha']
+====================================================================================================
+### CAND_0005260 | Mira Ghosh | Senior NLP Engineer | LLMs, RAG, Vector Search | ex-Top Tech
+loc: Chennai, Tamil Nadu, India | yoe_field: 5.2 | Senior NLP Engineer @ Netflix (10001+, Media)
+SUMMARY: Senior AI engineer with 5.2 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I drove the platform's RAG strategy from prototype to production, including the eval framework, operating at single-digit-millisecond p95 retrieval latency. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I believe most ranking problems are solved by careful feature engineering and rigorous eval, not by bigger models. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior NLP Engineer @ Netflix (10001+, Media) 2023-08-11 -> None dur=34mo calc=34mo | para=P33(g5)
+       desc: Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-qu
+  JOB: Senior NLP Engineer @ Yellow.ai (201-500, AI/ML) 2021-05-23 -> 2023-08-11 dur=27mo calc=27mo | para=P34(g5)
+       desc: Built a RAG-based ranking pipeline serving 50M+ queries per month for an internal recruiter-facing search product. The architecture combined BM25 + dense retrieval (BGE e
+  EDU: B.Tech Artificial Intelligence @ IIIT Bangalore (tier tier_1) 2002-2006
+  SKILLS(18): Statistical Modeling[intermediate,36mo]; MLOps[intermediate,17mo]; Snowflake[beginner,16mo]; Prompt Engineering[advanced,56mo]; Information Retrieval[advanced,45mo]; Speech Recognition[advanced,33mo]; Semantic Search[expert,56mo]; Deep Learning[expert,53mo]; Python[expert,43mo]; NLP[expert,60mo]; MLflow[advanced,34mo]; LoRA[expert,43mo]; RAG[advanced,50mo]; Kubeflow[intermediate,21mo]; pgvector[advanced,21mo]; Haystack[advanced,25mo]; Hugging Face Transformers[advanced,39mo]; Embeddings[expert,95mo]
+  CERTS: []
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=61mo yoe*12=62 -> False | D sum_yoe=5.2 vs 5.2 -> False | E futureCerts=[]
+  CAREER: n_jobs=2 short_stints(<18mo,ended)=0 companies=['Netflix', 'Yellow.ai']
+====================================================================================================
+### CAND_0005538 | Aryan Goyal | Senior Engineer | 5.9+ yrs in production systems
+loc: Kolkata, West Bengal, India | yoe_field: 5.9 | Senior AI Engineer @ Adobe (10001+, Software)
+SUMMARY: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes — over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want — so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.
+  JOB: Senior AI Engineer @ Adobe (10001+, Software) 2025-03-03 -> None dur=15mo calc=15mo | para=P43(g5)
+       desc: Led the engineering team building infrastructure to surface relevant content to users at scale. The system processed billions of documents and served millions of queries 
+  JOB: Lead AI Engineer @ Locobuzz (51-200, AI/ML) 2022-09-15 -> 2025-03-03 dur=30mo calc=30mo | para=P39(g5)
+       desc: Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructur
+  JOB: Senior Machine Learning Engineer @ Google (10001+, Internet) 2021-07-15 -> 2022-09-08 dur=14mo calc=14mo | para=P39(g5)
+       desc: Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructur
+  JOB: Lead AI Engineer @ Glance (501-1000, AI/ML) 2020-09-18 -> 2021-07-15 dur=10mo calc=10mo | para=P35(g5)
+       desc: Built and shipped a production recommendation system at a marketplace product, going from offline experimentation to live A/B test in 5 months. The system combined collab
+  EDU: B.Tech Data Science @ SRM University (tier tier_2) 2003-2008
+  SKILLS(19): Project Management[intermediate,29mo]; Vector Representations[expert,46mo]; Deep Learning[expert,82mo]; Content Matching[advanced,44mo]; Apache Flink[intermediate,26mo]; Feature Engineering[advanced,50mo]; Statistical Modeling[intermediate,22mo]; QLoRA[advanced,58mo]; Python[advanced,38mo]; PyTorch[expert,74mo]; ASR[advanced,42mo]; Data Science[advanced,43mo]; LoRA[advanced,36mo]; Information Retrieval Systems[advanced,55mo]; pgvector[expert,91mo]; Haystack[expert,51mo]; Workflow Orchestration[expert,57mo]; TTS[advanced,24mo]; Natural Language Processing[expert,51mo]
+  CERTS: [('Deep Learning Specialization', 2023)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=69mo yoe*12=71 -> False | D sum_yoe=None vs 5.9 -> False | E futureCerts=[]
+  CAREER: n_jobs=4 short_stints(<18mo,ended)=2 companies=['Adobe', 'Locobuzz', 'Google', 'Glance']
+====================================================================================================
+### CAND_0006567 | Aditya Subramanian | Senior Engineer | Information Retrieval at scale
+loc: Noida, Uttar Pradesh, India | yoe_field: 7.9 | Senior AI Engineer @ Meta (10001+, Internet)
+SUMMARY: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes — over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want — so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.
+  JOB: Senior AI Engineer @ Meta (10001+, Internet) 2024-04-07 -> None dur=26mo calc=26mo | para=P39(g5)
+       desc: Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructur
+  JOB: Senior Applied Scientist @ Razorpay (1001-5000, Fintech) 2020-03-29 -> 2024-04-07 dur=49mo calc=49mo | para=P42(g5)
+       desc: Owned the search and discovery experience end-to-end at a consumer product, from how content is represented internally through to how the most relevant results appear for
+  JOB: Senior ML Engineer — Search & Ranking @ Glance (501-1000, AI/ML) 2018-08-23 -> 2020-03-15 dur=19mo calc=19mo | para=P40(g5)
+       desc: Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, 
+  EDU: B.Sc Machine Learning @ IIT Bombay (tier tier_1) 2016-2020
+  SKILLS(20): Speech Recognition[intermediate,23mo]; scikit-learn[expert,64mo]; Search Backend[advanced,31mo]; Model Adaptation[expert,71mo]; Vector Representations[advanced,46mo]; BM25[expert,80mo]; Workflow Orchestration[expert,51mo]; GANs[intermediate,36mo]; NLP[advanced,22mo]; Kubernetes[beginner,14mo]; Python[expert,68mo]; Ranking Systems[advanced,60mo]; Text Encoders[advanced,28mo]; Data Science[intermediate,10mo]; Feature Engineering[advanced,55mo]; Search & Discovery[advanced,42mo]; Prompt Engineering[expert,94mo]; Haystack[expert,47mo]; Content Matching[expert,85mo]; Recommendation Systems[advanced,26mo]
+  CERTS: [('AWS Certified Machine Learning Specialty', 2019)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=94mo yoe*12=95 -> False | D sum_yoe=None vs 7.9 -> False | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=0 companies=['Meta', 'Razorpay', 'Glance']
+====================================================================================================
+### CAND_0007411 | Rahul Bansal | Senior Machine Learning Engineer | Production ML at scale | 8.0+ yrs
+loc: Kochi, Kerala, India | yoe_field: 8.0 | Senior Machine Learning Engineer @ Amazon (10001+, Internet)
+SUMMARY: Senior AI engineer with 8.0 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I owned the offline-online evaluation harness — NDCG/MRR/recall calibrated to live A/B metrics, handling peak QPS of 8K with sub-200ms p95. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I care more about shipping a working system in 6 weeks than a theoretically perfect one in 6 months. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior Machine Learning Engineer @ Amazon (10001+, Internet) 2023-04-13 -> None dur=38mo calc=38mo | para=P36(g5)
+       desc: Owned the end-to-end ranking pipeline at a recommendations-heavy consumer product: candidate sourcing → embedding generation (using a fine-tuned BGE-large) → Pinecone ret
+  JOB: Senior Machine Learning Engineer @ Yellow.ai (201-500, AI/ML) 2018-08-07 -> 2023-04-13 dur=57mo calc=56mo | para=P33(g5)
+       desc: Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-qu
+  EDU: B.Tech Information Technology @ IIT Roorkee (tier tier_1) 2011-2014
+  SKILLS(14): OpenSearch[expert,86mo]; Prompt Engineering[expert,50mo]; Fine-tuning LLMs[advanced,40mo]; Vector Search[advanced,41mo]; Data Science[intermediate,18mo]; BM25[expert,84mo]; PyTorch[expert,73mo]; Information Retrieval[expert,46mo]; Pinecone[expert,42mo]; TensorFlow[advanced,39mo]; Accounting[intermediate,11mo]; Computer Vision[advanced,50mo]; Learning to Rank[advanced,57mo]; Deep Learning[advanced,60mo]
+  CERTS: [('Deep Learning Specialization', 2025)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=94mo yoe*12=96 -> False | D sum_yoe=8.0 vs 8.0 -> False | E futureCerts=[]
+  CAREER: n_jobs=2 short_stints(<18mo,ended)=0 companies=['Amazon', 'Yellow.ai']
+====================================================================================================
+### CAND_0008425 | Myra Krishnan | Senior NLP Engineer | Production ML at scale | 7.8+ yrs
+loc: Kolkata, West Bengal, India | yoe_field: 7.8 | Senior NLP Engineer @ Ola (5001-10000, Transportation)
+SUMMARY: Senior AI engineer with 7.8 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I rebuilt the candidate-JD matching pipeline from scratch, taking it from 0.72 to 0.91 NDCG@10, operating at single-digit-millisecond p95 retrieval latency. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I've made all the standard mistakes — embedding everything before defining the metric, over-investing in fine-tuning, optimizing offline metrics that don't move online — so I notice them faster now. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior NLP Engineer @ Ola (5001-10000, Transportation) 2024-05-07 -> None dur=25mo calc=25mo | para=P37(g5)
+       desc: Owned the design and rollout of a large-scale semantic search system serving an internal corpus of 35M+ items. Migrated the existing BM25-only retrieval to a hybrid setup
+  JOB: Senior ML Engineer — Search & Ranking @ Zomato (5001-10000, Food Delivery) 2020-05-28 -> 2024-03-08 dur=46mo calc=46mo | para=P33(g5)
+       desc: Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-qu
+  JOB: Lead AI Engineer @ Amazon (10001+, Internet) 2018-08-30 -> 2020-05-21 dur=21mo calc=21mo | para=P36(g5)
+       desc: Owned the end-to-end ranking pipeline at a recommendations-heavy consumer product: candidate sourcing → embedding generation (using a fine-tuned BGE-large) → Pinecone ret
+  EDU: M.S. Computer Engineering @ BITS Pilani (tier tier_1) 2005-2009
+  SKILLS(17): Learning to Rank[expert,87mo]; Qdrant[expert,92mo]; Weights & Biases[advanced,19mo]; pgvector[expert,58mo]; Sentence Transformers[expert,96mo]; NLP[expert,41mo]; Haystack[expert,93mo]; TensorFlow[advanced,40mo]; Python[expert,55mo]; Prompt Engineering[advanced,46mo]; Image Classification[intermediate,36mo]; Object Detection[advanced,36mo]; Semantic Search[advanced,26mo]; LoRA[expert,57mo]; Recommendation Systems[expert,87mo]; Information Retrieval[expert,45mo]; Hugging Face Transformers[expert,65mo]
+  CERTS: [('Deep Learning Specialization', 2024), ('AWS Certified Machine Learning Specialty', 2018)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=94mo yoe*12=94 -> False | D sum_yoe=7.8 vs 7.8 -> False | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=0 companies=['Ola', 'Zomato', 'Amazon']
+====================================================================================================
+### CAND_0011687 | Shreya Tiwari | Senior NLP Engineer | Production ML at scale | 7.8+ yrs
+loc: Indore, Madhya Pradesh, India | yoe_field: 7.8 | Senior NLP Engineer @ Niramai (51-200, HealthTech AI)
+SUMMARY: Senior AI engineer with 7.8 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I owned the offline-online evaluation harness — NDCG/MRR/recall calibrated to live A/B metrics, with an index footprint of ~600GB and incremental refresh every 15 min. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I believe most ranking problems are solved by careful feature engineering and rigorous eval, not by bigger models. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior NLP Engineer @ Niramai (51-200, HealthTech AI) 2022-02-17 -> None dur=52mo calc=52mo | para=P36(g5)
+       desc: Owned the end-to-end ranking pipeline at a recommendations-heavy consumer product: candidate sourcing → embedding generation (using a fine-tuned BGE-large) → Pinecone ret
+  JOB: Senior Machine Learning Engineer @ Krutrim (201-500, AI/ML) 2018-11-05 -> 2022-02-17 dur=40mo calc=39mo | para=P33(g5)
+       desc: Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-qu
+  EDU: Ph.D Artificial Intelligence @ IIT Delhi (tier tier_1) 2009-2014
+  SKILLS(13): TensorFlow[expert,56mo]; OpenSearch[expert,92mo]; FAISS[advanced,42mo]; PEFT[expert,75mo]; Feature Engineering[intermediate,21mo]; Embeddings[expert,56mo]; LangChain[expert,63mo]; MLOps[advanced,45mo]; Weaviate[expert,60mo]; PyTorch[advanced,39mo]; Image Classification[advanced,53mo]; Semantic Search[advanced,45mo]; LlamaIndex[expert,67mo]
+  CERTS: []
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=91mo yoe*12=94 -> False | D sum_yoe=7.8 vs 7.8 -> False | E futureCerts=[]
+  CAREER: n_jobs=2 short_stints(<18mo,ended)=0 companies=['Niramai', 'Krutrim']
+====================================================================================================
+### CAND_0018499 | Aarav Trivedi | Senior Machine Learning Engineer | Building AI-native search & ranking systems
+loc: Noida, Uttar Pradesh, India | yoe_field: 7.2 | Senior Machine Learning Engineer @ Zomato (5001-10000, Food Delivery)
+SUMMARY: Senior AI engineer with 7.2 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I designed the company's first hybrid retrieval system combining BM25 with dense vector recall, serving 50M+ queries per month. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I have strong opinions about when LLMs are the right hammer and when classical IR is — usually it's both. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior Machine Learning Engineer @ Zomato (5001-10000, Food Delivery) 2024-04-07 -> None dur=26mo calc=26mo | para=P34(g5)
+       desc: Built a RAG-based ranking pipeline serving 50M+ queries per month for an internal recruiter-facing search product. The architecture combined BM25 + dense retrieval (BGE e
+  JOB: Staff Machine Learning Engineer @ Google (10001+, Internet) 2022-10-15 -> 2024-04-07 dur=18mo calc=18mo | para=P34(g5)
+       desc: Built a RAG-based ranking pipeline serving 50M+ queries per month for an internal recruiter-facing search product. The architecture combined BM25 + dense retrieval (BGE e
+  JOB: Senior Machine Learning Engineer @ Flipkart (10001+, E-commerce) 2019-04-27 -> 2022-10-08 dur=42mo calc=42mo | para=P33(g5)
+       desc: Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-qu
+  EDU: B.Sc Artificial Intelligence @ Massachusetts Institute of Technology (tier tier_1) 2013-2017
+  EDU: M.S. Data Science @ NIT Surathkal (tier tier_1) 2017-2021
+  SKILLS(17): Deep Learning[expert,53mo]; Weaviate[expert,88mo]; Recommendation Systems[expert,46mo]; scikit-learn[expert,93mo]; Diffusion Models[advanced,60mo]; Pinecone[advanced,54mo]; Information Retrieval[advanced,27mo]; Milvus[expert,40mo]; QLoRA[expert,43mo]; RAG[expert,94mo]; Embeddings[expert,65mo]; Learning to Rank[expert,70mo]; CNN[intermediate,16mo]; Go[beginner,16mo]; BM25[advanced,18mo]; LangChain[advanced,53mo]; Weights & Biases[intermediate,19mo]
+  CERTS: [('Google Cloud Professional ML Engineer', 2019), ('NLP Specialization', 2018)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=86mo yoe*12=86 -> False | D sum_yoe=7.2 vs 7.2 -> False | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=0 companies=['Zomato', 'Google', 'Flipkart']
+====================================================================================================
+### CAND_0030468 | Pooja Bose | Senior Engineer | Search & Discovery Infrastructure
+loc: Indore, Madhya Pradesh, India | yoe_field: 5.4 | Senior Applied Scientist @ Swiggy (5001-10000, Food Delivery)
+SUMMARY: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes — over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want — so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.
+  JOB: Senior Applied Scientist @ Swiggy (5001-10000, Food Delivery) 2025-04-02 -> None dur=14mo calc=14mo | para=P43(g5)
+       desc: Led the engineering team building infrastructure to surface relevant content to users at scale. The system processed billions of documents and served millions of queries 
+  JOB: Senior Applied Scientist @ CRED (1001-5000, Fintech) 2023-09-26 -> 2025-03-19 dur=18mo calc=18mo | para=P40(g5)
+       desc: Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, 
+  JOB: Senior Machine Learning Engineer @ Wysa (51-200, HealthTech AI) 2021-02-08 -> 2023-09-26 dur=32mo calc=31mo | para=P40(g5)
+       desc: Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, 
+  EDU: M.Tech Machine Learning @ IIT Delhi (tier tier_1) 2013-2016
+  EDU: M.Tech Machine Learning @ IIT Delhi (tier tier_1) 2005-2008
+  SKILLS(14): Information Retrieval Systems[advanced,24mo]; Content Matching[expert,82mo]; Text Encoders[expert,77mo]; TensorFlow[advanced,38mo]; Search & Discovery[expert,45mo]; CNN[intermediate,9mo]; Model Adaptation[expert,43mo]; Machine Learning[expert,67mo]; Ranking Systems[expert,72mo]; Diffusion Models[intermediate,23mo]; OpenSearch[expert,95mo]; Computer Vision[advanced,48mo]; Milvus[expert,85mo]; Recommendation Systems[expert,79mo]
+  CERTS: [('Google Cloud Professional ML Engineer', 2019), ('Deep Learning Specialization', 2018)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=64mo yoe*12=65 -> False | D sum_yoe=None vs 5.4 -> False | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=0 companies=['Swiggy', 'CRED', 'Wysa']
+====================================================================================================
+### CAND_0033861 | Kabir Kapoor | Senior NLP Engineer | Building AI-native search & ranking systems
+loc: Vizag, Andhra Pradesh, India | yoe_field: 8.0 | Senior NLP Engineer @ Mad Street Den (201-500, AI/ML)
+SUMMARY: Senior AI engineer with 8.0 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I drove the platform's RAG strategy from prototype to production, including the eval framework, across a corpus of 30M+ candidate profiles. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I have strong opinions about when LLMs are the right hammer and when classical IR is — usually it's both. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior NLP Engineer @ Mad Street Den (201-500, AI/ML) 2023-12-09 -> None dur=30mo calc=30mo | para=P33(g5)
+       desc: Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-qu
+  JOB: Senior NLP Engineer @ Sarvam AI (51-200, AI/ML) 2020-08-26 -> 2023-11-09 dur=39mo calc=39mo | para=P37(g5)
+       desc: Owned the design and rollout of a large-scale semantic search system serving an internal corpus of 35M+ items. Migrated the existing BM25-only retrieval to a hybrid setup
+  JOB: Senior AI Engineer @ Paytm (10001+, Fintech) 2018-07-08 -> 2020-08-26 dur=26mo calc=25mo | para=P35(g5)
+       desc: Built and shipped a production recommendation system at a marketplace product, going from offline experimentation to live A/B test in 5 months. The system combined collab
+  EDU: B.E. Artificial Intelligence @ Thapar University (tier tier_2) 2015-2019
+  EDU: M.S. Computer Engineering @ IIT Madras (tier tier_1) 2004-2009
+  SKILLS(23): Reinforcement Learning[advanced,21mo]; Weaviate[expert,42mo]; LoRA[advanced,23mo]; LLMs[expert,78mo]; Machine Learning[advanced,34mo]; TensorFlow[advanced,45mo]; LlamaIndex[expert,47mo]; Time Series[advanced,24mo]; Elasticsearch[expert,58mo]; Haystack[expert,36mo]; Diffusion Models[intermediate,19mo]; dbt[intermediate,12mo]; BentoML[intermediate,12mo]; Pinecone[advanced,43mo]; Qdrant[advanced,39mo]; Vector Search[expert,59mo]; Kubeflow[advanced,22mo]; PEFT[advanced,28mo]; scikit-learn[expert,54mo]; Databricks[intermediate,32mo]; Milvus[expert,42mo]; Learning to Rank[expert,81mo]; Sentence Transformers[advanced,19mo]
+  CERTS: []
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=95mo yoe*12=96 -> False | D sum_yoe=8.0 vs 8.0 -> False | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=0 companies=['Mad Street Den', 'Sarvam AI', 'Paytm']
+====================================================================================================
+### CAND_0037980 | Reyansh Chowdary | Senior Engineer | Information Retrieval at scale
+loc: Kolkata, West Bengal, India | yoe_field: 9.0 | Senior Applied Scientist @ Niramai (51-200, HealthTech AI)
+SUMMARY: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes — over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want — so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.
+  JOB: Senior Applied Scientist @ Niramai (51-200, HealthTech AI) 2023-04-13 -> None dur=38mo calc=38mo | para=P41(g5)
+       desc: Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The h
+  JOB: Senior ML Engineer — Search & Ranking @ Verloop.io (51-200, Conversational AI) 2020-02-28 -> 2023-04-13 dur=38mo calc=38mo | para=P41(g5)
+       desc: Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The h
+  JOB: Senior ML Engineer — Search & Ranking @ Salesforce (10001+, Software) 2017-08-12 -> 2020-02-28 dur=31mo calc=30mo | para=P40(g5)
+       desc: Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, 
+  EDU: B.E. Machine Learning @ BITS Pilani (tier tier_1) 2012-2017
+  SKILLS(21): LoRA[expert,75mo]; Search Infrastructure[expert,48mo]; PyTorch[expert,63mo]; NLP[expert,54mo]; Indexing Algorithms[expert,58mo]; BM25[expert,92mo]; TTS[advanced,48mo]; Text Encoders[expert,36mo]; Document Processing[expert,61mo]; OpenCV[advanced,48mo]; QLoRA[advanced,28mo]; pgvector[expert,58mo]; Haystack[expert,47mo]; Model Adaptation[advanced,51mo]; Weights & Biases[intermediate,36mo]; BentoML[advanced,39mo]; scikit-learn[expert,41mo]; Prompt Engineering[advanced,24mo]; Feature Engineering[intermediate,25mo]; Information Retrieval Systems[expert,47mo]; Recommendation Systems[advanced,30mo]
+  CERTS: [('NLP Specialization', 2022), ('Deep Learning Specialization', 2025)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=106mo yoe*12=108 -> False | D sum_yoe=None vs 9.0 -> False | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=0 companies=['Niramai', 'Verloop.io', 'Salesforce']
+====================================================================================================
+### CAND_0039754 | Mira Banerjee | Senior Applied Scientist | Building AI-native search & ranking systems
+loc: Indore, Madhya Pradesh, India | yoe_field: 16.2 | Senior Applied Scientist @ Meta (10001+, Internet)
+SUMMARY: Senior AI engineer with 8.3 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I rebuilt the candidate-JD matching pipeline from scratch, taking it from 0.72 to 0.91 NDCG@10, serving 50M+ queries per month. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I believe most ranking problems are solved by careful feature engineering and rigorous eval, not by bigger models. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior Applied Scientist @ Meta (10001+, Internet) 2023-05-13 -> None dur=37mo calc=37mo | para=P36(g5)
+       desc: Owned the end-to-end ranking pipeline at a recommendations-heavy consumer product: candidate sourcing → embedding generation (using a fine-tuned BGE-large) → Pinecone ret
+  JOB: Senior ML Engineer — Search & Ranking @ Apple (10001+, Consumer Electronics) 2020-01-29 -> 2023-05-13 dur=40mo calc=40mo | para=P37(g5)
+       desc: Owned the design and rollout of a large-scale semantic search system serving an internal corpus of 35M+ items. Migrated the existing BM25-only retrieval to a hybrid setup
+  JOB: Senior Applied Scientist @ Observe.AI (201-500, AI/ML) 2018-05-09 -> 2020-01-29 dur=21mo calc=20mo | para=P34(g5)
+       desc: Built a RAG-based ranking pipeline serving 50M+ queries per month for an internal recruiter-facing search product. The architecture combined BM25 + dense retrieval (BGE e
+  EDU: M.Sc Data Science @ IIT Hyderabad (tier tier_1) 2017-2020
+  SKILLS(20): Fine-tuning LLMs[expert,57mo]; LlamaIndex[advanced,19mo]; Qdrant[expert,67mo]; Reinforcement Learning[intermediate,34mo]; NLP[expert,46mo]; Statistical Modeling[intermediate,22mo]; Kubeflow[advanced,53mo]; ASR[intermediate,29mo]; OpenSearch[expert,71mo]; Deep Learning[expert,68mo]; Machine Learning[expert,50mo]; LLMs[advanced,33mo]; BM25[advanced,50mo]; Weaviate[expert,64mo]; Python[expert,95mo]; TensorFlow[expert,60mo]; CI/CD[beginner,3mo]; pgvector[expert,70mo]; Speech Recognition[intermediate,24mo]; Elasticsearch[expert,46mo]
+  CERTS: []
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=97mo yoe*12=194 -> True | D sum_yoe=8.3 vs 16.2 -> True | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=0 companies=['Meta', 'Apple', 'Observe.AI']
+====================================================================================================
+### CAND_0041611 | Aarohi Chowdary | Staff Machine Learning Engineer | Building AI-native search & ranking systems
+loc: Austin, USA | yoe_field: 6.4 | Staff Machine Learning Engineer @ Locobuzz (51-200, AI/ML)
+SUMMARY: Senior AI engineer with 6.4 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I owned the offline-online evaluation harness — NDCG/MRR/recall calibrated to live A/B metrics, serving 50M+ queries per month. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I believe most ranking problems are solved by careful feature engineering and rigorous eval, not by bigger models. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Staff Machine Learning Engineer @ Locobuzz (51-200, AI/ML) 2024-09-04 -> None dur=21mo calc=21mo | para=P34(g5)
+       desc: Built a RAG-based ranking pipeline serving 50M+ queries per month for an internal recruiter-facing search product. The architecture combined BM25 + dense retrieval (BGE e
+  JOB: Senior Applied Scientist @ Genpact AI (10001+, AI Services) 2021-05-16 -> 2024-08-28 dur=40mo calc=39mo | para=P37(g5)
+       desc: Owned the design and rollout of a large-scale semantic search system serving an internal corpus of 35M+ items. Migrated the existing BM25-only retrieval to a hybrid setup
+  JOB: Staff Machine Learning Engineer @ Wysa (51-200, HealthTech AI) 2020-03-22 -> 2021-05-16 dur=14mo calc=14mo | para=P38(g5)
+       desc: Led the migration from keyword-based to embedding-based search across a 30M+ candidate corpus over 8 months. Designed three successive ranker variants and ran them in A/B
+  EDU: M.Tech Computer Engineering @ Amity University (tier tier_3) 2008-2011
+  SKILLS(18): LlamaIndex[advanced,25mo]; Prompt Engineering[expert,86mo]; PyTorch[expert,48mo]; Qdrant[expert,70mo]; NLP[expert,82mo]; Weaviate[advanced,49mo]; GANs[intermediate,34mo]; BM25[expert,63mo]; Fine-tuning LLMs[advanced,57mo]; OpenSearch[expert,42mo]; Sentence Transformers[expert,39mo]; Deep Learning[advanced,34mo]; MLOps[intermediate,20mo]; pgvector[expert,62mo]; LangChain[expert,90mo]; QLoRA[expert,61mo]; Diffusion Models[advanced,53mo]; Weights & Biases[intermediate,32mo]
+  CERTS: [('AWS Certified Machine Learning Specialty', 2019), ('Google Cloud Professional ML Engineer', 2025)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=75mo yoe*12=77 -> False | D sum_yoe=6.4 vs 6.4 -> False | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=1 companies=['Locobuzz', 'Genpact AI', 'Wysa']
+====================================================================================================
+### CAND_0046064 | Saanvi Naidu | Senior NLP Engineer | LLMs, RAG, Vector Search | ex-Top Tech
+loc: Coimbatore, Tamil Nadu, India | yoe_field: 8.9 | Senior NLP Engineer @ Salesforce (10001+, Software)
+SUMMARY: Senior AI engineer with 8.9 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I rebuilt the candidate-JD matching pipeline from scratch, taking it from 0.72 to 0.91 NDCG@10, operating at single-digit-millisecond p95 retrieval latency. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I believe most ranking problems are solved by careful feature engineering and rigorous eval, not by bigger models. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior NLP Engineer @ Salesforce (10001+, Software) 2023-06-12 -> None dur=36mo calc=36mo | para=P33(g5)
+       desc: Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-qu
+  JOB: Lead AI Engineer @ Verloop.io (51-200, Conversational AI) 2020-06-27 -> 2023-04-13 dur=34mo calc=34mo | para=P34(g5)
+       desc: Built a RAG-based ranking pipeline serving 50M+ queries per month for an internal recruiter-facing search product. The architecture combined BM25 + dense retrieval (BGE e
+  JOB: Senior ML Engineer — Search & Ranking @ Amazon (10001+, Internet) 2017-07-13 -> 2020-06-27 dur=36mo calc=35mo | para=P36(g5)
+       desc: Owned the end-to-end ranking pipeline at a recommendations-heavy consumer product: candidate sourcing → embedding generation (using a fine-tuned BGE-large) → Pinecone ret
+  EDU: M.Tech Artificial Intelligence @ IIT Hyderabad (tier tier_1) 2003-2006
+  EDU: B.Tech Artificial Intelligence @ BITS Pilani (tier tier_1) 2012-2017
+  SKILLS(16): Python[expert,40mo]; Image Classification[advanced,21mo]; OpenCV[advanced,34mo]; Pinecone[expert,85mo]; Haystack[expert,75mo]; Six Sigma[intermediate,12mo]; TTS[advanced,18mo]; Diffusion Models[intermediate,30mo]; BM25[expert,64mo]; YOLO[advanced,36mo]; OpenSearch[advanced,21mo]; PEFT[expert,92mo]; Deep Learning[advanced,42mo]; Elasticsearch[expert,78mo]; QLoRA[advanced,45mo]; Semantic Search[advanced,43mo]
+  CERTS: []
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=107mo yoe*12=107 -> False | D sum_yoe=8.9 vs 8.9 -> False | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=0 companies=['Salesforce', 'Verloop.io', 'Amazon']
+====================================================================================================
+### CAND_0046525 | Tanvi Mukherjee | Senior Machine Learning Engineer | Building AI-native search & ranking systems
+loc: Pune, Maharashtra, India | yoe_field: 6.1 | Senior Machine Learning Engineer @ Genpact AI (10001+, AI Services)
+SUMMARY: Senior AI engineer with 6.1 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I designed the company's first hybrid retrieval system combining BM25 with dense vector recall, handling peak QPS of 8K with sub-200ms p95. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I care more about shipping a working system in 6 weeks than a theoretically perfect one in 6 months. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior Machine Learning Engineer @ Genpact AI (10001+, AI Services) 2022-06-17 -> None dur=48mo calc=48mo | para=P38(g5)
+       desc: Led the migration from keyword-based to embedding-based search across a 30M+ candidate corpus over 8 months. Designed three successive ranker variants and ran them in A/B
+  JOB: Senior Machine Learning Engineer @ LinkedIn (10001+, Internet) 2020-03-29 -> 2022-04-18 dur=25mo calc=25mo | para=P34(g5)
+       desc: Built a RAG-based ranking pipeline serving 50M+ queries per month for an internal recruiter-facing search product. The architecture combined BM25 + dense retrieval (BGE e
+  EDU: M.S. Computer Engineering @ Manipal Institute of Technology (tier tier_2) 2009-2013
+  EDU: M.Sc Information Technology @ IIT Hyderabad (tier tier_1) 2017-2020
+  SKILLS(17): Elasticsearch[advanced,31mo]; Redux[beginner,11mo]; LangChain[advanced,27mo]; Machine Learning[expert,70mo]; LlamaIndex[expert,66mo]; Information Retrieval[advanced,59mo]; TensorFlow[advanced,19mo]; LLMs[advanced,56mo]; NLP[advanced,38mo]; Sentence Transformers[expert,74mo]; YOLO[advanced,48mo]; Forecasting[advanced,56mo]; pgvector[advanced,20mo]; Image Classification[intermediate,13mo]; Weights & Biases[intermediate,23mo]; TTS[advanced,46mo]; Qdrant[expert,44mo]
+  CERTS: [('NLP Specialization', 2023)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=75mo yoe*12=73 -> False | D sum_yoe=6.1 vs 6.1 -> False | E futureCerts=[]
+  CAREER: n_jobs=2 short_stints(<18mo,ended)=0 companies=['Genpact AI', 'LinkedIn']
+====================================================================================================
+### CAND_0055905 | Anika Rao | Senior Machine Learning Engineer | LLMs, RAG, Vector Search | ex-Top Tech
+loc: London, UK | yoe_field: 8.1 | Senior Machine Learning Engineer @ Flipkart (10001+, E-commerce)
+SUMMARY: Senior AI engineer with 8.1 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I led the migration from keyword-based ranking to a learning-to-rank model with embedded behavioral signals, serving 50M+ queries per month. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I care more about shipping a working system in 6 weeks than a theoretically perfect one in 6 months. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior Machine Learning Engineer @ Flipkart (10001+, E-commerce) 2025-04-02 -> None dur=14mo calc=14mo | para=P37(g5)
+       desc: Owned the design and rollout of a large-scale semantic search system serving an internal corpus of 35M+ items. Migrated the existing BM25-only retrieval to a hybrid setup
+  JOB: Senior AI Engineer @ Uber (10001+, Transportation) 2022-03-19 -> 2025-04-02 dur=37mo calc=37mo | para=P33(g5)
+       desc: Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-qu
+  JOB: Senior Applied Scientist @ Rephrase.ai (11-50, AI/ML) 2018-05-09 -> 2022-01-18 dur=45mo calc=44mo | para=P34(g5)
+       desc: Built a RAG-based ranking pipeline serving 50M+ queries per month for an internal recruiter-facing search product. The architecture combined BM25 + dense retrieval (BGE e
+  EDU: B.Tech Computer Engineering @ Anna University (tier tier_2) 2009-2013
+  EDU: M.S. Data Science @ IIT Kharagpur (tier tier_1) 2002-2005
+  SKILLS(13): Elasticsearch[expert,80mo]; ASR[advanced,41mo]; Hugging Face Transformers[advanced,33mo]; Haystack[advanced,26mo]; Speech Recognition[advanced,57mo]; LangChain[expert,70mo]; Python[expert,45mo]; LLMs[advanced,43mo]; OpenSearch[expert,56mo]; Fine-tuning LLMs[advanced,50mo]; Information Retrieval[advanced,60mo]; Embeddings[expert,75mo]; Vector Search[expert,93mo]
+  CERTS: []
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=97mo yoe*12=97 -> False | D sum_yoe=8.1 vs 8.1 -> False | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=0 companies=['Flipkart', 'Uber', 'Rephrase.ai']
+====================================================================================================
+### CAND_0060072 | Anil Mishra | Staff Machine Learning Engineer | LLMs, RAG, Vector Search | ex-Top Tech
+loc: Indore, Madhya Pradesh, India | yoe_field: 5.7 | Staff Machine Learning Engineer @ Amazon (10001+, Internet)
+SUMMARY: Senior AI engineer with 5.7 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I led the migration from keyword-based ranking to a learning-to-rank model with embedded behavioral signals, handling peak QPS of 8K with sub-200ms p95. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I care more about shipping a working system in 6 weeks than a theoretically perfect one in 6 months. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Staff Machine Learning Engineer @ Amazon (10001+, Internet) 2023-05-13 -> None dur=37mo calc=37mo | para=P35(g5)
+       desc: Built and shipped a production recommendation system at a marketplace product, going from offline experimentation to live A/B test in 5 months. The system combined collab
+  JOB: Senior Applied Scientist @ Wysa (51-200, HealthTech AI) 2020-10-11 -> 2023-04-29 dur=31mo calc=30mo | para=P35(g5)
+       desc: Built and shipped a production recommendation system at a marketplace product, going from offline experimentation to live A/B test in 5 months. The system combined collab
+  EDU: B.E. Artificial Intelligence @ SRM University (tier tier_2) 2009-2012
+  EDU: M.S. Computer Science @ UC Berkeley (tier tier_1) 2002-2006
+  SKILLS(20): Deep Learning[advanced,49mo]; Sentence Transformers[expert,60mo]; PyTorch[advanced,51mo]; Feature Engineering[intermediate,36mo]; Milvus[advanced,26mo]; Fine-tuning LLMs[expert,40mo]; Next.js[beginner,15mo]; BM25[expert,70mo]; Redux[beginner,17mo]; Qdrant[advanced,46mo]; ASR[advanced,18mo]; Reinforcement Learning[intermediate,16mo]; Prompt Engineering[expert,87mo]; Embeddings[expert,54mo]; Machine Learning[expert,48mo]; Pinecone[expert,65mo]; RAG[advanced,41mo]; Recommendation Systems[advanced,52mo]; YOLO[intermediate,32mo]; Kubeflow[advanced,25mo]
+  CERTS: [('LangChain for LLM Application Development', 2024), ('Google Cloud Professional ML Engineer', 2021)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=68mo yoe*12=68 -> False | D sum_yoe=5.7 vs 5.7 -> False | E futureCerts=[]
+  CAREER: n_jobs=2 short_stints(<18mo,ended)=0 companies=['Amazon', 'Wysa']
+====================================================================================================
+### CAND_0061257 | Advaith Pillai | Senior Engineer | 8.0+ yrs in production systems
+loc: Noida, Uttar Pradesh, India | yoe_field: 8.0 | Staff Machine Learning Engineer @ LinkedIn (10001+, Internet)
+SUMMARY: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes — over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want — so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.
+  JOB: Staff Machine Learning Engineer @ LinkedIn (10001+, Internet) 2022-11-14 -> None dur=43mo calc=43mo | para=P41(g5)
+       desc: Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The h
+  JOB: Senior Applied Scientist @ Yellow.ai (201-500, AI/ML) 2018-08-07 -> 2022-11-14 dur=52mo calc=51mo | para=P42(g5)
+       desc: Owned the search and discovery experience end-to-end at a consumer product, from how content is represented internally through to how the most relevant results appear for
+  EDU: M.S. Computer Science @ VJTI Mumbai (tier tier_2) 2005-2010
+  EDU: M.E. Artificial Intelligence @ IIT Roorkee (tier tier_1) 2003-2008
+  SKILLS(16): PEFT[advanced,33mo]; Haystack[advanced,43mo]; Time Series[advanced,28mo]; Machine Learning[expert,61mo]; Information Retrieval Systems[advanced,58mo]; Search Infrastructure[expert,83mo]; Image Classification[advanced,22mo]; TTS[intermediate,24mo]; Feature Engineering[advanced,27mo]; ETL[intermediate,14mo]; Model Adaptation[expert,79mo]; Indexing Algorithms[expert,39mo]; Workflow Orchestration[expert,62mo]; Search Backend[advanced,23mo]; Python[expert,72mo]; Vector Representations[expert,41mo]
+  CERTS: []
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=94mo yoe*12=96 -> False | D sum_yoe=None vs 8.0 -> False | E futureCerts=[]
+  CAREER: n_jobs=2 short_stints(<18mo,ended)=0 companies=['LinkedIn', 'Yellow.ai']
+====================================================================================================
+### CAND_0068351 | Aadhya Iyer | Senior Engineer | Search & Discovery Infrastructure
+loc: Delhi, Delhi, India | yoe_field: 6.4 | Lead AI Engineer @ Sarvam AI (51-200, AI/ML)
+SUMMARY: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes — over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want — so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.
+  JOB: Lead AI Engineer @ Sarvam AI (51-200, AI/ML) 2024-05-07 -> None dur=25mo calc=25mo | para=P42(g5)
+       desc: Owned the search and discovery experience end-to-end at a consumer product, from how content is represented internally through to how the most relevant results appear for
+  JOB: Staff Machine Learning Engineer @ Verloop.io (51-200, Conversational AI) 2020-08-26 -> 2024-05-07 dur=45mo calc=45mo | para=P39(g5)
+       desc: Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructur
+  JOB: Senior Machine Learning Engineer @ Microsoft (10001+, Software) 2020-02-28 -> 2020-08-26 dur=6mo calc=6mo | para=P41(g5)
+       desc: Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The h
+  EDU: M.E. Computer Science @ IIIT Bangalore (tier tier_1) 2012-2016
+  EDU: B.Tech Computer Engineering @ Carnegie Mellon University (tier tier_1) 2011-2016
+  SKILLS(19): pgvector[expert,77mo]; Deep Learning[expert,44mo]; Qdrant[expert,78mo]; Elasticsearch[expert,44mo]; Feature Engineering[advanced,43mo]; Text Encoders[expert,51mo]; PEFT[expert,94mo]; Spring Boot[beginner,13mo]; Python[expert,67mo]; Redis[intermediate,30mo]; Haystack[expert,60mo]; Machine Learning[expert,68mo]; Open-source ML libraries[expert,81mo]; Ranking Systems[advanced,23mo]; LoRA[expert,49mo]; Information Retrieval Systems[advanced,39mo]; Search Backend[advanced,40mo]; GANs[intermediate,16mo]; NLP[advanced,27mo]
+  CERTS: []
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=76mo yoe*12=77 -> False | D sum_yoe=None vs 6.4 -> False | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=1 companies=['Sarvam AI', 'Verloop.io', 'Microsoft']
+====================================================================================================
+### CAND_0071974 | Sai Verma | Senior AI Engineer | Production ML at scale | 7.8+ yrs
+loc: Vizag, Andhra Pradesh, India | yoe_field: 7.8 | Senior AI Engineer @ Netflix (10001+, Media)
+SUMMARY: Senior AI engineer with 7.8 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I led the migration from keyword-based ranking to a learning-to-rank model with embedded behavioral signals, handling peak QPS of 8K with sub-200ms p95. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I believe most ranking problems are solved by careful feature engineering and rigorous eval, not by bigger models. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior AI Engineer @ Netflix (10001+, Media) 2022-04-18 -> None dur=50mo calc=50mo | para=P36(g5)
+       desc: Owned the end-to-end ranking pipeline at a recommendations-heavy consumer product: candidate sourcing → embedding generation (using a fine-tuned BGE-large) → Pinecone ret
+  JOB: Staff Machine Learning Engineer @ Meta (10001+, Internet) 2019-12-16 -> 2022-04-04 dur=28mo calc=28mo | para=P33(g5)
+       desc: Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-qu
+  JOB: Staff Machine Learning Engineer @ Mad Street Den (201-500, AI/ML) 2018-10-15 -> 2019-12-09 dur=14mo calc=14mo | para=P35(g5)
+       desc: Built and shipped a production recommendation system at a marketplace product, going from offline experimentation to live A/B test in 5 months. The system combined collab
+  EDU: M.Sc Artificial Intelligence @ NIT Warangal (tier tier_1) 2007-2011
+  SKILLS(19): LoRA[advanced,41mo]; Learning to Rank[advanced,45mo]; Weaviate[expert,61mo]; PEFT[advanced,43mo]; BM25[expert,58mo]; Pinecone[expert,51mo]; Machine Learning[advanced,20mo]; Information Retrieval[advanced,29mo]; Qdrant[expert,68mo]; Embeddings[expert,46mo]; CNN[advanced,45mo]; RAG[advanced,35mo]; MLOps[advanced,47mo]; Forecasting[advanced,48mo]; Sentence Transformers[expert,48mo]; Content Writing[intermediate,33mo]; Speech Recognition[advanced,18mo]; Elasticsearch[expert,96mo]; Object Detection[intermediate,21mo]
+  CERTS: [('Google Cloud Professional ML Engineer', 2024), ('NLP Specialization', 2021)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=92mo yoe*12=94 -> False | D sum_yoe=7.8 vs 7.8 -> False | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=1 companies=['Netflix', 'Meta', 'Mad Street Den']
+====================================================================================================
+### CAND_0077337 | Aarav Agarwal | Staff Machine Learning Engineer | Building AI-native search & ranking systems
+loc: Kochi, Kerala, India | yoe_field: 7.0 | Staff Machine Learning Engineer @ Paytm (10001+, Fintech)
+SUMMARY: Senior AI engineer with 7.0 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I designed the company's first hybrid retrieval system combining BM25 with dense vector recall, serving 50M+ queries per month. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I care more about shipping a working system in 6 weeks than a theoretically perfect one in 6 months. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Staff Machine Learning Engineer @ Paytm (10001+, Fintech) 2024-11-03 -> None dur=19mo calc=19mo | para=P35(g5)
+       desc: Built and shipped a production recommendation system at a marketplace product, going from offline experimentation to live A/B test in 5 months. The system combined collab
+  JOB: Senior NLP Engineer @ Razorpay (1001-5000, Fintech) 2023-08-27 -> 2024-10-20 dur=14mo calc=14mo | para=P37(g5)
+       desc: Owned the design and rollout of a large-scale semantic search system serving an internal corpus of 35M+ items. Migrated the existing BM25-only retrieval to a hybrid setup
+  JOB: Senior NLP Engineer @ Glance (501-1000, AI/ML) 2020-01-08 -> 2023-08-20 dur=44mo calc=43mo | para=P38(g5)
+       desc: Led the migration from keyword-based to embedding-based search across a 30M+ candidate corpus over 8 months. Designed three successive ranker variants and ran them in A/B
+  JOB: Senior AI Engineer @ Aganitha (51-200, AI/ML) 2019-06-12 -> 2019-12-09 dur=6mo calc=6mo | para=P38(g5)
+       desc: Led the migration from keyword-based to embedding-based search across a 30M+ candidate corpus over 8 months. Designed three successive ranker variants and ran them in A/B
+  EDU: B.Tech Computer Engineering @ Georgia Tech (tier tier_1) 2014-2018
+  SKILLS(20): GANs[intermediate,27mo]; Semantic Search[advanced,39mo]; QLoRA[expert,47mo]; pgvector[expert,75mo]; Pinecone[advanced,24mo]; Feature Engineering[intermediate,19mo]; BM25[expert,66mo]; Information Retrieval[expert,61mo]; LLMs[expert,63mo]; OpenCV[intermediate,21mo]; Data Science[intermediate,36mo]; Forecasting[advanced,24mo]; Excel[intermediate,29mo]; RAG[expert,77mo]; Qdrant[expert,56mo]; Recommendation Systems[expert,86mo]; Sentence Transformers[expert,36mo]; LlamaIndex[expert,47mo]; Python[expert,82mo]; OpenSearch[advanced,29mo]
+  CERTS: [('Deep Learning Specialization', 2018), ('NLP Specialization', 2023)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=84mo yoe*12=84 -> False | D sum_yoe=7.0 vs 7.0 -> False | E futureCerts=[]
+  CAREER: n_jobs=4 short_stints(<18mo,ended)=2 companies=['Paytm', 'Razorpay', 'Glance', 'Aganitha']
+====================================================================================================
+### CAND_0080766 | Kiara Mittal | Senior Engineer | Search & Discovery Infrastructure
+loc: Coimbatore, Tamil Nadu, India | yoe_field: 8.8 | Staff Machine Learning Engineer @ Salesforce (10001+, Software)
+SUMMARY: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes — over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want — so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.
+  JOB: Staff Machine Learning Engineer @ Salesforce (10001+, Software) 2023-04-13 -> None dur=38mo calc=38mo | para=P40(g5)
+       desc: Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, 
+  JOB: Staff Machine Learning Engineer @ Aganitha (51-200, AI/ML) 2022-04-18 -> 2023-04-13 dur=12mo calc=12mo | para=P42(g5)
+       desc: Owned the search and discovery experience end-to-end at a consumer product, from how content is represented internally through to how the most relevant results appear for
+  JOB: Lead AI Engineer @ Swiggy (5001-10000, Food Delivery) 2018-09-06 -> 2022-03-19 dur=43mo calc=42mo | para=P41(g5)
+       desc: Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The h
+  JOB: Senior Machine Learning Engineer @ Haptik (201-500, Conversational AI) 2017-08-28 -> 2018-08-23 dur=12mo calc=12mo | para=P37(g5)
+       desc: Owned the design and rollout of a large-scale semantic search system serving an internal corpus of 35M+ items. Migrated the existing BM25-only retrieval to a hybrid setup
+  EDU: M.Sc Computer Engineering @ RV College of Engineering (tier tier_2) 2010-2015
+  EDU: M.E. Computer Science @ NIT Surathkal (tier tier_1) 2018-2021
+  SKILLS(21): Search Backend[expert,55mo]; LoRA[expert,71mo]; Vue.js[intermediate,25mo]; Tally[intermediate,18mo]; Search & Discovery[expert,74mo]; MLOps[advanced,55mo]; Search Infrastructure[expert,49mo]; MLflow[advanced,40mo]; Open-source ML libraries[expert,59mo]; Information Retrieval Systems[advanced,28mo]; Elasticsearch[advanced,40mo]; Computer Vision[advanced,49mo]; Deep Learning[expert,44mo]; Natural Language Processing[advanced,43mo]; QLoRA[expert,55mo]; YOLO[intermediate,17mo]; OpenSearch[advanced,35mo]; Python[expert,53mo]; Milvus[advanced,48mo]; ASR[advanced,33mo]; TensorFlow[expert,94mo]
+  CERTS: []
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=106mo yoe*12=106 -> False | D sum_yoe=None vs 8.8 -> False | E futureCerts=[]
+  CAREER: n_jobs=4 short_stints(<18mo,ended)=2 companies=['Salesforce', 'Aganitha', 'Swiggy', 'Haptik']
+====================================================================================================
+### CAND_0081846 | Arjun Khanna | Lead AI Engineer | LLMs, RAG, Vector Search | ex-Top Tech
+loc: Jaipur, Rajasthan, India | yoe_field: 6.7 | Lead AI Engineer @ Razorpay (1001-5000, Fintech)
+SUMMARY: Senior AI engineer with 6.7 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I rebuilt the candidate-JD matching pipeline from scratch, taking it from 0.72 to 0.91 NDCG@10, serving 50M+ queries per month. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I have strong opinions about when LLMs are the right hammer and when classical IR is — usually it's both. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Lead AI Engineer @ Razorpay (1001-5000, Fintech) 2024-03-08 -> None dur=27mo calc=27mo | para=P34(g5)
+       desc: Built a RAG-based ranking pipeline serving 50M+ queries per month for an internal recruiter-facing search product. The architecture combined BM25 + dense retrieval (BGE e
+  JOB: Senior Machine Learning Engineer @ Paytm (10001+, Fintech) 2019-11-30 -> 2024-03-08 dur=52mo calc=52mo | para=P37(g5)
+       desc: Owned the design and rollout of a large-scale semantic search system serving an internal corpus of 35M+ items. Migrated the existing BM25-only retrieval to a hybrid setup
+  EDU: B.E. Data Science @ IIT Hyderabad (tier tier_1) 2006-2009
+  EDU: Ph.D Computer Engineering @ IIT Delhi (tier tier_1) 2015-2019
+  SKILLS(18): Data Science[advanced,19mo]; Information Retrieval[expert,93mo]; LlamaIndex[advanced,39mo]; pgvector[advanced,38mo]; Forecasting[advanced,51mo]; Learning to Rank[expert,58mo]; Elasticsearch[expert,60mo]; PyTorch[advanced,27mo]; Vector Search[expert,79mo]; scikit-learn[advanced,20mo]; Deep Learning[advanced,40mo]; Recommendation Systems[expert,62mo]; Python[expert,75mo]; Embeddings[expert,95mo]; Semantic Search[advanced,19mo]; BM25[expert,75mo]; Machine Learning[expert,68mo]; Qdrant[expert,49mo]
+  CERTS: [('Google Cloud Professional ML Engineer', 2021)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=79mo yoe*12=80 -> False | D sum_yoe=6.7 vs 6.7 -> False | E futureCerts=[]
+  CAREER: n_jobs=2 short_stints(<18mo,ended)=0 companies=['Razorpay', 'Paytm']
+====================================================================================================
+### CAND_0086022 | Dhruv Naidu | Senior Applied Scientist | LLMs, RAG, Vector Search | ex-Top Tech
+loc: Kolkata, West Bengal, India | yoe_field: 5.3 | Senior Applied Scientist @ Sarvam AI (51-200, AI/ML)
+SUMMARY: Senior AI engineer with 5.3 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I led the migration from keyword-based ranking to a learning-to-rank model with embedded behavioral signals, handling peak QPS of 8K with sub-200ms p95. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I've made all the standard mistakes — embedding everything before defining the metric, over-investing in fine-tuning, optimizing offline metrics that don't move online — so I notice them faster now. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior Applied Scientist @ Sarvam AI (51-200, AI/ML) 2024-05-07 -> None dur=25mo calc=25mo | para=P34(g5)
+       desc: Built a RAG-based ranking pipeline serving 50M+ queries per month for an internal recruiter-facing search product. The architecture combined BM25 + dense retrieval (BGE e
+  JOB: Senior ML Engineer — Search & Ranking @ Uber (10001+, Transportation) 2021-02-22 -> 2024-04-07 dur=38mo calc=38mo | para=P38(g5)
+       desc: Led the migration from keyword-based to embedding-based search across a 30M+ candidate corpus over 8 months. Designed three successive ranker variants and ran them in A/B
+  EDU: B.Tech Data Science @ Stanford University (tier tier_1) 2016-2020
+  SKILLS(19): Vector Search[advanced,36mo]; MLflow[advanced,46mo]; Recommendation Systems[advanced,53mo]; Databricks[beginner,15mo]; Deep Learning[advanced,28mo]; pgvector[expert,78mo]; Fine-tuning LLMs[expert,69mo]; Elasticsearch[advanced,35mo]; QLoRA[advanced,54mo]; Pinecone[expert,63mo]; Embeddings[expert,71mo]; Kubeflow[intermediate,10mo]; PyTorch[expert,94mo]; ETL[intermediate,15mo]; TensorFlow[advanced,20mo]; NLP[expert,41mo]; Sentence Transformers[expert,80mo]; LoRA[advanced,33mo]; LangChain[expert,46mo]
+  CERTS: [('LangChain for LLM Application Development', 2018), ('AWS Certified Machine Learning Specialty', 2018)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=64mo yoe*12=64 -> False | D sum_yoe=5.3 vs 5.3 -> False | E futureCerts=[]
+  CAREER: n_jobs=2 short_stints(<18mo,ended)=0 companies=['Sarvam AI', 'Uber']
+====================================================================================================
+### CAND_0088025 | Amit Arora | Staff Machine Learning Engineer | Building AI-native search & ranking systems
+loc: Jaipur, Rajasthan, India | yoe_field: 8.6 | Staff Machine Learning Engineer @ Yellow.ai (201-500, AI/ML)
+SUMMARY: Senior AI engineer with 8.6 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I designed the company's first hybrid retrieval system combining BM25 with dense vector recall, serving 50M+ queries per month. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I'm comfortable across the stack from infra to algorithms, but my heart is in retrieval and ranking. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Staff Machine Learning Engineer @ Yellow.ai (201-500, AI/ML) 2022-09-15 -> None dur=45mo calc=45mo | para=P36(g5)
+       desc: Owned the end-to-end ranking pipeline at a recommendations-heavy consumer product: candidate sourcing → embedding generation (using a fine-tuned BGE-large) → Pinecone ret
+  JOB: Staff Machine Learning Engineer @ Niramai (51-200, HealthTech AI) 2019-02-03 -> 2022-09-15 dur=44mo calc=43mo | para=P36(g5)
+       desc: Owned the end-to-end ranking pipeline at a recommendations-heavy consumer product: candidate sourcing → embedding generation (using a fine-tuned BGE-large) → Pinecone ret
+  JOB: Senior Machine Learning Engineer @ Genpact AI (10001+, AI Services) 2017-12-10 -> 2019-01-04 dur=13mo calc=13mo | para=P38(g5)
+       desc: Led the migration from keyword-based to embedding-based search across a 30M+ candidate corpus over 8 months. Designed three successive ranker variants and ran them in A/B
+  EDU: Ph.D Data Science @ COEP Pune (tier tier_2) 2004-2009
+  SKILLS(19): Pinecone[advanced,49mo]; QLoRA[expert,83mo]; LLMs[expert,71mo]; Hugging Face Transformers[expert,55mo]; RAG[expert,41mo]; SAP[beginner,7mo]; TensorFlow[expert,86mo]; LoRA[advanced,22mo]; Flask[beginner,14mo]; Prompt Engineering[advanced,35mo]; BM25[expert,61mo]; Elasticsearch[expert,69mo]; MLOps[intermediate,17mo]; pgvector[expert,61mo]; Learning to Rank[expert,90mo]; Deep Learning[advanced,19mo]; Python[expert,63mo]; NLP[expert,46mo]; YOLO[advanced,34mo]
+  CERTS: []
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=102mo yoe*12=103 -> False | D sum_yoe=8.6 vs 8.6 -> False | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=1 companies=['Yellow.ai', 'Niramai', 'Genpact AI']
+====================================================================================================
+### CAND_0092278 | Ananya Arora | Senior NLP Engineer | Building AI-native search & ranking systems
+loc: Pune, Maharashtra, India | yoe_field: 6.8 | Senior NLP Engineer @ Microsoft (10001+, Software)
+SUMMARY: Senior AI engineer with 6.8 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I drove the platform's RAG strategy from prototype to production, including the eval framework, across a corpus of 30M+ candidate profiles. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I'm comfortable across the stack from infra to algorithms, but my heart is in retrieval and ranking. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior NLP Engineer @ Microsoft (10001+, Software) 2023-08-11 -> None dur=34mo calc=34mo | para=P35(g5)
+       desc: Built and shipped a production recommendation system at a marketplace product, going from offline experimentation to live A/B test in 5 months. The system combined collab
+  JOB: Senior NLP Engineer @ Paytm (10001+, Fintech) 2021-07-22 -> 2023-08-11 dur=25mo calc=25mo | para=P35(g5)
+       desc: Built and shipped a production recommendation system at a marketplace product, going from offline experimentation to live A/B test in 5 months. The system combined collab
+  JOB: Senior NLP Engineer @ Saarthi.ai (11-50, Voice AI) 2019-10-31 -> 2021-07-22 dur=21mo calc=21mo | para=P34(g5)
+       desc: Built a RAG-based ranking pipeline serving 50M+ queries per month for an internal recruiter-facing search product. The architecture combined BM25 + dense retrieval (BGE e
+  EDU: B.E. Computer Science @ IIT Delhi (tier tier_1) 2016-2020
+  SKILLS(17): TensorFlow[advanced,27mo]; Machine Learning[expert,61mo]; Hugging Face Transformers[expert,80mo]; gRPC[beginner,10mo]; QLoRA[expert,79mo]; pgvector[expert,73mo]; NLP[expert,85mo]; Elasticsearch[expert,43mo]; Vector Search[advanced,45mo]; Milvus[expert,72mo]; LLMs[expert,64mo]; PEFT[expert,65mo]; Object Detection[intermediate,33mo]; MLflow[intermediate,27mo]; Time Series[advanced,22mo]; GANs[advanced,24mo]; Semantic Search[expert,38mo]
+  CERTS: [('Deep Learning Specialization', 2024), ('AWS Certified Machine Learning Specialty', 2018)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=80mo yoe*12=82 -> False | D sum_yoe=6.8 vs 6.8 -> False | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=0 companies=['Microsoft', 'Paytm', 'Saarthi.ai']
+====================================================================================================
+### CAND_0093193 | Aarohi Bose | Senior Engineer | 7.9+ yrs in production systems
+loc: Bangalore, Karnataka, India | yoe_field: 7.9 | Senior Machine Learning Engineer @ Niramai (51-200, HealthTech AI)
+SUMMARY: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes — over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want — so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.
+  JOB: Senior Machine Learning Engineer @ Niramai (51-200, HealthTech AI) 2022-10-15 -> None dur=44mo calc=44mo | para=P39(g5)
+       desc: Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructur
+  JOB: Lead AI Engineer @ Netflix (10001+, Media) 2018-08-23 -> 2022-10-01 dur=50mo calc=50mo | para=P39(g5)
+       desc: Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructur
+  EDU: Ph.D Information Technology @ Jadavpur University (tier tier_2) 2007-2010
+  SKILLS(19): Ranking Systems[expert,77mo]; Text Encoders[expert,92mo]; Indexing Algorithms[expert,37mo]; Forecasting[advanced,44mo]; Vector Representations[expert,46mo]; Qdrant[advanced,20mo]; OpenSearch[expert,88mo]; Open-source ML libraries[advanced,37mo]; TensorFlow[expert,54mo]; Content Matching[advanced,43mo]; Information Retrieval Systems[expert,76mo]; Haystack[expert,58mo]; Statistical Modeling[intermediate,8mo]; Machine Learning[advanced,52mo]; Search & Discovery[expert,66mo]; GANs[advanced,45mo]; Search Backend[advanced,56mo]; scikit-learn[expert,84mo]; ASR[advanced,38mo]
+  CERTS: []
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=94mo yoe*12=95 -> False | D sum_yoe=None vs 7.9 -> False | E futureCerts=[]
+  CAREER: n_jobs=2 short_stints(<18mo,ended)=0 companies=['Niramai', 'Netflix']
+====================================================================================================
+### CAND_0093547 | Arnav Ghosh | Senior Machine Learning Engineer | Building AI-native search & ranking systems
+loc: Coimbatore, Tamil Nadu, India | yoe_field: 2.9 | Senior Machine Learning Engineer @ PhonePe (5001-10000, Fintech)
+SUMMARY: Senior AI engineer with 6.3 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I rebuilt the candidate-JD matching pipeline from scratch, taking it from 0.72 to 0.91 NDCG@10, handling peak QPS of 8K with sub-200ms p95. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I believe most ranking problems are solved by careful feature engineering and rigorous eval, not by bigger models. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Senior Machine Learning Engineer @ PhonePe (5001-10000, Fintech) 2024-08-05 -> None dur=22mo calc=22mo | para=P36(g5)
+       desc: Owned the end-to-end ranking pipeline at a recommendations-heavy consumer product: candidate sourcing → embedding generation (using a fine-tuned BGE-large) → Pinecone ret
+  JOB: Senior Machine Learning Engineer @ Sarvam AI (51-200, AI/ML) 2021-01-16 -> 2024-07-29 dur=43mo calc=42mo | para=P33(g5)
+       desc: Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-qu
+  JOB: Lead AI Engineer @ Aganitha (51-200, AI/ML) 2020-03-22 -> 2020-12-17 dur=9mo calc=9mo | para=P33(g5)
+       desc: Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-qu
+  EDU: M.S. Data Science @ UC Berkeley (tier tier_1) 2017-2022
+  SKILLS(21): LLMs[expert,42mo]; RAG[expert,94mo]; Python[advanced,59mo]; QLoRA[advanced,49mo]; Kubeflow[advanced,25mo]; PEFT[expert,93mo]; GANs[intermediate,26mo]; Machine Learning[advanced,18mo]; Diffusion Models[intermediate,36mo]; PyTorch[advanced,22mo]; Haystack[expert,86mo]; Milvus[expert,70mo]; FAISS[advanced,26mo]; Learning to Rank[advanced,43mo]; TensorFlow[advanced,49mo]; Apache Flink[beginner,3mo]; scikit-learn[advanced,41mo]; SEO[intermediate,35mo]; Weaviate[expert,62mo]; Reinforcement Learning[intermediate,9mo]; Information Retrieval[expert,70mo]
+  CERTS: [('AWS Certified Machine Learning Specialty', 2022)]
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=75mo yoe*12=35 -> False | D sum_yoe=6.3 vs 2.9 -> True | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=1 companies=['PhonePe', 'Sarvam AI', 'Aganitha']
+====================================================================================================
+### CAND_0094759 | Aditya Pillai | Lead AI Engineer | Production ML at scale | 8.6+ yrs
+loc: Mumbai, Maharashtra, India | yoe_field: 8.6 | Lead AI Engineer @ Meta (10001+, Internet)
+SUMMARY: Senior AI engineer with 8.6 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I rebuilt the candidate-JD matching pipeline from scratch, taking it from 0.72 to 0.91 NDCG@10, handling peak QPS of 8K with sub-200ms p95. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I believe most ranking problems are solved by careful feature engineering and rigorous eval, not by bigger models. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.
+  JOB: Lead AI Engineer @ Meta (10001+, Internet) 2023-10-10 -> None dur=32mo calc=32mo | para=P38(g5)
+       desc: Led the migration from keyword-based to embedding-based search across a 30M+ candidate corpus over 8 months. Designed three successive ranker variants and ran them in A/B
+  JOB: Senior NLP Engineer @ Apple (10001+, Consumer Electronics) 2021-06-08 -> 2023-09-26 dur=28mo calc=27mo | para=P34(g5)
+       desc: Built a RAG-based ranking pipeline serving 50M+ queries per month for an internal recruiter-facing search product. The architecture combined BM25 + dense retrieval (BGE e
+  JOB: Senior Applied Scientist @ Locobuzz (51-200, AI/ML) 2018-01-25 -> 2021-06-08 dur=41mo calc=41mo | para=P38(g5)
+       desc: Led the migration from keyword-based to embedding-based search across a 30M+ candidate corpus over 8 months. Designed three successive ranker variants and ran them in A/B
+  EDU: M.Tech Information Technology @ Manipal Institute of Technology (tier tier_2) 2012-2017
+  SKILLS(16): Prompt Engineering[expert,95mo]; scikit-learn[advanced,50mo]; Hugging Face Transformers[expert,72mo]; Learning to Rank[advanced,34mo]; Semantic Search[expert,52mo]; Qdrant[advanced,55mo]; Fine-tuning LLMs[expert,65mo]; Agile[intermediate,28mo]; Vector Search[expert,41mo]; TTS[advanced,22mo]; NLP[advanced,37mo]; Object Detection[intermediate,24mo]; MLOps[advanced,48mo]; FAISS[expert,47mo]; Weights & Biases[advanced,24mo]; Weaviate[expert,45mo]
+  CERTS: []
+  HONEYPOT: A_expert0mo=0 | B_durMismatch=[] | C span=101mo yoe*12=103 -> False | D sum_yoe=8.6 vs 8.6 -> False | E futureCerts=[]
+  CAREER: n_jobs=3 short_stints(<18mo,ended)=0 companies=['Meta', 'Apple', 'Locobuzz']
