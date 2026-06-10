@@ -195,11 +195,14 @@ def rank_pool(df, params, top_n=100):
     df.loc[(df["best_grade"] < params["min_best_grade"]) & (df["exclusion"] == ""), "final"] -= 1e6
 
     ranked = df.sort_values(["final", "candidate_id"], ascending=[False, True]).head(top_n)
-    ranked = ranked.reset_index(drop=True)
-    ranked["rank"] = ranked.index + 1
 
-    # normalized monotone score for the submission file
+    # normalized monotone score for the submission file; rounding can collapse
+    # near-ties, so the final order applies the validator's tie-break rule
+    # (equal score -> candidate_id ascending) on the rounded values
     lo, hi = ranked["final"].min(), ranked["final"].max()
     span = (hi - lo) if hi > lo else 1.0
     ranked["score"] = (0.30 + 0.69 * (ranked["final"] - lo) / span).round(4)
+    ranked = ranked.sort_values(["score", "candidate_id"], ascending=[False, True])
+    ranked = ranked.reset_index(drop=True)
+    ranked["rank"] = ranked.index + 1
     return df, ranked

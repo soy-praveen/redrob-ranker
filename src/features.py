@@ -203,7 +203,9 @@ _LEX = {
     "production": [re.compile(p, re.I) for p in PRODUCTION_PHRASES],
 }
 
-SUMMARY_YOE_RE = re.compile(r"(\d+\.?\d*)\+? (?:years|yrs)(?: of| hands-on)? experience", re.I)
+SUMMARY_YOE_RE = re.compile(
+    r"(\d+\.?\d*)\+? (?:years|yrs)(?: of)?(?: hands-on)? experience", re.I
+)
 
 
 @lru_cache(maxsize=None)
