@@ -170,7 +170,7 @@ def main(out="docs/deck.pdf"):
 
     # 10 — Submission Assets
     slide(pdf, "Submission Assets", [
-        ("b", "GitHub repository:  https://github.com/FILL_ME/redrob-ranker"),
+        ("b", "GitHub repository:  https://github.com/soy-praveen/redrob-ranker"),
         ("b", "Hosted sandbox (Streamlit):  https://FILL_ME.streamlit.app"),
         ("b", "Ranked output:  submission.csv  (top-100, validator-clean)"),
         ("b", "Reproduce:  python rank.py --candidates ./candidates.jsonl --out ./submission.csv"),

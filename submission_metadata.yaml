@@ -16,7 +16,7 @@ team_members:
 # ============================================================================
 # Code and reproducibility
 # ============================================================================
-github_repo: "https://github.com/FILL_ME/redrob-ranker"   # TODO after push
+github_repo: "https://github.com/soy-praveen/redrob-ranker"
 sandbox_link: "https://FILL_ME.streamlit.app"             # TODO after deploy
 
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
