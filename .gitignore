@@ -3,3 +3,4 @@ data/
 __pycache__/
 .venv/
 *.pyc
+eda/honeypot_jsonl_cache*.parquet

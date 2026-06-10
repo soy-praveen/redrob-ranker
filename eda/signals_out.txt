@@ -1,0 +1,669 @@
+rows=100000
+
+================================================================================
+S1. DISTRIBUTIONS OF EVERY SIGNAL
+================================================================================
+                                mean      std    min     25%     50%     75%      max  nunique
+sig_profile_completeness      56.758   17.274  25.00   42.20   56.80   71.60    99.90      729
+sig_profile_views_30d         47.985   32.052   0.00   23.00   45.00   68.00   374.00      261
+sig_applications_30d           5.390    3.495   0.00    2.00    5.00    8.00    24.00       25
+sig_response_rate              0.437    0.214   0.02    0.25    0.44    0.62     0.95       94
+sig_avg_response_hours       132.703   75.238   2.10   68.30  129.90  193.30   280.00     2779
+sig_n_assessments              0.359    0.773   0.00    0.00    0.00    0.00     5.00        6
+sig_assessment_mean           51.158   14.534  20.00   40.00   52.20   62.60    93.90     2844
+sig_connection_count         345.665  208.146  10.00  174.00  335.00  497.00  1898.00     1191
+sig_endorsements_received     30.069   20.243   0.00   14.00   28.00   43.00   242.00      172
+sig_notice_period_days        87.386   36.590   0.00   60.00   90.00  120.00   150.00        8
+sig_salary_min                12.172    5.565   3.00    7.80   11.90   15.80    49.70      397
+sig_salary_max                19.843    8.319   6.00   13.50   19.40   25.20    74.50      547
+sig_github_activity            9.619   17.761  -1.00   -1.00   -1.00   16.70    96.90      833
+sig_search_appearance_30d    117.544   92.826   0.00   52.00  105.00  158.00  1490.00      784
+sig_saved_by_recruiters_30d    7.659    5.921   0.00    3.00    7.00   11.00    80.00       67
+sig_interview_completion       0.620    0.171   0.30    0.48    0.62    0.76     1.00       71
+sig_offer_acceptance          -0.404    0.732  -1.00   -1.00   -1.00    0.40     0.93       79
+days_since_active            122.724   66.588  14.00   66.00  119.00  176.00   254.00      241
+
+bool/categorical base rates:
+  sig_open_to_work             True=35.34%
+  sig_willing_to_relocate      True=28.80%
+  sig_verified_email           True=72.00%
+  sig_verified_phone           True=61.79%
+  sig_linkedin_connected       True=36.00%
+  signup_after_active          True= 7.50%
+sig_work_mode
+hybrid      25076
+onsite      25000
+flexible    25000
+remote      24924
+
+sentinel / boundary masses:
+  sig_github_activity == -1 (no GitHub): 64.64%
+  sig_interview_completion == -1:        0.00%
+  sig_offer_acceptance == -1:            59.55%
+  sig_assessment_mean NaN (no tests):    75.76%
+  sig_response_rate == 0:  0.00%   ==1: 0.00%
+  sig_profile_completeness ==1: 0.00%  ==min(25.00): 0.06%
+  sig_notice_period_days uniques: [np.int64(0), np.int64(15), np.int64(30), np.int64(45), np.int64(60), np.int64(90), np.int64(120), np.int64(150)]
+  hist sig_profile_completeness:
+            (-0.001, 30.0]    5762   5.8%
+              (30.0, 40.0]   15607  15.6%
+              (40.0, 50.0]   16987  17.0%
+              (50.0, 60.0]   17133  17.1%
+              (60.0, 70.0]   16892  16.9%
+              (70.0, 80.0]   17006  17.0%
+              (80.0, 90.0]   10421  10.4%
+             (90.0, 100.0]     192   0.2%
+  hist sig_response_rate:
+             (-0.002, 0.0]       0   0.0%
+                (0.0, 0.1]    5312   5.3%
+               (0.1, 0.25]   19898  19.9%
+               (0.25, 0.5]   34074  34.1%
+               (0.5, 0.75]   34362  34.4%
+               (0.75, 0.9]    6325   6.3%
+                (0.9, 1.0]      29   0.0%
+  hist sig_github_activity:
+    (-1.0019999999999998, -0.999]   64637  64.6%
+             (-0.999, 0.0]      32   0.0%
+               (0.0, 10.0]    6145   6.1%
+              (10.0, 25.0]    9459   9.5%
+              (25.0, 50.0]   15810  15.8%
+              (50.0, 75.0]    3779   3.8%
+             (75.0, 100.0]     138   0.1%
+  hist sig_avg_response_hours:
+             (-0.001, 2.0]       0   0.0%
+                (2.0, 6.0]     164   0.2%
+               (6.0, 12.0]    1945   1.9%
+              (12.0, 24.0]    4871   4.9%
+              (24.0, 48.0]    9672   9.7%
+              (48.0, 96.0]   19633  19.6%
+             (96.0, 200.0]   41116  41.1%
+           (200.0, 1000.0]   22599  22.6%
+  hist sig_connection_count:
+             (-1.001, 0.0]       0   0.0%
+               (0.0, 50.0]    5899   5.9%
+             (50.0, 150.0]   15521  15.5%
+            (150.0, 300.0]   23234  23.2%
+            (300.0, 500.0]   30900  30.9%
+           (500.0, 1000.0]   24173  24.2%
+          (1000.0, 3000.0]     273   0.3%
+         (3000.0, 50000.0]       0   0.0%
+  hist sig_profile_views_30d:
+             (-1.001, 0.0]    1080   1.1%
+                (0.0, 5.0]    5451   5.5%
+               (5.0, 15.0]   10669  10.7%
+              (15.0, 30.0]   16455  16.5%
+              (30.0, 60.0]   32867  32.9%
+             (60.0, 120.0]   31755  31.8%
+          (120.0, 10000.0]    1723   1.7%
+  hist sig_applications_30d:
+             (-1.001, 0.0]    8635   8.6%
+                (0.0, 2.0]   17135  17.1%
+                (2.0, 5.0]   25848  25.8%
+               (5.0, 10.0]   42694  42.7%
+              (10.0, 20.0]    5672   5.7%
+              (20.0, 50.0]      16   0.0%
+            (50.0, 1000.0]       0   0.0%
+  hist sig_search_appearance_30d:
+             (-1.001, 0.0]     487   0.5%
+               (0.0, 10.0]    4775   4.8%
+              (10.0, 30.0]    9576   9.6%
+              (30.0, 60.0]   14056  14.1%
+             (60.0, 120.0]   28320  28.3%
+            (120.0, 250.0]   35189  35.2%
+         (250.0, 100000.0]    7597   7.6%
+  hist sig_saved_by_recruiters_30d:
+             (-1.001, 0.0]    6671   6.7%
+                (0.0, 1.0]    6663   6.7%
+                (1.0, 3.0]   13599  13.6%
+                (3.0, 6.0]   19978  20.0%
+               (6.0, 12.0]   39853  39.9%
+              (12.0, 25.0]   11844  11.8%
+            (25.0, 1000.0]    1392   1.4%
+  hist salary_min (LPA):
+             (-0.001, 5.0]    9315   9.3%
+               (5.0, 10.0]   29125  29.1%
+              (10.0, 15.0]   31633  31.6%
+              (15.0, 20.0]   22932  22.9%
+              (20.0, 30.0]    6023   6.0%
+              (30.0, 50.0]     972   1.0%
+             (50.0, 100.0]       0   0.0%
+          (100.0, 10000.0]       0   0.0%
+  hist salary_max (LPA):
+             (-0.001, 5.0]       0   0.0%
+               (5.0, 10.0]   12560  12.6%
+              (10.0, 15.0]   19064  19.1%
+              (15.0, 20.0]   20961  21.0%
+              (20.0, 30.0]   37525  37.5%
+              (30.0, 50.0]    9594   9.6%
+             (50.0, 100.0]     296   0.3%
+          (100.0, 10000.0]       0   0.0%
+  hist interview_completion (real):
+             (-0.001, 0.2]       0   0.0%
+                (0.2, 0.4]   12724  12.7%
+                (0.4, 0.6]   34446  34.4%
+                (0.6, 0.8]   35024  35.0%
+                (0.8, 0.9]   14892  14.9%
+                (0.9, 1.0]    2914   2.9%
+  hist offer_acceptance (real):
+             (-0.001, 0.2]    2359   5.8%
+                (0.2, 0.4]   13215  32.7%
+                (0.4, 0.6]   13346  33.0%
+                (0.6, 0.8]   11213  27.7%
+                (0.8, 0.9]     310   0.8%
+                (0.9, 1.0]       3   0.0%
+  hist assessment_mean (real):
+            (-0.001, 20.0]       8   0.0%
+              (20.0, 40.0]    6091  25.1%
+              (40.0, 50.0]    4857  20.0%
+              (50.0, 60.0]    5808  24.0%
+              (60.0, 70.0]    5080  21.0%
+              (70.0, 80.0]    2268   9.4%
+              (80.0, 90.0]     128   0.5%
+             (90.0, 100.0]       4   0.0%
+
+================================================================================
+S2. CORRELATIONS + LATENT FACTOR (PC1)
+================================================================================
+pairs with |r| > 0.10:
+  sig_n_assessments              x sig_salary_max                 r=+0.366
+  sig_salary_max                 x sig_search_appearance_30d      r=+0.364
+  sig_salary_min                 x sig_salary_max                 r=+0.362
+  sig_salary_min                 x sig_search_appearance_30d      r=+0.345
+  sig_n_assessments              x sig_salary_min                 r=+0.340
+  sig_n_assessments              x sig_search_appearance_30d      r=+0.338
+  sig_salary_max                 x sig_saved_by_recruiters_30d    r=+0.322
+  sig_search_appearance_30d      x sig_saved_by_recruiters_30d    r=+0.314
+  sig_salary_min                 x sig_saved_by_recruiters_30d    r=+0.305
+  sig_n_assessments              x sig_saved_by_recruiters_30d    r=+0.304
+  sig_endorsements_received      x sig_salary_max                 r=+0.272
+  sig_endorsements_received      x sig_search_appearance_30d      r=+0.263
+  sig_profile_views_30d          x sig_salary_max                 r=+0.259
+  sig_assessment_mean            x sig_salary_max                 r=+0.256
+  sig_endorsements_received      x sig_salary_min                 r=+0.255
+  sig_n_assessments              x sig_endorsements_received      r=+0.253
+  sig_profile_views_30d          x sig_search_appearance_30d      r=+0.250
+  sig_assessment_mean            x sig_salary_min                 r=+0.246
+  sig_profile_views_30d          x sig_n_assessments              r=+0.245
+  sig_profile_views_30d          x sig_salary_min                 r=+0.244
+  sig_endorsements_received      x sig_saved_by_recruiters_30d    r=+0.233
+  sig_profile_views_30d          x sig_saved_by_recruiters_30d    r=+0.229
+  sig_assessment_mean            x sig_search_appearance_30d      r=+0.223
+  sig_connection_count           x sig_salary_max                 r=+0.211
+  sig_connection_count           x sig_search_appearance_30d      r=+0.205
+  sig_connection_count           x sig_salary_min                 r=+0.201
+  sig_n_assessments              x sig_assessment_mean            r=+0.200
+  sig_n_assessments              x sig_connection_count           r=+0.195
+  sig_assessment_mean            x sig_saved_by_recruiters_30d    r=+0.192
+  sig_profile_views_30d          x sig_endorsements_received      r=+0.184
+  sig_connection_count           x sig_saved_by_recruiters_30d    r=+0.180
+  sig_assessment_mean            x sig_endorsements_received      r=+0.172
+  sig_salary_max                 x sig_github_activity            r=+0.171
+  sig_github_activity            x sig_search_appearance_30d      r=+0.163
+  sig_profile_views_30d          x sig_assessment_mean            r=+0.160
+  sig_salary_max                 x days_since_active              r=-0.158
+  sig_n_assessments              x sig_github_activity            r=+0.158
+  sig_salary_min                 x sig_github_activity            r=+0.156
+  sig_connection_count           x sig_endorsements_received      r=+0.155
+  sig_salary_max                 x sig_interview_completion       r=+0.152
+  sig_salary_min                 x days_since_active              r=-0.150
+  sig_n_assessments              x days_since_active              r=-0.149
+  sig_profile_views_30d          x sig_connection_count           r=+0.149
+  sig_github_activity            x sig_saved_by_recruiters_30d    r=+0.148
+  sig_search_appearance_30d      x days_since_active              r=-0.146
+  sig_avg_response_hours         x sig_salary_max                 r=-0.145
+  sig_salary_min                 x sig_interview_completion       r=+0.141
+  sig_search_appearance_30d      x sig_interview_completion       r=+0.139
+  sig_avg_response_hours         x sig_search_appearance_30d      r=-0.138
+  sig_n_assessments              x sig_interview_completion       r=+0.137
+  sig_assessment_mean            x sig_connection_count           r=+0.137
+  sig_saved_by_recruiters_30d    x days_since_active              r=-0.137
+  sig_avg_response_hours         x sig_salary_min                 r=-0.136
+  sig_avg_response_hours         x sig_n_assessments              r=-0.135
+  sig_assessment_mean            x days_since_active              r=-0.133
+  sig_applications_30d           x sig_salary_max                 r=+0.132
+  sig_avg_response_hours         x sig_saved_by_recruiters_30d    r=-0.128
+  sig_saved_by_recruiters_30d    x sig_interview_completion       r=+0.127
+  sig_endorsements_received      x sig_github_activity            r=+0.124
+  sig_applications_30d           x sig_n_assessments              r=+0.120
+  sig_profile_views_30d          x sig_github_activity            r=+0.119
+  sig_applications_30d           x sig_search_appearance_30d      r=+0.119
+  sig_applications_30d           x sig_salary_min                 r=+0.118
+  sig_avg_response_hours         x sig_assessment_mean            r=-0.115
+  sig_profile_completeness       x sig_salary_max                 r=+0.114
+  sig_assessment_mean            x sig_github_activity            r=+0.114
+  sig_endorsements_received      x days_since_active              r=-0.113
+  sig_profile_views_30d          x days_since_active              r=-0.113
+  sig_salary_max                 x sig_offer_acceptance           r=+0.113
+  sig_profile_completeness       x sig_search_appearance_30d      r=+0.111
+  sig_profile_views_30d          x sig_interview_completion       r=+0.109
+  sig_endorsements_received      x sig_interview_completion       r=+0.108
+  sig_salary_min                 x sig_offer_acceptance           r=+0.106
+  sig_avg_response_hours         x sig_endorsements_received      r=-0.106
+  sig_applications_30d           x sig_saved_by_recruiters_30d    r=+0.105
+  sig_n_assessments              x sig_offer_acceptance           r=+0.105
+  sig_profile_completeness       x sig_n_assessments              r=+0.104
+  sig_profile_completeness       x sig_salary_min                 r=+0.104
+  sig_search_appearance_30d      x sig_offer_acceptance           r=+0.102
+  sig_profile_views_30d          x sig_avg_response_hours         r=-0.101
+  sig_assessment_mean            x sig_interview_completion       r=+0.100
+  (total pairs over threshold: 81 of 153)
+  off-diagonal |r|: mean=0.1193  max=0.3664
+
+PCA on 10 engagement signals: explained var = [0.214 0.098 0.096]
+PC1 loadings:
+  sig_search_appearance_30d      +0.459
+  sig_saved_by_recruiters_30d    +0.433
+  sig_endorsements_received      +0.384
+  sig_profile_views_30d          +0.375
+  sig_connection_count           +0.319
+  days_since_active              -0.247
+  sig_avg_response_hours         -0.232
+  sig_applications_30d           +0.205
+  sig_profile_completeness       +0.178
+  sig_response_rate              +0.152
+  hist PC1:
+          (-3.549, -1.845]    4010   4.0%
+          (-1.845, -0.162]   50047  50.0%
+           (-0.162, 1.521]   33569  33.6%
+            (1.521, 3.204]    9182   9.2%
+            (3.204, 4.886]    2084   2.1%
+            (4.886, 6.569]     629   0.6%
+            (6.569, 8.252]     267   0.3%
+            (8.252, 9.935]     137   0.1%
+           (9.935, 11.618]      41   0.0%
+          (11.618, 13.301]      23   0.0%
+          (13.301, 14.984]       7   0.0%
+          (14.984, 16.666]       4   0.0%
+GMM BIC on PC1 (lower=better; if k>=2 wins by a lot -> discrete tiers):
+  k=1  BIC=72,309
+  k=2  BIC=66,580
+  k=3  BIC=65,932
+  k=4  BIC=65,851
+
+================================================================================
+S3. RECENCY (days_since_active)
+================================================================================
+count    100000.0
+mean        122.7
+std          66.6
+min          14.0
+25%          66.0
+50%         119.0
+75%         176.0
+max         254.0
+  hist days_since_active:
+             (-1.001, 7.0]       0   0.0%
+               (7.0, 30.0]    8205   8.2%
+              (30.0, 90.0]   28419  28.4%
+             (90.0, 180.0]   40245  40.2%
+            (180.0, 270.0]   23131  23.1%
+            (270.0, 400.0]       0   0.0%
+  inactive >90d: 63.38%   >180d: 23.13%
+ghost (>180d) vs active means:
+  sig_response_rate              ghost=   0.420  active=   0.442
+  sig_applications_30d           ghost=   5.095  active=   5.479
+  sig_profile_views_30d          ghost=  41.751  active=  49.861
+  sig_open_to_work               ghost=   0.327  active=   0.361
+  sig_profile_completeness       ghost=  55.545  active=  57.123
+  sig_saved_by_recruiters_30d    ghost=   6.312  active=   8.064
+corr(days_since_active, sig_response_rate)    = -0.046
+corr(days_since_active, sig_applications_30d) = -0.051
+corr(days_since_active, sig_profile_views_30d)= -0.113
+signup_after_active=True (impossible dates): 7496 (7.50%)
+
+================================================================================
+S4. ARE SIGNALS CONDITIONED ON PROFILE QUALITY? (leak test)
+================================================================================
+AI-relevant title: 6673 (6.67%); +5-9 yoe: 2208 (2.21%)
+JD-keyword match (>=3 hits + 5-9 yoe): 4251 (4.25%)
+
+--- target: AI title (n_pos=6673) ---
+  per-signal AUC (vs 0.5 = no info), top 8:
+    sig_assessment_mean            AUC=0.5452  mean_pos=     57.28  mean_neg=     50.72
+    sig_notice_period_days         AUC=0.4663  mean_pos=     83.49  mean_neg=     87.66
+    sig_profile_completeness       AUC=0.5263  mean_pos=     58.41  mean_neg=     56.64
+    sig_response_rate              AUC=0.5203  mean_pos=      0.45  mean_neg=      0.44
+    sig_salary_min                 AUC=0.5171  mean_pos=     13.56  mean_neg=     12.07
+    sig_applications_30d           AUC=0.5155  mean_pos=      5.78  mean_neg=      5.36
+    sig_avg_response_hours         AUC=0.4850  mean_pos=    129.63  mean_neg=    132.92
+    sig_github_activity            AUC=0.5133  mean_pos=     11.47  mean_neg=      9.49
+  LogReg(all 23 signals) 3-fold AUC = 0.5277 +/- 0.0056
+
+--- target: AI title + 5-9yoe (n_pos=2208) ---
+  per-signal AUC (vs 0.5 = no info), top 8:
+    sig_assessment_mean            AUC=0.5767  mean_pos=     60.41  mean_neg=     50.89
+    sig_salary_min                 AUC=0.5754  mean_pos=     15.51  mean_neg=     12.10
+    sig_salary_max                 AUC=0.5638  mean_pos=     24.43  mean_neg=     19.74
+    sig_search_appearance_30d      AUC=0.5550  mean_pos=    189.87  mean_neg=    115.91
+    sig_profile_completeness       AUC=0.5550  mean_pos=     60.27  mean_neg=     56.68
+    days_since_active              AUC=0.4471  mean_pos=    111.69  mean_neg=    122.97
+    sig_avg_response_hours         AUC=0.4487  mean_pos=    120.28  mean_neg=    132.98
+    sig_n_assessments              AUC=0.5492  mean_pos=      0.75  mean_neg=      0.35
+  LogReg(all 23 signals) 3-fold AUC = 0.5595 +/- 0.0135
+
+--- target: JD-match (n_pos=4251) ---
+  per-signal AUC (vs 0.5 = no info), top 8:
+    sig_salary_max                 AUC=0.6708  mean_pos=     26.72  mean_neg=     19.54
+    sig_salary_min                 AUC=0.6637  mean_pos=     16.68  mean_neg=     11.97
+    sig_n_assessments              AUC=0.6436  mean_pos=      1.03  mean_neg=      0.33
+    sig_search_appearance_30d      AUC=0.6328  mean_pos=    197.09  mean_neg=    114.01
+    sig_saved_by_recruiters_30d    AUC=0.6113  mean_pos=     11.83  mean_neg=      7.47
+    sig_endorsements_received      AUC=0.6020  mean_pos=     41.63  mean_neg=     29.56
+    sig_connection_count           AUC=0.5994  mean_pos=    445.72  mean_neg=    341.22
+    sig_profile_views_30d          AUC=0.5953  mean_pos=     65.38  mean_neg=     47.21
+  LogReg(all 23 signals) 3-fold AUC = 0.7020 +/- 0.0116
+
+================================================================================
+S5. GITHUB ACTIVITY vs TECHNICAL TITLES
+================================================================================
+technical-title share: 47.24%
+gh==-1: overall 64.64%  tech 58.50%  non-tech 70.13%
+gh>0 mean: tech 32.30  non-tech 24.96
+gh>=50: tech 8.34%  non-tech 0.02%
+AUC(gh predicts tech title) = 0.5714
+gh==-1 rate for AI-fit: 59.92%  JD-match: 54.55%
+
+================================================================================
+S6. AVAILABILITY COHORT (verified + open_to_work + recent)
+================================================================================
+verified email&phone: 44.53%   +linkedin: 16.39%
+sig_open_to_work                       False        True       
+sig_linkedin_connected                 False  True  False True 
+sig_verified_email sig_verified_phone                          
+False              False                4642   2423  2418  1255
+                   True                 7284   3972  3792  2211
+True               False               11640   6195  6082  3556
+                   True                18264  10241  9879  6146
+all-4 joint: observed 6.146%  vs independent-expected 5.660%
+'deliberately available' (all-4 + active<=30d + response>=50%): 293 (0.29%)
+  ...of which AI title: 26.96% (base 6.67%)  JD-match: 18.09% (base 4.25%)
+
+================================================================================
+S7. NOTICE PERIOD + SALARY
+================================================================================
+sig_notice_period_days
+0          4
+15        18
+30     13787
+45       144
+60     24399
+90     31097
+120    17570
+150    12981
+notice<30d: 0.02%  <=30: 13.81%  >=60: 86.05%
+corr(notice, yoe)=-0.019
+salary_min: median=12  salary_max median=19
+corr(salary_min, yoe)=-0.149  corr(salary_max,yoe)=-0.166
+salary_min mean by yoe bucket:
+yoe
+(0, 3]      12.0
+(3, 5]      13.0
+(5, 9]      13.0
+(9, 15]     11.0
+(15, 50]    33.0
+notice mean by yoe bucket:
+yoe
+(0, 3]      88.2
+(3, 5]      87.6
+(5, 9]      87.8
+(9, 15]     86.4
+(15, 50]    42.9
+AI-fit (title+5-9yoe) cohort n=2208: notice<=30d 321 (14.5%);  <30d 15
+JD-match cohort n=4251: notice<=30d 568 (13.4%)
+salary_max < salary_min count: 18865
+
+================================================================================
+S8. INTERVIEW COMPLETION / OFFER ACCEPTANCE
+================================================================================
+interview_completion real values: 100.00%   offer_acceptance: 40.45%
+both real: 40.45%   both -1: 0.00%
+real ic: mean=0.620 med=0.620   real oa: mean=0.475 med=0.480
+corr(ic, oa | both real) = +0.047
+oa==-1 but ic>=0: 59.55%   ic==-1 but oa>=0: 0.00%
+
+================================================================================
+S9. BEHAVIORAL TWINS PROBE (same profile, different signals?)
+================================================================================
+duplicate profile keys (headline+title+company+yoe+skills): 0 groups, 0 candidates, max group=0
+
+================================================================================
+S10. ANOMALIES IN SIGNALS (honeypot-relevant?)
+================================================================================
+salary_max < salary_min: 18865 (18.87%)  corr(min,max)=+0.362
+  inverted rows: AI-title share 6.89% (base 6.67%)  JD-match 3.47% (base 4.25%)
+signup_after_active: 7496 (7.50%)
+  verified from raw dates signup>last_active: 7496;  max gap days: 234
+  signup_after_active rows: AI-title 6.14%  JD-match 3.63%  date_duration_mismatch 0.04% (base 0.03%)
+rare notice values (0/15/45d): 166 candidates; AI-title 97.6%  JD-match 56.6%
+  sample ids: ['CAND_0000112', 'CAND_0001151', 'CAND_0001302', 'CAND_0001389', 'CAND_0002120', 'CAND_0002526', 'CAND_0003575', 'CAND_0003791']
+yoe>15 cohort: n=7  salary_min mean=32.7  notice mean=42.9
+yoe deciles vs salary_min / notice:
+                  n  sal_min     notice
+yoe                                    
+(0.999, 2.5]  12637     12.0  88.361953
+(2.5, 3.9]    12408     12.7  87.620890
+(3.9, 5.4]    13118     12.8  87.399756
+(5.4, 6.8]    12101     12.8  87.486158
+(6.8, 8.3]    12599     12.4  88.023653
+(8.3, 9.9]    12193     11.6  88.927253
+(9.9, 12.4]   12455     10.5  85.654757
+(12.4, 16.9]  12489     10.5  85.630555
+
+================================================================================
+S11. ASSESSMENTS JSON: topics as relevance leak?
+================================================================================
+distinct topics: 56
+  YOLO                           n=  1195  mean=52.0
+  Feature Engineering            n=  1174  mean=52.0
+  CNN                            n=  1174  mean=51.3
+  Weights & Biases               n=  1173  mean=52.0
+  Forecasting                    n=  1167  mean=51.3
+  Speech Recognition             n=  1159  mean=51.8
+  MLOps                          n=  1159  mean=52.6
+  BentoML                        n=  1157  mean=51.6
+  OpenCV                         n=  1155  mean=52.2
+  Data Science                   n=  1147  mean=51.1
+  Object Detection               n=  1145  mean=52.2
+  TTS                            n=  1140  mean=52.4
+  Diffusion Models               n=  1133  mean=51.4
+  Reinforcement Learning         n=  1124  mean=52.3
+  ASR                            n=  1124  mean=52.3
+  GANs                           n=  1122  mean=52.8
+  Image Classification           n=  1120  mean=51.3
+  Time Series                    n=  1111  mean=52.2
+  Computer Vision                n=  1111  mean=52.1
+  Kubeflow                       n=  1105  mean=51.1
+  Statistical Modeling           n=  1088  mean=51.6
+  MLflow                         n=  1085  mean=52.4
+  Information Retrieval          n=   343  mean=55.7
+  PEFT                           n=   341  mean=55.7
+  Milvus                         n=   340  mean=54.1
+  pgvector                       n=   340  mean=54.0
+  PyTorch                        n=   340  mean=55.2
+  Qdrant                         n=   336  mean=56.0
+  Machine Learning               n=   335  mean=55.6
+  QLoRA                          n=   329  mean=55.0
+  Sentence Transformers          n=   328  mean=55.0
+  Learning to Rank               n=   327  mean=53.8
+  Embeddings                     n=   327  mean=55.3
+  Vector Search                  n=   326  mean=55.3
+  TensorFlow                     n=   326  mean=55.3
+  RAG                            n=   326  mean=55.6
+  Recommendation Systems         n=   325  mean=54.2
+  Pinecone                       n=   325  mean=56.0
+  LLMs                           n=   323  mean=54.3
+  Weaviate                       n=   321  mean=56.1
+  LoRA                           n=   320  mean=55.1
+  Hugging Face Transformers      n=   319  mean=55.9
+  OpenSearch                     n=   319  mean=56.2
+  scikit-learn                   n=   317  mean=55.4
+  Haystack                       n=   314  mean=56.1
+  Prompt Engineering             n=   312  mean=54.8
+  Python                         n=   312  mean=55.6
+  BM25                           n=   309  mean=54.8
+  NLP                            n=   306  mean=54.0
+  FAISS                          n=   303  mean=54.8
+  Semantic Search                n=   301  mean=55.7
+  LangChain                      n=   295  mean=56.1
+  LlamaIndex                     n=   291  mean=56.5
+  Elasticsearch                  n=   285  mean=55.9
+  Deep Learning                  n=   284  mean=55.2
+  Fine-tuning LLMs               n=   282  mean=55.1
+has >=1 AI-relevant topic: 3.17%  | among JD-match 11.06%  among rest 2.82%
+AUC(has_ai_topic -> JD-match) = 0.5412
+AI-topic max score: mean(JD-match)=60.7  mean(rest)=53.5
+
+================================================================================
+S12. CONTROLLED LEAK TEST: within 5-9 yoe only
+================================================================================
+5-9 yoe pool: 34375, JD-match within: 4251 (12.37%)
+  sig_salary_max                 AUC=0.6541
+  sig_salary_min                 AUC=0.6486
+  sig_n_assessments              AUC=0.6321
+  sig_search_appearance_30d      AUC=0.6168
+  sig_saved_by_recruiters_30d    AUC=0.5957
+  sig_endorsements_received      AUC=0.5919
+  sig_connection_count           AUC=0.5894
+  sig_profile_views_30d          AUC=0.5803
+LogReg(all signals | 5-9 yoe) 3-fold AUC = 0.6772 +/- 0.0091
+  + has_ai_assessment_topic feature: AUC = 0.6771
+
+================================================================================
+S13. HONEYPOT-FLAG CANDIDATES vs SIGNALS (tier-0 envelope test)
+================================================================================
+date_duration_mismatch: n=35
+    response_rate=0.37/0.44 profile_completeness=57.01/56.76 search_appearance_30d=111.71/117.55 saved_by_recruiters_30d=7.54/7.66 days_since_active=123.31/122.72 assessment_mean=49.45/51.16   (flagged/clean)
+n_expert_zero_months>0: n=21
+    response_rate=0.45/0.44 profile_completeness=54.93/56.76 search_appearance_30d=132.19/117.54 saved_by_recruiters_30d=6.48/7.66 days_since_active=105.43/122.73 assessment_mean=49.86/51.16   (flagged/clean)
+overlap_months>24: n=0
+    response_rate=nan/0.44 profile_completeness=nan/56.76 search_appearance_30d=nan/117.54 saved_by_recruiters_30d=nan/7.66 days_since_active=nan/122.72 assessment_mean=nan/51.16   (flagged/clean)
+signup_after_active: n=7496
+    response_rate=0.44/0.44 profile_completeness=56.50/56.78 search_appearance_30d=112.45/117.96 saved_by_recruiters_30d=7.33/7.69 days_since_active=164.35/119.35 assessment_mean=50.35/51.22   (flagged/clean)
+
+================================================================================
+S14. PC1 TAIL COMPOSITION (high-engagement cohort)
+================================================================================
+PC1>3: n=3660  AI-title 28.7%  JD-match 27.2%  (bases 6.7%/4.3%)
+top-1000 by PC1: AI-title 74.0%  JD-match 45.3%  yoe-5-9 53.8% (base 34.4%)
+
+================================================================================
+S9b. FUZZY TWINS PROBE (looser keys)
+================================================================================
+  key=title+company+yoe    dupe groups=24298  candidates in dupes=87174  max group=13
+  key=job_companies seq    dupe groups=7587  candidates in dupes=58831  max group=1323
+  key=skills set           dupe groups=100  candidates in dupes=200  max group=2
+  key=summary text         dupe groups=2761  candidates in dupes=99520  max group=190
+
+================================================================================
+S15. RARE NOTICE VALUES DEEP DIVE (possible tier marker)
+================================================================================
+notice=  0: n=     4  AI-title=100.0%  JD-match=100.0%  yoe5-9=100.0%  resp_rate=0.675  dsa=63
+notice= 15: n=    18  AI-title= 88.9%  JD-match= 66.7%  yoe5-9= 66.7%  resp_rate=0.637  dsa=60
+notice= 30: n= 13787  AI-title=  7.0%  JD-match=  4.0%  yoe5-9= 34.2%  resp_rate=0.435  dsa=124
+notice= 45: n=   144  AI-title= 98.6%  JD-match= 54.2%  yoe5-9= 56.9%  resp_rate=0.588  dsa=57
+notice= 60: n= 24399  AI-title=  7.5%  JD-match=  4.0%  yoe5-9= 32.3%  resp_rate=0.430  dsa=126
+
+rare-notice (0/15/45) n=166; titles:
+current_title
+ML Engineer                      22
+AI Research Engineer             20
+Data Scientist                   19
+Senior Software Engineer (ML)    18
+Junior ML Engineer               17
+Computer Vision Engineer         16
+AI Specialist                    14
+Machine Learning Engineer         6
+Search Engineer                   5
+Senior Data Scientist             5
+mean yoe=5.3; open_to_work=72%; resp_rate=0.595 (base 0.437)
+dsa=58 (base 123); search_app=465 (base 118)
+assessment n>0: 82% (base 24%)
+first 20 ids: ['CAND_0000112', 'CAND_0001151', 'CAND_0001302', 'CAND_0001389', 'CAND_0002120', 'CAND_0002526', 'CAND_0003575', 'CAND_0003791', 'CAND_0003977', 'CAND_0004848', 'CAND_0005269', 'CAND_0005303', 'CAND_0005477', 'CAND_0006209', 'CAND_0007411', 'CAND_0007596', 'CAND_0007631', 'CAND_0008218', 'CAND_0008239', 'CAND_0008295']
+
+================================================================================
+S16. THE 100 SKILLS-SET TWIN PAIRS (behavioral twins trap?)
+================================================================================
+twin candidates: 200 in 100 pairs
+  identical within pair - name            : 0% of pairs
+  identical within pair - headline        : 0% of pairs
+  identical within pair - current_title   : 0% of pairs
+  identical within pair - current_company : 0% of pairs
+  identical within pair - yoe             : 2% of pairs
+  identical within pair - summary         : 0% of pairs
+  identical within pair - job_companies   : 0% of pairs
+  identical within pair - location        : 5% of pairs
+within-pair signal differences (mean |delta|) vs expected for random pairs (=std*1.128):
+  sig_response_rate            pair|delta|=    0.76   random-pair expected=    0.24
+  days_since_active            pair|delta|=  177.12   random-pair expected=   75.11
+  sig_open_to_work             pair|delta|=    1.00   random-pair expected=    0.54
+  sig_notice_period_days       pair|delta|=   41.70   random-pair expected=   41.27
+  sig_applications_30d         pair|delta|=    6.01   random-pair expected=    3.94
+  sig_profile_completeness     pair|delta|=   39.78   random-pair expected=   19.49
+  sig_search_appearance_30d    pair|delta|=  307.14   random-pair expected=  104.71
+  sig_interview_completion     pair|delta|=    0.19   random-pair expected=    0.19
+twin AI-title share: 50.0%  JD-match: 43.0%
+example pair:
+candidate_id         name        current_title  yoe  sig_response_rate  days_since_active  sig_open_to_work  sig_notice_period_days  sig_search_appearance_30d
+CAND_0016659  Priya Dalal          ML Engineer  4.4               0.89                 19              True                      45                         46
+CAND_0070096 Suresh Menon Full Stack Developer  8.0               0.16                226             False                      90                          5
+twin ids (first 12): ['CAND_0000043', 'CAND_0000256', 'CAND_0004402', 'CAND_0004626', 'CAND_0007596', 'CAND_0007687', 'CAND_0008042', 'CAND_0008295', 'CAND_0008482', 'CAND_0009231', 'CAND_0010149', 'CAND_0010222']
+
+================================================================================
+S17. ASSESSMENT TOPIC POOLS: generic vs JD-stack envelope
+================================================================================
+JD-stack pool: 34 topics, total assessments=10827
+generic pool:  22 topics, total assessments=25068
+candidates w/ >=1 JD-stack topic: 8707 (8.71%)
+  of those: AI-title=9.1%  JD-match=16.0%  yoe5-9=47.6%
+candidates w/ >=1 generic topic: 19988 (19.99%)
+  of those: AI-title=6.9%  JD-match=7.4%
+both pools: 4451   JD-pool x rare-notice overlap: 110
+P(JD-match | jd_topic)=16.0% vs P(JD-match)=4.3%  lift=3.8x
+
+================================================================================
+S18. GHOST ARCHETYPE + SMALL ANOMALY COHORT IDS
+================================================================================
+ghosts (response<=7% & inactive>150d): 996 (1.00%)  AI-title 7.5%  JD-match 3.2%
+  ghost x JD-match (perfect-on-paper-but-gone trap): 32  ids: ['CAND_0000043', 'CAND_0008661', 'CAND_0025444', 'CAND_0026178', 'CAND_0026434', 'CAND_0027588', 'CAND_0028769', 'CAND_0031267', 'CAND_0033451', 'CAND_0034243']
+n_expert_zero_months>0 ids (README honeypot example, n=21): ['CAND_0003582', 'CAND_0016000', 'CAND_0033817', 'CAND_0033972', 'CAND_0036839', 'CAND_0042245', 'CAND_0046649', 'CAND_0046689', 'CAND_0048740', 'CAND_0055792', 'CAND_0056983', 'CAND_0060642', 'CAND_0061722', 'CAND_0063888', 'CAND_0065096', 'CAND_0070429', 'CAND_0072379', 'CAND_0073853', 'CAND_0095140', 'CAND_0095317', 'CAND_0095480']
+date_duration_mismatch ids (n=35): ['CAND_0003430', 'CAND_0005291', 'CAND_0007353', 'CAND_0007413', 'CAND_0008960', 'CAND_0010294', 'CAND_0018515', 'CAND_0024752', 'CAND_0025579', 'CAND_0033131', 'CAND_0035104', 'CAND_0036299', 'CAND_0037539', 'CAND_0038431', 'CAND_0040075']
+yoe>15 ids (n=7): ['CAND_0010770', 'CAND_0039754', 'CAND_0055992', 'CAND_0071115', 'CAND_0091534', 'CAND_0093331', 'CAND_0095619']
+  yoe>15 titles: ['Recommendation Systems Engineer', 'Senior Applied Scientist', 'AI Engineer', 'Recommendation Systems Engineer', 'AI Engineer', 'NLP Engineer', 'NLP Engineer']
+
+================================================================================
+S19. TWIN PAIR VERIFICATION (designed or chance?)
+================================================================================
+pairs where open_to_work differs: 100/100 (chance p=0.5 each -> binomial)
+pairs with |resp_rate delta|>0.4: 100/100;  |dsa delta|>100: 100/100
+AI-title share: open_to_work twin=100%  closed twin=0%
+open twin:  resp=0.86 dsa=16 yoe=5.0
+closed twin: resp=0.10 dsa=194 yoe=5.2
+  identical within pair - job_descriptions: 0% of pairs
+  identical within pair - edu_institutions: 0% of pairs
+  identical within pair - cert_names      : 59% of pairs
+  identical within pair - job_titles      : 0% of pairs
+
+================================================================================
+S20. SIGNAL-ONLY RANKING: who lands in a top-100 by signals alone?
+================================================================================
+top- 100 by availability-composite: AI-title= 96.0%  JD-match= 55.0%  rare-notice=16.0%  jd_topic=74.0%
+top- 500 by availability-composite: AI-title= 92.0%  JD-match= 53.6%  rare-notice=17.2%  jd_topic=71.2%
+top-1000 by availability-composite: AI-title= 68.8%  JD-match= 43.6%  rare-notice=12.0%  jd_topic=64.5%
+top-100 by PC1(engagement): AI-title=93.0%  JD-match=59.0%
+rare-notice candidates in availability top-1000: 120 of 166
+
+================================================================================
+S21. FINAL CHECKS: clipping masses, cohort overlaps, disqualifier mix in rare-notice
+================================================================================
+sig_avg_response_hours: mass at max(280.0)=9  at min(2.1)=1
+sig_response_rate: mass at max(0.95)=2  at min(0.02)=2
+sig_interview_completion: mass at max(1.0)=15  at min(0.3)=592
+days_since_active: mass at max(254)=301  at min(14)=500
+open-twin x rare-notice overlap: 14 of 100 open twins
+rare-notice members with risky titles (junior/CV/research): 53 of 166
+rare-notice yoe<5: 68;  yoe in [5,9]: 98
+closed twins: n_skills mean=14.2; sample titles: {'Mobile Developer': 16, 'Full Stack Developer': 14, 'Cloud Engineer': 13, 'DevOps Engineer': 13, 'Java Developer': 11, 'Software Engineer': 11}
+closed twin ids (first 10): ['CAND_0000043', 'CAND_0000256', 'CAND_0004626', 'CAND_0007687', 'CAND_0008042', 'CAND_0008482', 'CAND_0009231', 'CAND_0010222', 'CAND_0013059', 'CAND_0013503']
+open twin sample skills (first pair): CAND_0016659 -> PowerPoint | TTS | Sentence Transformers | Apache Beam | Pinecone | PEFT | GraphQL | FAISS | Information Retrieval | Weaviate | Airflow | scikit-learn | CNN | OpenCV | Feature Engineering
+
+DONE

@@ -1,0 +1,376 @@
+rows: 100000
+paragraph instances: 300171, distinct paragraphs: 44
+paragraphs not in hand-grade map: 0 (must be 0)
+
+---- phrase-list validation against the 44-paragraph pool ----
+id   grade label                       n strong med wrap hedge prod
+P00      0 sales                   25515      0   0    0     0    0
+P01      0 support                 25290      0   0    0     0    0
+P02      0 marketing               25237      0   0    0     0    0
+P03      0 biz-analyst             25207      0   0    0     2    0
+P04      0 design                  25164      0   0    0     0    1
+P05      0 mech                    25104      0   0    0     0    1
+P06      0 accounting              25078      0   0    0     0    0
+P07      0 content-seo             25071      0   0    0     0    1
+P08      0 ops                     25029      0   0    0     0    0
+P09      0 devops                  10125      0   0    0     1    1
+P10      0 android                 10055      0   0    0     0    1
+P11      0 frontend                10025      0   0    0     1    0
+P12      0 java-backend            10015      0   0    0     0    0
+P13      0 fullstack                9911      0   0    0     0    0
+P14      0 qa                       9785      0   0    0     0    0
+P15      1 dw-sql                   1854      0   0    0     0    0
+P16      1 airflow-de               1836      0   0    0     0    1
+P17      1 backend-data             1823      0   1    0     0    1
+P18      1 streaming-de             1814      0   1    0     2    0
+P19      2 ds-mix-abtest            1807      0   4    0     1    1
+P20      2 be-model-integr          1790      0   0    0     1    1
+P21      3 ml-prod-side              389      0   4    0     1    2
+P22      4 recsys-light              369      6   2    0     2    1
+P23      2 cv-only                   366      0   5    0     1    0
+P24      2 forecasting               363      0   2    0     1    2
+P25      3 churn-ml                  359      0   4    0     1    0
+P26      3 nlp-classif               328      0   9    0     1    0
+P27      5 ltr-search                 78      4   3    0     0    0
+P28      5 feed-ranking               65      4   6    0     0    2
+P29      5 semantic-search            64     10   2    0     0    0
+P30      4 rag-chatbot                60      3   1    3     0    0
+P31      5 recsys-10M                 58      6   4    0     0    4
+P32      3 mlops-churn                57      0   9    0     0    2
+P33      5 lora-jd-match              12      2   3    1     0    3
+P34      5 rag-rank-recruiter         12     14   0    0     0    3
+P35      5 recsys-marketplace          9     10   1    0     0    3
+P36      5 rank-pipeline-e2e           9      6   3    0     0    1
+P37      5 semantic-35M                8     12   2    0     0    7
+P38      5 embed-search-recruiter      8      2   1    0     0    4
+P39      5 PLAIN-matching              6      2   0    0     0    0
+P40      5 PLAIN-personalization       5      3   6    0     0    3
+P41      5 PLAIN-ranking-layer         5      1   0    0     0    2
+P42      5 PLAIN-search-disc           4      4   1    0     0    0
+P43      5 PLAIN-relevance-infra       2      4   0    0     0    4
+grade-5 paragraphs MISSED by STRONG list: [] (target: empty)
+grade-0 paragraphs hit by STRONG list (false pos): [] (target: empty)
+
+================ Q1: plain-language relevance detector ================
+desc strong>=1: 504 (0.50%) | {'AI-obvious': np.int64(504)}
+desc strong>=2: 504 (0.50%) | {'AI-obvious': np.int64(504)}
+desc strong>=3: 504 (0.50%) | {'AI-obvious': np.int64(504)}
+summary-only strong (strong_sum>=1 & desc strong==0): 5855
+
+current_title of desc-strong>=1 (all):
+current_title
+ML Engineer                         55
+AI Research Engineer                52
+Data Scientist                      46
+Computer Vision Engineer            45
+Senior Software Engineer (ML)       44
+Junior ML Engineer                  44
+AI Specialist                       42
+Recommendation Systems Engineer     25
+Machine Learning Engineer           23
+Applied ML Engineer                 23
+Search Engineer                     23
+AI Engineer                         20
+Senior Data Scientist               19
+NLP Engineer                        14
+Senior Machine Learning Engineer     6
+Senior NLP Engineer                  6
+Staff Machine Learning Engineer      6
+Senior AI Engineer                   4
+Senior Applied Scientist             4
+Lead AI Engineer                     3
+
+strong>=1 with NON-obvious SWE title: 0
+Series([], )
+strong>=1 with non-engineering title: 0
+
+best_grade>=4 (real tier-4/5 paragraph holders): 504
+best_grade==5: 168
+  of which non-AI-obvious title: 0
+holders of PLAIN paragraphs P39-P43: 8
+plain-paragraph holders by title:
+current_title
+Senior AI Engineer                  2
+Senior Applied Scientist            2
+Staff Machine Learning Engineer     2
+Lead AI Engineer                    1
+Senior Machine Learning Engineer    1
+
+================ Q2: hidden gems (strong text + ZERO AI skill_names) ================
+desc strong>=1 & 0 AI skills: 0
+desc strong>=2 & 0 AI skills: 0
+best_grade==5 & 0 AI skills: 0
+best_grade>=4 & 0 AI skills: 0
+PLAIN paragraph & 0 AI skills: 0
+PLAIN paragraph & <=2 AI skills: 0
+
+AI-skill count distribution among best_grade==5 holders:
+_n_ai_skills
+8      1
+9      4
+10    10
+11    15
+12    18
+13    27
+14    19
+15    30
+16    24
+17    12
+18     6
+19     1
+20     1
+
+hidden-gem population (grade>=4 & 0 AI skills, or plain & 0 AI skills): 0
+  yoe 5-9: 0; median yoe nan
+  India: 0/0
+  median days_since_active: nan
+  median sig_response_rate: nan
+
+up to 30 hidden-gem ids:
+Empty DataFrame
+Columns: [candidate_id, current_title, yoe, country, _paras, _n_ai_skills, _strong, days_since_active]
+Index: []
+
+================ Q3: hidden-gem full profiles from raw JSONL ================
+
+==========================================================================================
+CAND_0061257 | Advaith Pillai | Senior Engineer | 8.0+ yrs in production systems
+loc: Noida, Uttar Pradesh, India | yoe=8.0 | current: Staff Machine Learning Engineer @ LinkedIn (Internet, size 10001+)
+summary: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. 
+  JOB: Staff Machine Learning Engineer @ LinkedIn (2022-11-14 -> None, 43mo, ind=Internet)
+       Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The hard problem was rarely the modeling — it was the data pipeline that fe
+  JOB: Senior Applied Scientist @ Yellow.ai (2018-08-07 -> 2022-11-14, 52mo, ind=AI/ML)
+       Owned the search and discovery experience end-to-end at a consumer product, from how content is represented internally through to how the most relevant results appear for each user's intent. The work spanned data infrastructure, ranking alg
+  SKILLS: ['PEFT(advanced,33mo)', 'Haystack(advanced,43mo)', 'Time Series(advanced,28mo)', 'Machine Learning(expert,61mo)', 'Information Retrieval Systems(advanced,58mo)', 'Search Infrastructure(expert,83mo)', 'Image Classification(advanced,22mo)', 'TTS(intermediate,24mo)', 'Feature Engineering(advanced,27mo)', 'ETL(intermediate,14mo)', 'Model Adaptation(expert,79mo)', 'Indexing Algorithms(expert,39mo)', 'Workflow Orchestration(expert,62mo)', 'Search Backend(advanced,23mo)', 'Python(expert,72mo)', 'Vector Representations(expert,41mo)']
+  SIGNALS: resp_rate=0.87, last_active=2026-04-16, notice=30d, relocate=False, open=True, github=45.3, salary_lpa={'min': 49.7, 'max': 52.3}
+
+==========================================================================================
+CAND_0030468 | Pooja Bose | Senior Engineer | Search & Discovery Infrastructure
+loc: Indore, Madhya Pradesh, India | yoe=5.4 | current: Senior Applied Scientist @ Swiggy (Food Delivery, size 5001-10000)
+summary: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. 
+  JOB: Senior Applied Scientist @ Swiggy (2025-04-02 -> None, 14mo, ind=Food Delivery)
+       Led the engineering team building infrastructure to surface relevant content to users at scale. The system processed billions of documents and served millions of queries with low latency. Most of the technical effort went into the boring-bu
+  JOB: Senior Applied Scientist @ CRED (2023-09-26 -> 2025-03-19, 18mo, ind=Fintech)
+       Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, the online A/B testing framework, and the feature-engineering pipeline
+  JOB: Senior Machine Learning Engineer @ Wysa (2021-02-08 -> 2023-09-26, 32mo, ind=HealthTech AI)
+       Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, the online A/B testing framework, and the feature-engineering pipeline
+  SKILLS: ['Information Retrieval Systems(advanced,24mo)', 'Content Matching(expert,82mo)', 'Text Encoders(expert,77mo)', 'TensorFlow(advanced,38mo)', 'Search & Discovery(expert,45mo)', 'CNN(intermediate,9mo)', 'Model Adaptation(expert,43mo)', 'Machine Learning(expert,67mo)', 'Ranking Systems(expert,72mo)', 'Diffusion Models(intermediate,23mo)', 'OpenSearch(expert,95mo)', 'Computer Vision(advanced,48mo)', 'Milvus(expert,85mo)', 'Recommendation Systems(expert,79mo)']
+  SIGNALS: resp_rate=0.78, last_active=2026-05-03, notice=45d, relocate=True, open=True, github=45.0, salary_lpa={'min': 46.5, 'max': 59.1}
+
+==========================================================================================
+CAND_0006567 | Aditya Subramanian | Senior Engineer | Information Retrieval at scale
+loc: Noida, Uttar Pradesh, India | yoe=7.9 | current: Senior AI Engineer @ Meta (Internet, size 10001+)
+summary: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. 
+  JOB: Senior AI Engineer @ Meta (2024-04-07 -> None, 26mo, ind=Internet)
+       Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructure, algorithms, and product judgment — none of the three were optional.
+  JOB: Senior Applied Scientist @ Razorpay (2020-03-29 -> 2024-04-07, 49mo, ind=Fintech)
+       Owned the search and discovery experience end-to-end at a consumer product, from how content is represented internally through to how the most relevant results appear for each user's intent. The work spanned data infrastructure, ranking alg
+  JOB: Senior ML Engineer — Search & Ranking @ Glance (2018-08-23 -> 2020-03-15, 19mo, ind=AI/ML)
+       Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, the online A/B testing framework, and the feature-engineering pipeline
+  SKILLS: ['Speech Recognition(intermediate,23mo)', 'scikit-learn(expert,64mo)', 'Search Backend(advanced,31mo)', 'Model Adaptation(expert,71mo)', 'Vector Representations(advanced,46mo)', 'BM25(expert,80mo)', 'Workflow Orchestration(expert,51mo)', 'GANs(intermediate,36mo)', 'NLP(advanced,22mo)', 'Kubernetes(beginner,14mo)', 'Python(expert,68mo)', 'Ranking Systems(advanced,60mo)', 'Text Encoders(advanced,28mo)', 'Data Science(intermediate,10mo)', 'Feature Engineering(advanced,55mo)', 'Search & Discovery(advanced,42mo)', 'Prompt Engineering(expert,94mo)', 'Haystack(expert,47mo)', 'Content Matching(expert,85mo)', 'Recommendation Systems(advanced,26mo)']
+  SIGNALS: resp_rate=0.79, last_active=2026-05-03, notice=60d, relocate=True, open=True, github=35.2, salary_lpa={'min': 44.2, 'max': 53.9}
+
+==========================================================================================
+CAND_0068351 | Aadhya Iyer | Senior Engineer | Search & Discovery Infrastructure
+loc: Delhi, Delhi, India | yoe=6.4 | current: Lead AI Engineer @ Sarvam AI (AI/ML, size 51-200)
+summary: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. 
+  JOB: Lead AI Engineer @ Sarvam AI (2024-05-07 -> None, 25mo, ind=AI/ML)
+       Owned the search and discovery experience end-to-end at a consumer product, from how content is represented internally through to how the most relevant results appear for each user's intent. The work spanned data infrastructure, ranking alg
+  JOB: Staff Machine Learning Engineer @ Verloop.io (2020-08-26 -> 2024-05-07, 45mo, ind=Conversational AI)
+       Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructure, algorithms, and product judgment — none of the three were optional.
+  JOB: Senior Machine Learning Engineer @ Microsoft (2020-02-28 -> 2020-08-26, 6mo, ind=Software)
+       Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The hard problem was rarely the modeling — it was the data pipeline that fe
+  SKILLS: ['pgvector(expert,77mo)', 'Deep Learning(expert,44mo)', 'Qdrant(expert,78mo)', 'Elasticsearch(expert,44mo)', 'Feature Engineering(advanced,43mo)', 'Text Encoders(expert,51mo)', 'PEFT(expert,94mo)', 'Spring Boot(beginner,13mo)', 'Python(expert,67mo)', 'Redis(intermediate,30mo)', 'Haystack(expert,60mo)', 'Machine Learning(expert,68mo)', 'Open-source ML libraries(expert,81mo)', 'Ranking Systems(advanced,23mo)', 'LoRA(expert,49mo)', 'Information Retrieval Systems(advanced,39mo)', 'Search Backend(advanced,40mo)', 'GANs(intermediate,16mo)', 'NLP(advanced,27mo)']
+  SIGNALS: resp_rate=0.86, last_active=2026-04-11, notice=0d, relocate=False, open=False, github=-1, salary_lpa={'min': 34.8, 'max': 57.1}
+
+==========================================================================================
+CAND_0093193 | Aarohi Bose | Senior Engineer | 7.9+ yrs in production systems
+loc: Bangalore, Karnataka, India | yoe=7.9 | current: Senior Machine Learning Engineer @ Niramai (HealthTech AI, size 51-200)
+summary: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. 
+  JOB: Senior Machine Learning Engineer @ Niramai (2022-10-15 -> None, 44mo, ind=HealthTech AI)
+       Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructure, algorithms, and product judgment — none of the three were optional.
+  JOB: Lead AI Engineer @ Netflix (2018-08-23 -> 2022-10-01, 50mo, ind=Media)
+       Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructure, algorithms, and product judgment — none of the three were optional.
+  SKILLS: ['Ranking Systems(expert,77mo)', 'Text Encoders(expert,92mo)', 'Indexing Algorithms(expert,37mo)', 'Forecasting(advanced,44mo)', 'Vector Representations(expert,46mo)', 'Qdrant(advanced,20mo)', 'OpenSearch(expert,88mo)', 'Open-source ML libraries(advanced,37mo)', 'TensorFlow(expert,54mo)', 'Content Matching(advanced,43mo)', 'Information Retrieval Systems(expert,76mo)', 'Haystack(expert,58mo)', 'Statistical Modeling(intermediate,8mo)', 'Machine Learning(advanced,52mo)', 'Search & Discovery(expert,66mo)', 'GANs(advanced,45mo)', 'Search Backend(advanced,56mo)', 'scikit-learn(expert,84mo)', 'ASR(advanced,38mo)']
+  SIGNALS: resp_rate=0.61, last_active=2026-04-18, notice=45d, relocate=False, open=True, github=34.2, salary_lpa={'min': 46.3, 'max': 50.5}
+
+==========================================================================================
+CAND_0005538 | Aryan Goyal | Senior Engineer | 5.9+ yrs in production systems
+loc: Kolkata, West Bengal, India | yoe=5.9 | current: Senior AI Engineer @ Adobe (Software, size 10001+)
+summary: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. 
+  JOB: Senior AI Engineer @ Adobe (2025-03-03 -> None, 15mo, ind=Software)
+       Led the engineering team building infrastructure to surface relevant content to users at scale. The system processed billions of documents and served millions of queries with low latency. Most of the technical effort went into the boring-bu
+  JOB: Lead AI Engineer @ Locobuzz (2022-09-15 -> 2025-03-03, 30mo, ind=AI/ML)
+       Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructure, algorithms, and product judgment — none of the three were optional.
+  JOB: Senior Machine Learning Engineer @ Google (2021-07-15 -> 2022-09-08, 14mo, ind=Internet)
+       Built systems that understand what users are looking for and connect them to the most relevant matches across a large dataset. Worked at the intersection of infrastructure, algorithms, and product judgment — none of the three were optional.
+  JOB: Lead AI Engineer @ Glance (2020-09-18 -> 2021-07-15, 10mo, ind=AI/ML)
+       Built and shipped a production recommendation system at a marketplace product, going from offline experimentation to live A/B test in 5 months. The system combined collaborative filtering (matrix factorization), content-based features (TF-I
+  SKILLS: ['Project Management(intermediate,29mo)', 'Vector Representations(expert,46mo)', 'Deep Learning(expert,82mo)', 'Content Matching(advanced,44mo)', 'Apache Flink(intermediate,26mo)', 'Feature Engineering(advanced,50mo)', 'Statistical Modeling(intermediate,22mo)', 'QLoRA(advanced,58mo)', 'Python(advanced,38mo)', 'PyTorch(expert,74mo)', 'ASR(advanced,42mo)', 'Data Science(advanced,43mo)', 'LoRA(advanced,36mo)', 'Information Retrieval Systems(advanced,55mo)', 'pgvector(expert,91mo)', 'Haystack(expert,51mo)', 'Workflow Orchestration(expert,57mo)', 'TTS(advanced,24mo)', 'Natural Language Processing(expert,51mo)']
+  SIGNALS: resp_rate=0.81, last_active=2026-05-17, notice=90d, relocate=False, open=True, github=58.0, salary_lpa={'min': 45.7, 'max': 69.6}
+
+==========================================================================================
+CAND_0080766 | Kiara Mittal | Senior Engineer | Search & Discovery Infrastructure
+loc: Coimbatore, Tamil Nadu, India | yoe=8.8 | current: Staff Machine Learning Engineer @ Salesforce (Software, size 10001+)
+summary: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. 
+  JOB: Staff Machine Learning Engineer @ Salesforce (2023-04-13 -> None, 38mo, ind=Software)
+       Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, the online A/B testing framework, and the feature-engineering pipeline
+  JOB: Staff Machine Learning Engineer @ Aganitha (2022-04-18 -> 2023-04-13, 12mo, ind=AI/ML)
+       Owned the search and discovery experience end-to-end at a consumer product, from how content is represented internally through to how the most relevant results appear for each user's intent. The work spanned data infrastructure, ranking alg
+  JOB: Lead AI Engineer @ Swiggy (2018-09-06 -> 2022-03-19, 43mo, ind=Food Delivery)
+       Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The hard problem was rarely the modeling — it was the data pipeline that fe
+  JOB: Senior Machine Learning Engineer @ Haptik (2017-08-28 -> 2018-08-23, 12mo, ind=Conversational AI)
+       Owned the design and rollout of a large-scale semantic search system serving an internal corpus of 35M+ items. Migrated the existing BM25-only retrieval to a hybrid setup combining sparse and dense vectors (sentence-transformers, MPNet-base
+  SKILLS: ['Search Backend(expert,55mo)', 'LoRA(expert,71mo)', 'Vue.js(intermediate,25mo)', 'Tally(intermediate,18mo)', 'Search & Discovery(expert,74mo)', 'MLOps(advanced,55mo)', 'Search Infrastructure(expert,49mo)', 'MLflow(advanced,40mo)', 'Open-source ML libraries(expert,59mo)', 'Information Retrieval Systems(advanced,28mo)', 'Elasticsearch(advanced,40mo)', 'Computer Vision(advanced,49mo)', 'Deep Learning(expert,44mo)', 'Natural Language Processing(advanced,43mo)', 'QLoRA(expert,55mo)', 'YOLO(intermediate,17mo)', 'OpenSearch(advanced,35mo)', 'Python(expert,53mo)', 'Milvus(advanced,48mo)', 'ASR(advanced,33mo)', 'TensorFlow(expert,94mo)']
+  SIGNALS: resp_rate=0.66, last_active=2026-04-09, notice=0d, relocate=True, open=False, github=32.9, salary_lpa={'min': 41.4, 'max': 52.7}
+
+==========================================================================================
+CAND_0037980 | Reyansh Chowdary | Senior Engineer | Information Retrieval at scale
+loc: Kolkata, West Bengal, India | yoe=9.0 | current: Senior Applied Scientist @ Niramai (HealthTech AI, size 51-200)
+summary: Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. 
+  JOB: Senior Applied Scientist @ Niramai (2023-04-13 -> None, 38mo, ind=HealthTech AI)
+       Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The hard problem was rarely the modeling — it was the data pipeline that fe
+  JOB: Senior ML Engineer — Search & Ranking @ Verloop.io (2020-02-28 -> 2023-04-13, 38mo, ind=Conversational AI)
+       Designed the ranking layer for the company's flagship product: how do we surface the right thing at the right time, across millions of items, for millions of users. The hard problem was rarely the modeling — it was the data pipeline that fe
+  JOB: Senior ML Engineer — Search & Ranking @ Salesforce (2017-08-12 -> 2020-02-28, 31mo, ind=Software)
+       Shipped the personalization infrastructure: the system that learns from user behavior and improves relevance over time. Designed the offline experimentation environment, the online A/B testing framework, and the feature-engineering pipeline
+  SKILLS: ['LoRA(expert,75mo)', 'Search Infrastructure(expert,48mo)', 'PyTorch(expert,63mo)', 'NLP(expert,54mo)', 'Indexing Algorithms(expert,58mo)', 'BM25(expert,92mo)', 'TTS(advanced,48mo)', 'Text Encoders(expert,36mo)', 'Document Processing(expert,61mo)', 'OpenCV(advanced,48mo)', 'QLoRA(advanced,28mo)', 'pgvector(expert,58mo)', 'Haystack(expert,47mo)', 'Model Adaptation(advanced,51mo)', 'Weights & Biases(intermediate,36mo)', 'BentoML(advanced,39mo)', 'scikit-learn(expert,41mo)', 'Prompt Engineering(advanced,24mo)', 'Feature Engineering(intermediate,25mo)', 'Information Retrieval Systems(expert,47mo)', 'Recommendation Systems(advanced,30mo)']
+  SIGNALS: resp_rate=0.63, last_active=2026-03-28, notice=0d, relocate=True, open=True, github=30.8, salary_lpa={'min': 47.4, 'max': 50.5}
+
+================ Q4: LangChain-wrapper / shallow-genAI anti-pattern ================
+summary boilerplate 'AI-curious (ChatGPT productivity)': 63304
+summary boilerplate 'self-learner APIs + RAG side project, not professional': 25000
+summary boilerplate STUFFER 'online courses on RAG and vector databases...': 5517 | title class: {'non-engineering': np.int64(5517)} | with 4+ AI skills: 5517 | best_grade>0: 0
+  boilerplate by title class: curious={'non-engineering': np.int64(63304)}
+  self-learner={'SWE-non-obvious': np.int64(25000)}
+
+AI-obvious current titles: 1179
+best paragraph grade distribution for AI-obvious titles:
+_best_grade
+2    111
+3    564
+4    336
+5    168
+AI title but NO ML paragraph above grade 2 (title-evidence mismatch): 111
+AI title whose ONLY >=grade-3 evidence is P30 (RAG chatbot): 4
+AI title, CV-only evidence (P23, nothing >grade 2): 80
+AI title + genai-wrapper skill <12mo + no grade-4/5 paragraph: 20
+
+sample title-evidence-mismatch ids:
+candidate_id                 current_title  yoe     _paras  _best_grade  _genai_mo
+CAND_0000705          AI Research Engineer  3.6 [P23, P24]            2         30
+CAND_0001389 Senior Software Engineer (ML)  3.1      [P24]            2         -1
+CAND_0001819                   ML Engineer  4.4 [P24, P24]            2         28
+CAND_0002270      Computer Vision Engineer  3.4 [P24, P23]            2         31
+CAND_0003599      Computer Vision Engineer  6.5 [P23, P23]            2         -1
+CAND_0004534 Senior Software Engineer (ML)  4.2 [P24, P23]            2         33
+CAND_0005311          AI Research Engineer  5.7 [P23, P24]            2         55
+CAND_0005421            Junior ML Engineer  3.9 [P23, P23]            2         20
+CAND_0005704                   ML Engineer  3.3 [P23, P23]            2         -1
+CAND_0007008 Senior Software Engineer (ML)  3.7      [P23]            2         20
+CAND_0008092      Computer Vision Engineer  4.8 [P23, P23]            2         23
+CAND_0008456                Data Scientist  4.0      [P23]            2         20
+
+================ Q5: pure-research anti-pattern ================
+candidates with any academic-looking employer: 335
+candidates with any 'Research' job title: 283 (all are 'AI Research Engineer' — an applied title here)
+candidates with academic-research language in descriptions: 0
+candidates with >=1 RESEARCH_PHRASES hit (desc): 0
+hedge-language candidates (>=1 hedge phrase): 40700; >=2: 28931
+'AI Research Engineer' current title: 153; their best-grade dist: {2: np.int64(16), 3: np.int64(85), 4: np.int64(52)}
+
+================ scorer-design crosstabs ================
+best_grade distribution (all 100k):
+_best_grade
+0    93821
+1     2216
+2     2895
+3      564
+4      336
+5      168
+
+AI-skill bins vs best_grade:
+_best_grade       0     1     2    3    4    5
+_n_ai_skills                                  
+0             33924     0     0    0    0    0
+1-3           48313     7    12    0    0    0
+4+            11584  2209  2883  564  336  168
+
+keyword stuffers (4+ AI skills, best_grade==0): 11584; by title class: {'SWE-non-obvious': np.int64(6067), 'non-engineering': np.int64(5517)}
+
+tier-4/5 paragraph holders total: 504  -> top-100 must come from here
+  with consulting-only careers: 8
+  India-based: 453
+  yoe 5-9: 322
+  grade5 & yoe5-9 & India: 106
+
+================ follow-ups ================
+summary-only strong: 5855 | title class: {'non-engineering': np.int64(5517), 'AI-obvious': np.int64(338)} | best_grade dist: {0: np.int64(5517), 2: np.int64(60), 3: np.int64(278)}
+  example summary: Project Manager with 14.5+ years of experience driving outcomes in my domain. I have built strong functional expertise in the typical responsibilities of the role, including team management, stakeholder communication, an
+
+plain summary template 'connect users with relevant information at scale': 8 candidates; their best_grade dist: {5: np.int64(8)}
+
+candidates with any PARAPHRASED skill: 8; with >=3: 8
+  their best_grade dist: {5: np.int64(8)}
+  their current titles: {'Senior AI Engineer': np.int64(2), 'Senior Applied Scientist': np.int64(2), 'Staff Machine Learning Engineer': np.int64(2), 'Lead AI Engineer': np.int64(1), 'Senior Machine Learning Engineer': np.int64(1)}
+
+skill-duration > career_span+6mo (impossible-history probe): 13462 overall; among grade>=4 pool: 184; among the 8 plain holders: 3
+plain holders, max skill months vs career span:
+candidate_id  yoe  career_span_months  _max_skill_mo  _n_para_skills
+CAND_0005538  5.9                  69             91               5
+CAND_0006567  7.9                  94             94               8
+CAND_0030468  5.4                  64             95               6
+CAND_0037980  9.0                 106             92               6
+CAND_0061257  8.0                  94             83               7
+CAND_0068351  6.4                  76             94               5
+CAND_0080766  8.8                 106             94               6
+CAND_0093193  7.9                  94             92               9
+
+grade>=4 pool with impossible skill durations (first 15):
+candidate_id                   current_title  yoe  career_span_months  _max_skill_mo  _best_grade
+CAND_0000031 Recommendation Systems Engineer  6.0                  72             88            5
+CAND_0001405                  Data Scientist  3.5                  41             60            4
+CAND_0001610       Machine Learning Engineer  3.0                  61             92            5
+CAND_0002025              Senior AI Engineer  5.9                  70             86            5
+CAND_0002426                  Data Scientist  3.3                  39             57            4
+CAND_0002610   Senior Software Engineer (ML)  3.0                  35             59            4
+CAND_0003977 Recommendation Systems Engineer  4.6                  55             81            5
+CAND_0005260             Senior NLP Engineer  5.2                  61             95            5
+CAND_0005303              Junior ML Engineer  3.1                  38             58            4
+CAND_0005538              Senior AI Engineer  5.9                  69             91            5
+CAND_0006418       Machine Learning Engineer  5.7                  67             93            5
+CAND_0006850                  Data Scientist  3.7                  44             59            4
+CAND_0007412             Applied ML Engineer  7.4                  89             96            5
+CAND_0007460                     AI Engineer  4.7                  56             79            5
+CAND_0007874              Junior ML Engineer  3.7                  44             52            4
+
+STRONG phrases firing on non-engineering summaries (200 distinct sampled): {'vector (?:database|db|index|store)s?': 200}
+
+tech-age violations: overall 1229; in grade>=4 pool 202 of 504; among 8 plain holders 7
+plain holders' tech-age violations:
+candidate_id                              _tech_viol
+CAND_0005538             [QLoRA=58mo, pgvector=91mo]
+CAND_0006567               [Prompt Engineering=94mo]
+CAND_0030468                       [OpenSearch=95mo]
+CAND_0037980                             [LoRA=75mo]
+CAND_0061257                                      []
+CAND_0068351 [pgvector=77mo, Qdrant=78mo, PEFT=94mo]
+CAND_0080766                 [LoRA=71mo, QLoRA=55mo]
+CAND_0093193                       [OpenSearch=88mo]
+
+grade-5 holders with tech-age violations (first 12):
+candidate_id                    current_title  yoe                                                 _tech_viol
+CAND_0000031  Recommendation Systems Engineer  6.0                                            [Pinecone=88mo]
+CAND_0001610        Machine Learning Engineer  3.0                     [Pinecone=72mo, Fine-tuning LLMs=92mo]
+CAND_0002025               Senior AI Engineer  5.9                               [QLoRA=81mo, LangChain=84mo]
+CAND_0005260              Senior NLP Engineer  5.2                                                 [RAG=50mo]
+CAND_0005538               Senior AI Engineer  5.9                                [QLoRA=58mo, pgvector=91mo]
+CAND_0006557                     NLP Engineer  7.9 [OpenSearch=72mo, LlamaIndex=66mo, Qdrant=74mo, LoRA=80mo]
+CAND_0006567               Senior AI Engineer  7.9                                  [Prompt Engineering=94mo]
+CAND_0007009  Recommendation Systems Engineer  7.9                   [PEFT=69mo, QLoRA=58mo, OpenSearch=96mo]
+CAND_0007411 Senior Machine Learning Engineer  8.0                                          [OpenSearch=86mo]
+CAND_0007412              Applied ML Engineer  7.4                                            [Pinecone=96mo]
+CAND_0007460                      AI Engineer  4.7                                      [LoRA=68mo, RAG=79mo]
+CAND_0008239                      AI Engineer  4.0                                           [LangChain=61mo]
+
+CLEAN grade-5 (no tech-age/career-span violation, yoe 5-9, India): 6

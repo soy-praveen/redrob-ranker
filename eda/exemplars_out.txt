@@ -1,0 +1,185 @@
+Loaded parquet: (100000, 67)
+
+=== 1. ELITE POOL ===
+ML/AI/retrieval signal anywhere:        31696
+  + yoe 4-11:                           20394
+  + India or willing_to_relocate:       16920
+  + active <=90d  => ELITE POOL:         7260
+Elite pool in-India share: 91.3%
+
+=== TOP 40 BY HEURISTIC (deep-read shortlist source) ===
+candidate_id            name                    current_title current_company  yoe               location  days_since_active  sig_response_rate  sig_notice_period_days  sig_salary_min  sig_salary_max  kw_retrieval_jobs  kw_eval   h_score
+CAND_0077337   Aarav Agarwal  Staff Machine Learning Engineer           Paytm  7.0          Kochi, Kerala                 15               0.95                      60            46.0            51.3                 16        4 14.983333
+CAND_0081846    Arjun Khanna                 Lead AI Engineer        Razorpay  6.7      Jaipur, Rajasthan                 38               0.73                      30            33.3            52.8                 18        6 14.507778
+CAND_0018499   Aarav Trivedi Senior Machine Learning Engineer          Zomato  7.2   Noida, Uttar Pradesh                 28               0.61                      15            36.8            56.6                 23        8 14.498889
+CAND_0005260      Mira Ghosh              Senior NLP Engineer         Netflix  5.2    Chennai, Tamil Nadu                 31               0.86                      60            39.6            64.9                 12        4 14.315556
+CAND_0046064    Saanvi Naidu              Senior NLP Engineer      Salesforce  8.9 Coimbatore, Tamil Nadu                 45               0.78                      30            36.6            53.4                 19        6 14.080000
+CAND_0046525 Tanvi Mukherjee Senior Machine Learning Engineer      Genpact AI  6.1      Pune, Maharashtra                 18               0.88                      60            28.4            51.9                 14        5 13.680000
+CAND_0008425   Myra Krishnan              Senior NLP Engineer             Ola  7.8   Kolkata, West Bengal                 46               0.66                      90            37.7            74.5                 15        3 13.548889
+CAND_0030953     Dhruv Hegde                  Search Engineer           Nykaa  7.8    Chennai, Tamil Nadu                 60               0.63                      45            43.1            62.5                 14        6 13.363333
+CAND_0064326    Nisha Pillai                  Search Engineer       Sarvam AI  7.6       Gurgaon, Haryana                 20               0.94                      45            29.2            38.5                  9        4 13.317778
+CAND_0017960       Pari Shah  Recommendation Systems Engineer           Nykaa  7.7   Bangalore, Karnataka                 44               0.72                      60            35.2            55.4                  6        5 13.231111
+CAND_0000031       Ela Singh  Recommendation Systems Engineer          Swiggy  6.0   Hyderabad, Telangana                 17               0.91                      60            27.3            60.2                  5        7 13.121111
+CAND_0009691 Ira Subramanian              Applied ML Engineer        LinkedIn  6.2 Indore, Madhya Pradesh                 25               0.64                     120            40.2            63.6                  9        3 12.962222
+CAND_0086022     Dhruv Naidu         Senior Applied Scientist       Sarvam AI  5.3   Kolkata, West Bengal                 56               0.55                       0            31.2            72.6                 14        5 12.927778
+CAND_0087630       Aisha Rao                      AI Engineer         Vedantu  7.2       Gurgaon, Haryana                 86               0.45                      30            42.4            45.4                  9        4 12.894444
+CAND_0007412     Pranav Shah              Applied ML Engineer            Zoho  7.4   Noida, Uttar Pradesh                 52               0.76                     120            22.2            46.7                 15        4 12.782222
+CAND_0011687   Shreya Tiwari              Senior NLP Engineer         Niramai  7.8 Indore, Madhya Pradesh                 31               0.89                      15            28.7            60.7                  8        3 12.745556
+CAND_0011432  Deepak Trivedi            Senior Data Scientist          Amazon  7.6    Chennai, Tamil Nadu                 86               0.67                      60            39.8            55.1                  6        4 12.714444
+CAND_0078002  Reyansh Sharma        Machine Learning Engineer            Meta  6.3 Coimbatore, Tamil Nadu                 50               0.86                      60            35.3            52.2                  5        6 12.704444
+CAND_0050876     Vivaan Shah              Applied ML Engineer      Freshworks  6.0   Kolkata, West Bengal                 15               0.67                      90            27.8            49.5                  8        3 12.703333
+CAND_0039383   Riya Malhotra              Applied ML Engineer          Meesho  7.1       Gurgaon, Haryana                 83               0.61                      90            34.9            39.7                  7        4 12.687778
+CAND_0061339     Tanvi Dutta                  Search Engineer     Rephrase.ai  4.2 Chandigarh, Chandigarh                 65               0.90                      90            33.9            39.3                  5        5 12.577778
+CAND_0080766    Kiara Mittal  Staff Machine Learning Engineer      Salesforce  8.8 Coimbatore, Tamil Nadu                 62               0.66                       0            41.4            52.7                  9        2 12.571111
+CAND_0071974       Sai Verma               Senior AI Engineer         Netflix  7.8  Vizag, Andhra Pradesh                 55               0.76                      45            46.7            58.1                 11        2 12.348889
+CAND_0065878   Suresh Kapoor            Senior Data Scientist         Niramai  7.8     Trivandrum, Kerala                 79               0.48                      15            23.2            55.7                  9        4 12.202222
+CAND_0005649     Riya Kapoor            Senior Data Scientist       Sarvam AI  7.4           Delhi, Delhi                 57               0.57                      90            37.1            54.8                 10        3 12.136667
+CAND_0060054    Aisha Kapoor                      AI Engineer  Mad Street Den  6.4      Jaipur, Rajasthan                 85               0.86                      15            39.0            40.3                  9        3 12.115556
+CAND_0075574     Karan Ghosh        Machine Learning Engineer          Haptik  5.7   Bangalore, Karnataka                 24               0.58                      60            42.2            62.7                  7        3 12.113333
+CAND_0010685    Sunil Mishra                     NLP Engineer     Rephrase.ai  6.7   Kolkata, West Bengal                 86               0.83                      30            22.6            64.5                  8        3 12.074444
+CAND_0088025      Amit Arora  Staff Machine Learning Engineer       Yellow.ai  8.6      Jaipur, Rajasthan                 27               0.83                      90            38.5            51.3                 17        3 11.930000
+CAND_0044883    Rajesh Reddy                      AI Engineer  Mad Street Den  6.3                 Berlin                 34               0.84                      90            31.4            44.7                 10        2 11.862222
+CAND_0070398     Riya Saxena        Machine Learning Engineer      Genpact AI  7.2          Kochi, Kerala                 57               0.60                     120            23.2            61.1                 11        3 11.766667
+CAND_0015528     Aisha Reddy              Applied ML Engineer         Krutrim  7.4 Coimbatore, Tamil Nadu                 55               0.53                      30            24.4            57.3                  6        2 11.718889
+CAND_0018722  Pranav Trivedi  Recommendation Systems Engineer      Saarthi.ai  6.6                Toronto                 47               0.79                      90            30.2            41.9                  9        3 11.667778
+CAND_0010149      Ved Tiwari                      ML Engineer          Glance  6.9   Bangalore, Karnataka                 16               0.82                      90            28.3            42.6                  6        0 11.642222
+CAND_0053695   Sanjay Sharma  Recommendation Systems Engineer          Meesho  5.8    Bhubaneswar, Odisha                 69               0.60                      15            41.0            41.7                  8        3 11.633333
+CAND_0096142    Pranav Sethi              Applied ML Engineer          upGrad  5.0   Hyderabad, Telangana                 20               0.84                     120            34.3            59.3                  4        4 11.617778
+CAND_0068811  Krishna Mittal              Applied ML Engineer      Freshworks  8.0      Pune, Maharashtra                 20               0.42                      30            27.4            41.5                  9        2 11.597778
+CAND_0054123  Tanvi Banerjee              Applied ML Engineer            Meta  4.7       Gurgaon, Haryana                 33               0.87                      60            32.8            60.5                  8        2 11.503333
+CAND_0098846   Shreya Saxena                      AI Engineer          upGrad  7.6 Indore, Madhya Pradesh                 48               0.62                      45            44.0            54.7                  6        2 11.486667
+CAND_0047521   Manish Mittal               Junior ML Engineer             HCL  4.4    Mumbai, Maharashtra                 33               0.83                     120            32.9            40.2                  6        0 11.463333
+
+Consulting-ONLY careers in dataset: 9745
+Consulting-only + AI-keyword-rich skills + yoe 4-11 (bait type A): 144
+Strong retrieval keywords BUT (notice>=90d OR inactive>150d OR resp<10%) (bait type B): 10663
+Non-tech title + AI-stuffed skills (keyword stuffers): 920
+
+=== 4. SALARY EXPECTATIONS (sig_salary_min/max), ELITE POOL ===
+India elite n=6632
+       sig_salary_min  sig_salary_max
+count          6632.0          6632.0
+mean             15.1            24.9
+std               6.8             9.6
+min               3.0             6.1
+10%               7.4            13.9
+25%              10.1            17.6
+50%              14.4            24.0
+75%              18.8            30.4
+90%              21.6            34.4
+max              49.7            74.5
+
+Top-50 heuristic elite salary (n=50): min median=35, max median=53, max p90=64
+All-India baseline (n=75113): min median=12, max median=20
+
+Elite notice period days distribution:
+sig_notice_period_days
+0         4
+15       15
+30      884
+45       78
+60     1120
+90     2572
+120    1736
+150     851
+
+Deep-read IDs: ['CAND_0077337', 'CAND_0081846', 'CAND_0018499', 'CAND_0005260', 'CAND_0046064', 'CAND_0046525', 'CAND_0008425', 'CAND_0030953', 'CAND_0064326', 'CAND_0017960', 'CAND_0000031', 'CAND_0009691', 'CAND_0086022', 'CAND_0087630', 'CAND_0007412', 'CAND_0011687', 'CAND_0011432', 'CAND_0078002']
+Bait IDs: ['CAND_0005610', 'CAND_0010439', 'CAND_0085901', 'CAND_0041611', 'CAND_0094759', 'CAND_0092278']
+
+=== 6. SUMMARY TEMPLATES (verbatim generator templates found in deep reads) ===
+T_ELITE ('Senior AI engineer... search, retrieval, and ranking'): 21
+T_SOLID ('ML engineer... ML-powered features in production'):     150
+T_STUFFER ('excited about how AI/GenAI tools can augment'):       5517
+  T_ELITE: n=21 | india=90% | med days_since_active=45 | med resp_rate=0.75 | med notice=30 | med sal_max=61.7 | med yoe=7.2 | open_to_work=62%
+  T_SOLID: n=150 | india=88% | med days_since_active=54 | med resp_rate=0.66 | med notice=60 | med sal_max=50.3 | med yoe=5.9 | open_to_work=73%
+  T_STUFF: n=5517 | india=75% | med days_since_active=133 | med resp_rate=0.43 | med notice=90 | med sal_max=17.1 | med yoe=7.8 | open_to_work=32%
+T_ELITE + active<=90d + (India|relocate): 14
+  of those, notice<=60d: 12, resp>=0.5: 14, both: 12
+
+=== 6b. SKILL-DURATION ANACHRONISMS (is tech-age violation a honeypot marker or noise?) ===
+QLoRA       have=  1401  duration>37mo:    414 (30% of holders)
+LangChain   have=  5162  duration>44mo:    282 (5% of holders)
+LlamaIndex  have=  1308  duration>43mo:    293 (22% of holders)
+RAG         have=  4995  duration>73mo:      9 (0% of holders)
+pgvector    have=  1394  duration>62mo:     14 (1% of holders)
+Pinecone    have=  5062  duration>65mo:     18 (0% of holders)
+
+=== 6c. COMPANY START-DATE OUTLIERS (in-universe founding check: Sarvam AI / Krutrim) ===
+(see JSONL pass below when --dump-records)
+
+=== 6d. DUPLICATE JOB-DESCRIPTION-WITHIN-PROFILE PREVALENCE ===
+Profiles where first 120 chars of job_descriptions repeat later (within-profile template dup): 21800 (21.8%)
+  among T_ELITE: 23.8% | among T_SOLID: 26.0%
+
+=== 7. ALL T_ELITE PROFILES (likely tier-5 core / honeypot mimics) ===
+candidate_id                    current_title current_company  yoe               location country  days_since_active  sig_response_rate  sig_notice_period_days  sig_salary_min  sig_salary_max  sig_open_to_work  sig_willing_to_relocate  date_duration_mismatch  n_expert_zero_months  signup_after_active  sal_inverted
+CAND_0002025               Senior AI Engineer           Apple  5.9     Trivandrum, Kerala   India                 15               0.80                      30            32.5            63.6              True                    False                       0                     0                False         False
+CAND_0077337  Staff Machine Learning Engineer           Paytm  7.0          Kochi, Kerala   India                 15               0.95                      60            46.0            51.3              True                     True                       0                     0                False         False
+CAND_0046525 Senior Machine Learning Engineer      Genpact AI  6.1      Pune, Maharashtra   India                 18               0.88                      60            28.4            51.9              True                     True                       0                     0                False         False
+CAND_0055905 Senior Machine Learning Engineer        Flipkart  8.1                 London      UK                 24               0.87                      30            38.9            64.1              True                    False                       0                     0                False         False
+CAND_0039754         Senior Applied Scientist            Meta 16.2 Indore, Madhya Pradesh   India                 27               0.81                      30            30.1            62.1              True                     True                       0                     0                False         False
+CAND_0088025  Staff Machine Learning Engineer       Yellow.ai  8.6      Jaipur, Rajasthan   India                 27               0.83                      90            38.5            51.3              True                    False                       0                     0                False         False
+CAND_0018499 Senior Machine Learning Engineer          Zomato  7.2   Noida, Uttar Pradesh   India                 28               0.61                      15            36.8            56.6              True                     True                       0                     0                False         False
+CAND_0011687              Senior NLP Engineer         Niramai  7.8 Indore, Madhya Pradesh   India                 31               0.89                      15            28.7            60.7              True                    False                       0                     0                False         False
+CAND_0005260              Senior NLP Engineer         Netflix  5.2    Chennai, Tamil Nadu   India                 31               0.86                      60            39.6            64.9             False                     True                       0                     0                False         False
+CAND_0081846                 Lead AI Engineer        Razorpay  6.7      Jaipur, Rajasthan   India                 38               0.73                      30            33.3            52.8              True                     True                       0                     0                False         False
+CAND_0046064              Senior NLP Engineer      Salesforce  8.9 Coimbatore, Tamil Nadu   India                 45               0.78                      30            36.6            53.4              True                    False                       0                     0                False         False
+CAND_0008425              Senior NLP Engineer             Ola  7.8   Kolkata, West Bengal   India                 46               0.66                      90            37.7            74.5              True                    False                       0                     0                False         False
+CAND_0071974               Senior AI Engineer         Netflix  7.8  Vizag, Andhra Pradesh   India                 55               0.76                      45            46.7            58.1              True                    False                       0                     0                False         False
+CAND_0086022         Senior Applied Scientist       Sarvam AI  5.3   Kolkata, West Bengal   India                 56               0.55                       0            31.2            72.6              True                     True                       0                     0                False         False
+CAND_0093547 Senior Machine Learning Engineer         PhonePe  2.9 Coimbatore, Tamil Nadu   India                 61               0.75                      60            38.1            62.5             False                    False                       0                     0                False         False
+CAND_0033861              Senior NLP Engineer  Mad Street Den  8.0  Vizag, Andhra Pradesh   India                114               0.16                      30            29.0            56.6             False                    False                       0                     0                False         False
+CAND_0060072  Staff Machine Learning Engineer          Amazon  5.7 Indore, Madhya Pradesh   India                137               0.10                      90            32.4            69.2             False                     True                       0                     0                 True         False
+CAND_0094759                 Lead AI Engineer            Meta  8.6    Mumbai, Maharashtra   India                153               0.11                      30            44.9            61.7             False                     True                       0                     0                False         False
+CAND_0041611  Staff Machine Learning Engineer        Locobuzz  6.4                 Austin     USA                189               0.07                      30            33.1            73.9             False                     True                       0                     0                 True         False
+CAND_0007411 Senior Machine Learning Engineer          Amazon  8.0          Kochi, Kerala   India                190               0.12                      15            30.2            59.6             False                     True                       0                     0                False         False
+CAND_0092278              Senior NLP Engineer       Microsoft  6.8      Pune, Maharashtra   India                215               0.07                      90            42.3            70.5             False                    False                       0                     0                False         False
+
+=== 7b. GLOBAL SUMMARY-TEMPLATE FAMILY MAP (first 48 chars after name strip) ===
+summary
+experience across web, backend, and cloud system    25000
+experience. I'm a marketing manager with substan    21316
+experience. I've spent my career in marketing ma    21090
+experience. My professional background is in mar    20898
+experience driving outcomes in my domain. I have     5517
+experience building data pipelines, backend syst     5000
+experience in applied machine learning. Worked a     1000
+experience building ML-powered features in produ      150
+hands-on experience building production ML syste       21
+Senior engineer who has spent the last several y        8
+
+=== 7c. T_SOLID (n=150) signal spread (candidate tier-4/plain-tier-5 band?) ===
+days_since_active
+(0, 30]     34
+(30, 60]    60
+(60, 90]    56
+T_SOLID fully-available India/relocate subset: 70
+
+T_SOLID + T_ELITE available subset total: 82
+
+=== 7d. PLAIN-LANGUAGE TIER-5 FAMILY (n=8, de-buzzworded retrieval people) ===
+candidate_id                                            headline current_company  yoe               location  days_since_active  sig_response_rate  sig_notice_period_days  sig_salary_min  sig_salary_max  sig_assessment_mean  date_duration_mismatch  n_expert_zero_months  signup_after_active
+CAND_0005538    Senior Engineer | 5.9+ yrs in production systems           Adobe  5.9   Kolkata, West Bengal                 24               0.81                      90            45.7            69.6            92.900000                       0                     0                False
+CAND_0006567    Senior Engineer | Information Retrieval at scale            Meta  7.9   Noida, Uttar Pradesh                 38               0.79                      60            44.2            53.9            76.500000                       0                     0                False
+CAND_0030468 Senior Engineer | Search & Discovery Infrastructure          Swiggy  5.4 Indore, Madhya Pradesh                 38               0.78                      45            46.5            59.1            83.300000                       0                     0                False
+CAND_0037980    Senior Engineer | Information Retrieval at scale         Niramai  9.0   Kolkata, West Bengal                 74               0.63                       0            47.4            50.5            73.100000                       0                     0                False
+CAND_0061257    Senior Engineer | 8.0+ yrs in production systems        LinkedIn  8.0   Noida, Uttar Pradesh                 55               0.87                      30            49.7            52.3            69.550000                       0                     0                False
+CAND_0068351 Senior Engineer | Search & Discovery Infrastructure       Sarvam AI  6.4           Delhi, Delhi                 60               0.86                       0            34.8            57.1                  NaN                       0                     0                False
+CAND_0080766 Senior Engineer | Search & Discovery Infrastructure      Salesforce  8.8 Coimbatore, Tamil Nadu                 62               0.66                       0            41.4            52.7            84.500000                       0                     0                False
+CAND_0093193    Senior Engineer | 7.9+ yrs in production systems         Niramai  7.9   Bangalore, Karnataka                 53               0.61                      45            46.3            50.5            74.566667                       0                     0                False
+
+=== 7e. APPLIED-ML JUNIOR FAMILY (n~1000) — likely tier-2/3 band ===
+n=1000 | india=91% | med yoe=5.0 | med active=59d | med resp=0.58 | med sal_max=42.0
+Sarvam AI    stints=   67 start-year range 2018-2025 | <=2020 starts: 10 (15%)
+   year hist: {2018: 1, 2020: 9, 2021: 6, 2022: 20, 2023: 15, 2024: 14, 2025: 2}
+Krutrim      stints=   64 start-year range 2018-2025 | <=2020 starts: 15 (23%)
+   year hist: {2018: 1, 2019: 3, 2020: 11, 2021: 8, 2022: 15, 2023: 16, 2024: 7, 2025: 3}
+Rephrase.ai  stints=   72 start-year range 2018-2025 | <=2020 starts: 12 (17%)
+   year hist: {2018: 2, 2019: 3, 2020: 7, 2021: 9, 2022: 23, 2023: 13, 2024: 11, 2025: 4}
+Yellow.ai    stints=   59 start-year range 2018-2025 | <=2020 starts: 13 (22%)
+   year hist: {2018: 3, 2019: 3, 2020: 7, 2021: 11, 2022: 15, 2023: 11, 2024: 7, 2025: 2}
+Observe.AI   stints=   64 start-year range 2018-2025 | <=2020 starts: 19 (30%)
+   year hist: {2018: 1, 2019: 7, 2020: 11, 2021: 10, 2022: 16, 2023: 9, 2024: 7, 2025: 3}
+Wysa         stints=   63 start-year range 2018-2025 | <=2020 starts: 15 (24%)
+   year hist: {2018: 1, 2019: 2, 2020: 12, 2021: 10, 2022: 12, 2023: 13, 2024: 9, 2025: 4}
+Early (<=2020) Sarvam/Krutrim candidate ids: {'Krutrim': ['CAND_0004112', 'CAND_0011432', 'CAND_0011687', 'CAND_0015097', 'CAND_0016170', 'CAND_0019159', 'CAND_0024878', 'CAND_0033842', 'CAND_0036973', 'CAND_0065927', 'CAND_0070808', 'CAND_0071115', 'CAND_0072032', 'CAND_0079662', 'CAND_0088385'], 'Sarvam AI': ['CAND_0005191', 'CAND_0005509', 'CAND_0008049', 'CAND_0017960', 'CAND_0018293', 'CAND_0033861', 'CAND_0077296', 'CAND_0077343', 'CAND_0085851', 'CAND_0099581']}

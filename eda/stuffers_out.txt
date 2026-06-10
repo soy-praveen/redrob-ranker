@@ -1,0 +1,296 @@
+loaded 100000 rows
+
+=========== Q1: AI-skill count by title category ===========
+              count   mean   std  min   25%   50%   75%   max
+tcat                                                         
+AI           1015.0  12.38  2.29  8.0  11.0  12.0  14.0  21.0
+DATA         4444.0   7.66  2.06  4.0   6.0   8.0   9.0  18.0
+NONTECH     68821.0   1.26  2.66  0.0   0.0   1.0   1.0  13.0
+TECH_NONAI  25720.0   2.69  1.74  0.0   2.0   3.0   4.0  16.0
+
+AI-skill count distribution per category (% of category):
+ai_skill_n     0   1-2   3-4   5-7     8+
+tcat                                     
+AI           0.0   0.0   0.0   0.0  100.0
+DATA         0.0   0.0   5.3  43.6   51.1
+NONTECH     46.0  46.0   0.0   0.7    7.3
+TECH_NONAI   8.3  39.6  40.9   9.2    1.9
+
+Per-title counts of >=5 AI skills (non-technical titles):
+                     sum  count  mean
+current_title                        
+Accountant           474   5764   8.2
+Business Analyst     460   5833   7.9
+Civil Engineer       504   5702   8.8
+Content Writer       452   5727   7.9
+Customer Support     454   5750   7.9
+Graphic Designer     500   5689   8.8
+HR Manager           440   5830   7.5
+Marketing Manager    405   5524   7.3
+Mechanical Engineer  443   5791   7.6
+Operations Manager   467   5744   8.1
+Project Manager      432   5754   7.5
+Sales Executive      486   5713   8.5
+
+STUFFER population (NONTECH title, >=5 AI skills): 5517
+  ... >=3 AI skills: 5517
+  ... >=5 JD-core (retrieval/LLM) skills:  5517
+TECH_NONAI with >=5 AI skills: 2862
+
+Exact NONTECH ai_skill_n value counts (bimodality check):
+ai_skill_n
+0     31677
+1     31627
+7       478
+8       974
+9       918
+10      890
+11      889
+12      883
+13      485
+
+stuffers: mean fraction of their AI skills that are JD-core: 0.815
+top 25 AI skills among stuffers:
+   3783  LangChain
+   3768  LLMs
+   3761  Information Retrieval
+   3758  Semantic Search
+   3748  Hugging Face Transformers
+   3733  Vector Search
+   3728  FAISS
+   3725  Pinecone
+   3724  Prompt Engineering
+   3723  Embeddings
+   3720  Sentence Transformers
+   3707  Recommendation Systems
+   3706  RAG
+   3653  Fine-tuning LLMs
+    142  MLOps
+    140  Diffusion Models
+    138  GANs
+    137  BentoML
+    135  Computer Vision
+    133  Data Science
+    133  TTS
+    132  Forecasting
+    131  OpenCV
+    129  CNN
+    127  Speech Recognition
+
+jd_core_n >= 5 by category (stuffer-style JD-core stuffing):
+  NONTECH   :  5517 of 68821  (jd_core median 0)
+  TECH_NONAI:    47 of 25720  (jd_core median 1)
+  DATA      :    96 of 4444  (jd_core median 2)
+  AI        :   566 of 1015  (jd_core median 5)
+
+TECH_NONAI jd_core_n value counts:
+jd_core_n
+0    10737
+1     9575
+2     5091
+3      181
+4       89
+5       20
+6       17
+7       10
+
+Boilerplate-phrase detectors (counts by category & stuffer overlap):
+  summary phrase: total=5517
+tcat
+NONTECH    5517
+    overlap with skill-stuffers: 5517/5517 stuffers, 0 non-stuffers also flagged
+  enthusiast headline: total=5517
+tcat
+NONTECH    5517
+    overlap with skill-stuffers: 5517/5517 stuffers, 0 non-stuffers also flagged
+  phrase & headline agree: 5517 both, 0 xor
+
+TECH_NONAI / DATA candidates with jd_core_n >= 5 (stuffer-like?):
+  n=143, with boilerplate phrase: 0
+
+holders of rare plain-language skills: 8
+       candidate_id                     current_title  yoe                                                                      skill_names
+5537   CAND_0005538                Senior AI Engineer  5.9  Project Management | Vector Representations | Deep Learning | Content Matchi...
+6566   CAND_0006567                Senior AI Engineer  7.9  Speech Recognition | scikit-learn | Search Backend | Model Adaptation | Vect...
+30467  CAND_0030468          Senior Applied Scientist  5.4  Information Retrieval Systems | Content Matching | Text Encoders | TensorFlo...
+37979  CAND_0037980          Senior Applied Scientist  9.0  LoRA | Search Infrastructure | PyTorch | NLP | Indexing Algorithms | BM25 | ...
+61256  CAND_0061257   Staff Machine Learning Engineer  8.0  PEFT | Haystack | Time Series | Machine Learning | Information Retrieval Sys...
+68350  CAND_0068351                  Lead AI Engineer  6.4  pgvector | Deep Learning | Qdrant | Elasticsearch | Feature Engineering | Te...
+80765  CAND_0080766   Staff Machine Learning Engineer  8.8  Search Backend | LoRA | Vue.js | Tally | Search & Discovery | MLOps | Search...
+93192  CAND_0093193  Senior Machine Learning Engineer  7.9  Ranking Systems | Text Encoders | Indexing Algorithms | Forecasting | Vector...
+
+=========== Q2: stuffers vs genuine AI-titled ===========
+
+stuffers WITH >=1 AI assessment: n=672, score quantiles [24.9, 46.2, 66.9]
+genuine WITH >=1 AI assessment: n=834, score quantiles [53.0, 65.5, 79.1]
+
+Which ML terms fire (pct of group with >=1 match of that term):
+  embedding        genuine  11.4%  stuffer   0.0%
+  retrieval        genuine  69.1%  stuffer   0.0%
+  vector_db        genuine  10.4%  stuffer 100.0%
+  semantic_search  genuine   7.1%  stuffer   0.0%
+  recsys           genuine  13.6%  stuffer   0.0%
+  ranking_eval     genuine  35.8%  stuffer   0.0%
+  llm_finetune     genuine  78.5%  stuffer 100.0%
+  ml_generic       genuine  98.0%  stuffer   0.0%
+  nlp              genuine  98.7%  stuffer   0.0%
+  model_deploy     genuine  84.2%  stuffer   0.0%
+
+means (False = genuine AI-titled, True = stuffer):
+is_stuffer                 False  True 
+ai_dur_mean                33.26  11.91
+ai_dur_max                 58.73  24.05
+ai_end_mean                19.86   2.81
+ai_hiprof_frac              0.55   0.66
+ai_zero_dur_n               0.00   0.00
+ai_n                       12.38   9.97
+ai_assess_n                 2.33   0.12
+ai_assess_mean             65.75  45.94
+ml_text_hits                9.32   1.36
+total_skill_endorsements  266.65  84.75
+n_expert_zero_months        0.00   0.00
+yoe                         5.22   7.90
+
+medians:
+is_stuffer                 False  True 
+ai_dur_mean                31.09  11.73
+ai_dur_max                 57.00  18.00
+ai_end_mean                19.56   2.33
+ai_hiprof_frac              0.54   0.67
+ai_zero_dur_n               0.00   0.00
+ai_n                       12.00  10.00
+ai_assess_n                 2.00   0.00
+ai_assess_mean             65.49  46.15
+ml_text_hits                9.00   1.00
+total_skill_endorsements  253.00  82.00
+n_expert_zero_months        0.00   0.00
+yoe                         5.20   7.80
+
+pct with ANY ML language in summary/headline/job_descriptions:
+is_stuffer
+False    100.0
+True     100.0
+
+pct with >=1 AI assessment:
+is_stuffer
+False    82.2
+True     12.2
+
+Quantiles of key separators:
+
+  ai_dur_mean:
+            0.10  0.25  0.50  0.75  0.90
+is_stuffer                              
+False       25.7  28.3  31.1  35.3  46.7
+True         9.7  10.6  11.7  13.1  14.4
+
+  ai_end_mean:
+            0.10  0.25  0.50  0.75  0.90
+is_stuffer                              
+False       12.9  15.7  19.6  23.3  27.4
+True         1.6   1.9   2.3   3.1   5.3
+
+  ai_assess_mean:
+            0.10  0.25  0.50  0.75  0.90
+is_stuffer                              
+False       53.0  59.0  65.5  72.5  79.1
+True        24.9  32.9  46.2  59.7  66.9
+
+  ml_text_hits:
+            0.10  0.25  0.50  0.75  0.90
+is_stuffer                              
+False        5.0   6.0   9.0  11.0  14.0
+True         1.0   1.0   1.0   2.0   2.0
+
+JD-core skill mean-duration boundary:
+  stuffer max 16.3  p99 14.5  median 11.0
+  genuine min 11.3  p1 16.7  median 31.4
+JD-core skill mean-endorsement boundary:
+  stuffer max 3.7  p99 3.2  median 2.0
+  genuine min 0.0  p1 3.7  median 19.5
+  jd_dur < 16: stuffers 99.96%  genuine 0.99%
+  jd_dur < 18: stuffers 100.00%  genuine 1.67%
+  jd_dur < 20: stuffers 100.00%  genuine 3.84%
+  jd_dur < 24: stuffers 100.00%  genuine 14.09%
+
+behavioral signal medians (stuffer vs genuine AI-titled):
+  sig_response_rate              0.43      0.61
+  sig_profile_completeness      55.70     73.00
+  sig_github_activity           -1.00     31.20
+  yoe                            7.80      5.20
+
+Threshold separation checks:
+  ml_text_hits == 0        stuffers   0.0%  genuine   0.0%
+  ai_assess_mean < 50      stuffers   7.0%  genuine   4.3%
+  ai_dur_mean < 24         stuffers 100.0%  genuine   4.3%
+  ai_end_mean < 15         stuffers 100.0%  genuine  20.1%
+  no AI assessment         stuffers  87.8%  genuine  17.8%
+
+=========== Q4: non-AI titles with REAL ML work in job descriptions ===========
+  NONTECH    built_ml_hits >= 1:      0 ( 0.00% of 68821)
+  NONTECH    built_ml_hits >= 2:      0 ( 0.00% of 68821)
+  NONTECH    built_ml_hits >= 4:      0 ( 0.00% of 68821)
+  TECH_NONAI built_ml_hits >= 1:      0 ( 0.00% of 25720)
+  TECH_NONAI built_ml_hits >= 2:      0 ( 0.00% of 25720)
+  TECH_NONAI built_ml_hits >= 4:      0 ( 0.00% of 25720)
+  DATA       built_ml_hits >= 1:    148 ( 3.33% of 4444)
+  DATA       built_ml_hits >= 2:    106 ( 2.39% of 4444)
+  DATA       built_ml_hits >= 4:     43 ( 0.97% of 4444)
+  AI         built_ml_hits >= 1:    889 (87.59% of 1015)
+  AI         built_ml_hits >= 2:    711 (70.05% of 1015)
+  AI         built_ml_hits >= 4:    260 (25.62% of 1015)
+
+  non-AI-titled with >=2 built-ML hits: 0 (of which 0 are also skill-stuffers)
+
+  examples (career-changer check, up to 6):
+
+  stuffers with built_ml_hits == 0: 5517 / 5517
+  genuine AI-titled with built_ml_hits == 0: 126 / 1015
+
+=========== Q5: sample_submission top-20 ===========
+  # 1 CAND_0004989 Project Manager        ai_skills= 1 jd_core= 0 ml_text= 0 yoe=12.6  -> NONTECH
+  # 2 CAND_0001195 Cloud Engineer         ai_skills= 0 jd_core= 0 ml_text= 1 yoe=1.7  -> TECH_NONAI
+  # 3 CAND_0003114 Mechanical Engineer    ai_skills= 1 jd_core= 0 ml_text= 0 yoe=4.0  -> NONTECH
+  # 4 CAND_0000339 HR Manager             ai_skills= 1 jd_core= 0 ml_text= 0 yoe=1.6  -> NONTECH
+  # 5 CAND_0001082 Software Engineer      ai_skills= 8 jd_core= 1 ml_text= 1 yoe=6.8  -> TECH_NONAI
+  # 6 CAND_0001218 AI Specialist          ai_skills=14 jd_core= 7 ml_text=11 yoe=6.4  -> AI
+  # 7 CAND_0004558 Frontend Engineer      ai_skills= 3 jd_core= 0 ml_text= 1 yoe=6.8  -> TECH_NONAI
+  # 8 CAND_0001753 Mechanical Engineer    ai_skills= 1 jd_core= 0 ml_text= 0 yoe=8.9  -> NONTECH
+  # 9 CAND_0001503 Content Writer         ai_skills= 0 jd_core= 0 ml_text= 0 yoe=13.1  -> NONTECH
+  #10 CAND_0004548 Accountant             ai_skills= 7 jd_core= 7 ml_text= 1 yoe=11.0  -> STUFFER
+  #11 CAND_0002164 HR Manager             ai_skills= 1 jd_core= 0 ml_text= 1 yoe=14.7  -> NONTECH
+  #12 CAND_0001154 Accountant             ai_skills= 0 jd_core= 0 ml_text= 0 yoe=1.1  -> NONTECH
+  #13 CAND_0002622 Project Manager        ai_skills= 1 jd_core= 0 ml_text= 0 yoe=1.7  -> NONTECH
+  #14 CAND_0000002 Operations Manager     ai_skills= 1 jd_core= 0 ml_text= 1 yoe=12.5  -> NONTECH
+  #15 CAND_0000718 QA Engineer            ai_skills= 2 jd_core= 1 ml_text= 1 yoe=5.0  -> TECH_NONAI
+  #16 CAND_0004224 Software Engineer      ai_skills= 4 jd_core= 0 ml_text= 1 yoe=2.7  -> TECH_NONAI
+  #17 CAND_0000239 Project Manager        ai_skills= 0 jd_core= 0 ml_text= 0 yoe=4.4  -> NONTECH
+  #18 CAND_0001771 Software Engineer      ai_skills= 2 jd_core= 0 ml_text= 1 yoe=7.1  -> TECH_NONAI
+  #19 CAND_0002782 Civil Engineer         ai_skills= 1 jd_core= 0 ml_text= 0 yoe=10.9  -> NONTECH
+  #20 CAND_0003693 Mechanical Engineer    ai_skills= 0 jd_core= 0 ml_text= 0 yoe=1.4  -> NONTECH
+
+  top-20 stuffers by our definition: 1/20
+  sample_submission rows: 100
+  full sample_submission top-100 stuffers: 3/100
+  tcat distribution across whole sample_submission:
+tcat
+NONTECH       71
+TECH_NONAI    27
+AI             1
+DATA           1
+
+  reasoning-vs-data consistency check (top 10):
+   CAND_0004989: claimed 'HR Manager' actual 'Project Manager' match=False | claimed_yrs=6.1 yrs; actual_yoe=12.6
+   CAND_0001195: claimed 'HR Manager' actual 'Cloud Engineer' match=False | claimed_yrs=8.7 yrs; actual_yoe=1.7
+   CAND_0003114: claimed 'ML Engineer' actual 'Mechanical Engineer' match=False | claimed_yrs=6.4 yrs; actual_yoe=4.0
+   CAND_0000339: claimed 'Content Writer' actual 'HR Manager' match=False | claimed_yrs=8.3 yrs; actual_yoe=1.6
+   CAND_0001082: claimed 'HR Manager' actual 'Software Engineer' match=False | claimed_yrs=5.0 yrs; actual_yoe=6.8
+   CAND_0001218: claimed 'Graphic Designer' actual 'AI Specialist' match=False | claimed_yrs=10.4 yrs actual_yoe=6.4
+   CAND_0004558: claimed 'Business Analyst' actual 'Frontend Engineer' match=False | claimed_yrs=5.1 yrs; actual_yoe=6.8
+   CAND_0001753: claimed 'Content Writer' actual 'Mechanical Engineer' match=False | claimed_yrs=8.3 yrs; actual_yoe=8.9
+   CAND_0001503: claimed 'Marketing Manager' actual 'Content Writer' match=False | claimed_yrs=8.0 yrs; actual_yoe=13.1
+   CAND_0004548: claimed 'HR Manager' actual 'Accountant' match=False | claimed_yrs=7.3 yrs; actual_yoe=11.0
+   title matches: 0/10
+   submission id range: 2..4989
+
+saved 5517 stuffer ids -> c:/Users/yosoy/OneDrive/Desktop/Github/Hackathons/redrob-ranker/eda/stuffer_ids.csv
